@@ -1,0 +1,11 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+左の口元=左嘴角
+右の口元=右嘴角
+左の口上=左上唇
+右の口上=右上唇
+左の目元=左眼周
+右の目元=右眼周
+額中央=额头中间
+そばかす=雀斑

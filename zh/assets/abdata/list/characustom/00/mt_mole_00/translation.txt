@@ -1,0 +1,7 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+なし=无
+ホクロ=痣
+そばかす１=雀斑 1
+そばかす２=雀斑 2

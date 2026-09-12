@@ -1,0 +1,6 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+水風船=水气球
+綿あめ=棉花糖
+祭りうちわ=节庆团扇

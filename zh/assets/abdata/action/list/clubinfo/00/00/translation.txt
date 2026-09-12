@@ -1,0 +1,8 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+バカンス=度假
+灯台=灯塔
+アウトドア=户外活动
+知的好奇心=求知欲
+ランダム=随机

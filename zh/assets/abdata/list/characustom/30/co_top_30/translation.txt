@@ -1,0 +1,9 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+ハッピA=半被A
+ハッピB=半被B
+ハッピA(男)=半被A(男)
+ハッピB(男)=半被B(男)
+ミニ丈浴衣=短浴衣 
+浴衣=浴衣

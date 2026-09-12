@@ -1,0 +1,11 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+なし=无
+ほそロング=细长发
+おさげ=双辫
+太い=粗发
+ふとロング=粗长发
+はねロング=外翘长发
+ウェーブロング=波浪长发
+三つ編み=麻花辫

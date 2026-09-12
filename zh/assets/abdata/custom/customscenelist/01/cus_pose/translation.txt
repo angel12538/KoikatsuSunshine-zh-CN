@@ -1,0 +1,8 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+Ｈ１=H姿势 1
+Ｈ２=H姿势 2
+Ｈ３=H姿势 3
+Ｈ４=H姿势 4
+Ｈ５=H姿势 5

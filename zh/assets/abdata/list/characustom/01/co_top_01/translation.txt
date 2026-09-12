@@ -1,0 +1,10 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+ベビードール=娃娃装睡衣
+裸サロペット=裸体背带裤
+裸サスペンダー=裸体吊带
+裸エプロン=裸体围裙
+裸フリルエプロン=裸体褶边围裙
+亀甲縛り=龟甲缚
+体操着（汚れ）=体操服(脏)
