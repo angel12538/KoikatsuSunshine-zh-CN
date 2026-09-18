@@ -27,7 +27,7 @@
 サンゴ=珊瑚
 クマノミ=小丑鱼
 チンアナゴ=花园鳗
-マンタ=鬼蝠鲼
+マンタ=蝠鲼
 ウミガメ=海龟
 海ほたる=海萤
 星の砂=星砂
@@ -76,7 +76,7 @@
 話題<color\=#ffa801ff>『サンゴ』</color>を入手した。=已获得话题<color\=#ffa801ff>『珊瑚』</color>。
 話題<color\=#ffa801ff>『クマノミ』</color>を入手した。=已获得话题<color\=#ffa801ff>『小丑鱼』</color>。
 話題<color\=#ffa801ff>『チンアナゴ』</color>を入手した。=已获得话题<color\=#ffa801ff>『花园鳗』</color>。
-話題<color\=#ffa801ff>『マンタ』</color>を入手した。=已获得话题<color\=#ffa801ff>『鬼蝠鲼』</color>。
+話題<color\=#ffa801ff>『マンタ』</color>を入手した。=已获得话题<color\=#ffa801ff>『蝠鲼』</color>。
 話題<color\=#ffa801ff>『ウミガメ』</color>を入手した。=已获得话题<color\=#ffa801ff>『海龟』</color>。
 話題<color\=#ffa801ff>『海ほたる』</color>を入手した。=已获得话题<color\=#ffa801ff>『海萤』</color>。
 話題<color\=#ffa801ff>『星の砂』</color>を入手した。=已获得话题<color\=#ffa801ff>『星砂』</color>。
