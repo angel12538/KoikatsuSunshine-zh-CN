@@ -1,5 +1,5 @@
 //
 // Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
 //
-蔓草左用=左手藤蔓
-蔓草右用=右手藤蔓
+蔓草左用=左侧藤蔓
+蔓草右用=右侧藤蔓

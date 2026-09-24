@@ -2,7 +2,7 @@
 // Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
 //
 怒り=生气
-困り=担心
+困り=困扰
 つまらない=无聊
 疑問L=疑问 左
 疑問R=疑问 右

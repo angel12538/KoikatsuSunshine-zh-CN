@@ -2,9 +2,9 @@
 // Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
 //
 金魚柄=金鱼纹
-桜麻柄=樱麻纹
+桜麻柄=樱花麻叶纹
 桜花流水柄=樱花流水纹
-紫陽花市松柄=方格紫阳花纹
+紫陽花市松柄=紫阳花方格纹
 紫陽花柄=紫阳花纹
 朝顔柄=牵牛花纹
 朝顔流水柄=牵牛花流水纹

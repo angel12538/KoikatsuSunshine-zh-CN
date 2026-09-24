@@ -1,5 +1,5 @@
 //
 // Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
 //
-キャンディクリップA=糖果夹A
-キャンディクリップB=糖果夹B
+キャンディクリップA=糖果发夹A
+キャンディクリップB=糖果发夹B

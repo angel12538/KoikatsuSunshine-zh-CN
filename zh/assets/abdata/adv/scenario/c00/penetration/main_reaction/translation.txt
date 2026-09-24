@@ -1,4 +1,4 @@
 //
 // Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
 //
-「きゃ！？　やだ、もう……どうしてここにいるの？」=“呀！？真是的……你怎么会在这里？”
+「きゃ！？　やだ、もう……どうしてここにいるの？」=呀！？　讨厌，真是的……你怎么会在这里？

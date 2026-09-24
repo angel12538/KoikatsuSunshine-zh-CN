@@ -1,6 +1,6 @@
 //
 // Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
 //
-妖精の羽左用=妖精之羽 左
-妖精の羽右用=妖精之羽 右
-光蝶=光蝶
+妖精の羽左用=左侧妖精翅膀
+妖精の羽右用=右侧妖精翅膀
+光蝶=发光蝴蝶

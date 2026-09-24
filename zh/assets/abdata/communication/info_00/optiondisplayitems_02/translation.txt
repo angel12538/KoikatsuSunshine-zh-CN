@@ -1,8 +1,8 @@
 //
 // Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
 //
-OPTION[100]:気持ちに応える=回应心情
-気持ちに応える=回应心情
+OPTION[100]:気持ちに応える=回应心意
+気持ちに応える=回应心意
 OPTION[100]:……ごめん=……抱歉
 ……ごめん=……抱歉
 OPTION[101]:いいよ=好啊

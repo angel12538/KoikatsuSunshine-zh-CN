@@ -1,4 +1,4 @@
 //
 // Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
 //
-ファンシーリボン=花俏丝带
+ファンシーリボン=花俏蝴蝶结

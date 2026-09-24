@@ -1,9 +1,9 @@
 //
 // Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
 //
-左頬=左脸
-右頬=右脸
+左頬=左脸颊
+右頬=右脸颊
 おでこ=额头
 鼻=鼻部
 口=嘴
-顎=下颚
+顎=下巴

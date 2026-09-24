@@ -1,8 +1,8 @@
 //
 // Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
 //
-タイプ１=类型 1
-タイプ２=类型 2
-タイプ３=类型 3
-タイプ４=类型 4
-タイプ５=类型 5
+タイプ１=类型１
+タイプ２=类型２
+タイプ３=类型３
+タイプ４=类型４
+タイプ５=类型５
