@@ -9,7 +9,29 @@
 
 #set exe KoikatsuSunshine
 
-sr:^『([\S\s]+)』$=“$1”
+AAAカップ未満(無乳)=AAA罩杯以下(无乳)
+Aカップ(微乳)=A罩杯(微乳)
+Cカップ(普乳)=C罩杯(普通乳)
+Dカップ(適乳)=D罩杯(适乳)
+Eカップ(巨乳)=E罩杯(巨乳)
+Fカップ(巨乳)=F罩杯(巨乳)
+Gカップ(爆乳)=G罩杯(爆乳)
+Oカップ(超乳)=O罩杯(超乳)
+
+sr:"^Change Target to (?<name>[\S\s]+?)\r\n\[Control\+\]Open Select Target Female Panel$"="切换目标为 ${name}\r\n[Control+]打开选择目标女性面板"
+sr:"^Toggle Camera Light: <color\=red>ON</color>\r\nIntensity: <color\=red>1\.0</color>\r\n\(\{\{A\}\}: <color\=red>ON</color>, (?<name>[\S\s]+?): OFF\)\r\n\(\+Shift: All others OFF\)$"="切换摄像机灯光：<color\=red>开</color>\r\n强度：<color\=red>1.0</color>\r\n({{A}}：<color\=red>开</color>，${name}：关)\r\n(+Shift：其他全部关闭)"
+sr:"^Toggle Camera Light: <color\=red>ON</color>\r\nIntensity: <color\=red>1\.0</color>\r\n\(\{\{A\}\}: OFF, (?<name>[\S\s]+?): <color\=red>ON</color>\)\r\n\(\+Shift: All others OFF\)$"="切换摄像机灯光：<color\=red>开</color>\r\n强度：<color\=red>1.0</color>\r\n({{A}}：关，${name}：<color\=red>开</color>)\r\n(+Shift：其他全部关闭)"
+sr:"^Toggle Camera Light: <color\=red>ON</color>\r\nIntensity: <color\=red>1\.0</color>\r\n\(\{\{A\}\}: <color\=red>ON</color>, (?<name>[\S\s]+?): <color\=red>ON</color>\)\r\n\(\+Shift: All others OFF\)$"="切换摄像机灯光：<color\=red>开</color>\r\n强度：<color\=red>1.0</color>\r\n({{A}}：<color\=red>开</color>，${name}：<color\=red>开</color>)\r\n(+Shift：其他全部关闭)"
+sr:"^Select current #\{\{A\}\}[ ]*-[ ]*(?<name>[\S\s]+)$"="选择当前 #{{A}} - ${name}"
+sr:"^Change Target to (?<name>[\S\s]+?)\r\n\[Control\+\]Open Select Target Female Panel$"="切换目标为 ${name}\r\n[Control+]打开选择目标女性面板"
+sr:"^Toggle Camera Light: <color\=red>ON</color>\r\nIntensity: <color\=red>1\.0</color>\r\n\(\{\{A\}\}: <color\=red>ON</color>, (?<name>[\S\s]+?): OFF\)\r\n\(\+Shift: All others OFF\)$"="切换摄像机灯光：<color\=red>开</color>\r\n强度：<color\=red>1.0</color>\r\n({{A}}：<color\=red>开</color>，${name}：关)\r\n(+Shift：其他全部关闭)"
+sr:"^Toggle Camera Light: <color\=red>ON</color>\r\nIntensity: <color\=red>1\.0</color>\r\n\(\{\{A\}\}: OFF, (?<name>[\S\s]+?): <color\=red>ON</color>\)\r\n\(\+Shift: All others OFF\)$"="切换摄像机灯光：<color\=red>开</color>\r\n强度：<color\=red>1.0</color>\r\n({{A}}：关，${name}：<color\=red>开</color>)\r\n(+Shift：其他全部关闭)"
+sr:"^Toggle Camera Light: <color\=red>ON</color>\r\nIntensity: <color\=red>1\.0</color>\r\n\(\{\{A\}\}: <color\=red>ON</color>, (?<name>[\S\s]+?): <color\=red>ON</color>\)\r\n\(\+Shift: All others OFF\)$"="切换摄像机灯光：<color\=red>开</color>\r\n强度：<color\=red>1.0</color>\r\n({{A}}：<color\=red>开</color>，${name}：<color\=red>开</color>)\r\n(+Shift：其他全部关闭)"
+sr:"^Toggle Camera Light: <color\=red>ON</color>\r\nIntensity: <color\=red>1\.0</color>\r\n\(\{\{A\}\}: <color\=red>ON</color>, (?<name>[\S\s]+?): <color\=red>ON</color>\)\r\n\(\+Shift: All others OFF\)$"="切换摄像机灯光：<color\=red>开</color>\r\n强度：<color\=red>1.0</color>\r\n({{A}}：<color\=red>开</color>，${name}：<color\=red>开</color>)\r\n(+Shift：其他全部关闭)"
+sr:"^<color\=#00ffffa0>(?<act>[\S\s]+?)</color>  <color\=#ffff00a0>(?<name>[\S\s]+?)</color>  <color\=#f5f5f5a0>(?<height_i>[\S\s]+?)</color>  <color\=#ffff00a0>(?<bust_i>[\d.]+cm)\((?<cup>[\S\s]+?)\)</color>  <color\=#9933FFa0>(?<place>[\S\s]+?)</color>$"="<color\=#00ffffa0>${act}</color>  <color\=#ffff00a0>${name}</color>  <color\=#f5f5f5a0>${height_i}</color>  <color\=#ffff00a0>${bust_i}(${cup})</color>  <color\=#9933FFa0>${place}</color>"
+sr:"^<color\=#00ffffa0>(?<act>[\S\s]+?)</color>  <color\=#ffff00a0>(?<name>[\S\s]+?)</color>  <color\=#f5f5f5a0>(?<height_i>[\S\s]+?)</color>  <color\=#ffff00a0>(?<bust_i>[\d.]+cm)\((?<cup>[\S\s]+?)\)</color>$"="<color\=#00ffffa0>${act}</color>  <color\=#ffff00a0>${name}</color>  <color\=#f5f5f5a0>${height_i}</color>  <color\=#ffff00a0>${bust_i}(${cup})</color>"
+sr:"^<color\=#00ffffa0>(?<act>[\S\s]+?)</color>  <color\=#ffff00a0>(?<name>[\S\s]+?)</color>  <color\=#00ff00a0>(?<personality>[\S\s]+?)\((?<status>初めて|不慣れ|慣れ|淫乱)\)</color>  <color\=#f5f5f5a0>(?<height_i>[\S\s]+?)</color>  <color\=#ffff00a0>(?<bust_i>[\d.]+cm)\((?<cup>[\S\s]+?)\)</color>$"="<color\=#00ffffa0>${act}</color>  <color\=#ffff00a0>${name}</color>  <color\=#00ff00a0>${personality}(${status})</color>  <color\=#f5f5f5a0>${height_i}</color>  <color\=#ffff00a0>${bust_i}(${cup})</color>"
+sr:"^Could not load shader:(?<shader_i>[\S\s]+)$"="无法加载着色器:${shader_i}"
 
 r:^本日残り(\d+)回$=今日剩余$1次
 r:^残り(\d+)個$=剩余$1个
