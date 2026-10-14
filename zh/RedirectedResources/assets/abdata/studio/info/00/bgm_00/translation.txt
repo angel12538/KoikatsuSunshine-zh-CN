@@ -28,4 +28,4 @@ Hシーン(覗き)=H场景(偷窥)
 カフェ=咖啡馆
 システム画面=系统画面
 青空アドベンチャー=蓝天冒险
-RunningDreamer=RunningDreamer
+RunningDreamer=奔跑的梦想家
