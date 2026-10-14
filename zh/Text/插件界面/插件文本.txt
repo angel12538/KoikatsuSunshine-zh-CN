@@ -157,7 +157,7 @@ Starting the plugin=正在启动插件
 Modify the items Koikatu and KoikatsuSunshine only.=只修改 Koikatu 和 KoikatsuSunshine 的项目。
 features may not work upgrade to latest version.=部分功能可能无法使用，请升级到最新版本。
 some features may not work upgrade to latest version,=部分功能可能无法使用，请升级到最新版本，
-Character Studio=Character Studio
+Character Studio=角色工作室
 Enable/Disabled module for Studio=为工作室启用/停用模块
 Use Experience Levels=使用经验等级
 Apply experience levels to animations=为动画应用经验等级
@@ -292,7 +292,7 @@ r:"^\[BetterScaling\] Saved (?<g0>[\S\s]+?) hierarchy-scaled items!$"=[BetterSca
 
 // BetterScaling.KoikatsuSunshine.dll / Hierarchy
 [BetterScaling] Outdated Performancer version detected! Hierarchy scaling won't work correctly, please update to v1.2.1 or later!=[BetterScaling] 检测到旧版 Performancer！层级缩放将无法正常工作，请更新到 v1.2.1 或更高版本！
-Better Scaling=Better Scaling
+Better Scaling=缩放增强
 Scale Children=缩放子级
 
 // BetterSceneLoader.KoikatuSunshine.dll / BetterSceneLoader
@@ -5866,7 +5866,7 @@ Saves logs to the specified file=将日志保存到指定文件
 ソファ騎乗位=沙发骑乘位
 机バック=桌边后背位
 腕引っ張り机バック=拉臂桌边后背位
-跳び箱バック=跳箱后背位
+跳び箱バック=跳箱后入
 壁対面片足上げ=墙边面对面单腿抬起
 壁バック=墙边后背位
 片足上げ壁バック=单腿抬起墙边后背位
@@ -10581,7 +10581,7 @@ Vaginal=阴道
 Anal=肛门
 Oral=口腔
 Enable BP Controller=启用 BP 控制器
-Better Penetration=Better Penetration
+Better Penetration=插入增强
 Collilder Radius Scale=碰撞体半径缩放
 Collilder Length Scale=碰撞体长度缩放
 Length Squish=长度挤压
@@ -11172,7 +11172,7 @@ Jumps backwards one frame on all players=所有播放器后退一帧
 Increases the volume on the selected player=提高选中播放器的音量
 Decreases the volume on the selected player=降低选中播放器的音量
 Enables/Disables Timelinemode on the selected player=启用/停用选中播放器的 Timeline 模式
-KKS_VideoPlate v1.1.2=KKS_VideoPlate v1.1.2
+KKS_VideoPlate v1.1.2=KKS_视频板 v1.1.2
 Add VideoPlate=添加视频板
 Open Controlpanel=打开控制面板
 Close Controlpanel=关闭控制面板
@@ -11405,7 +11405,7 @@ Simulate left-clicking 'Modify ALL'=模拟左键点击“全部修改”
 Simulate right-clicking 'Modify ALL'=模拟右键点击“全部修改”
 Please choose on the right side which renderer properties to set!=请在右侧选择要设置哪些渲染器属性！
 You need to input the name of the property to be modified!=需要输入要修改的属性名称！
-Mass Shader Editor v1.5.1.11=Mass Shader Editor v1.5.1.11
+Mass Shader Editor v1.5.1.11=批量着色器编辑器 v1.5.1.11
 Noise Generation=噪声生成
 Selected Texture=选中的纹理
 help=帮助
@@ -12491,7 +12491,7 @@ Unknown {0}: {1}=未知的 {0}：{1}
 QuantList cannot be null=QuantList 不能为空
 
 // TheBirdOfHermes.KKS.dll / HermesAudioProvider
-The Bird of Hermes=The Bird of Hermes
+The Bird of Hermes=赫尔墨斯之鸟
 
 // TheBirdOfHermes.KKS.dll / HermesDAW
 Light Skin=浅色皮肤
@@ -13234,14 +13234,14 @@ Failed to create or open KKReshade Control SHM. This is not a problem, if KKResh
 Failed to write to Reshade Control SHM: {0}=写入 Reshade 控制共享内存失败：{0}
 
 // VideoExport.dll / ScreencapPlugin
-Screenshot Manager=Screenshot Manager
+Screenshot Manager=截图管理器
 r:"^Unsupported capture type: (?<g0>[\S\s]+?)$"=不支持的截取类型：${g0}
 
 // VideoExport.dll / VideoExport
 Open VideoExport UI=打开 VideoExport 界面
 Start or Stop Recording=开始或停止录制
 Interface language=界面语言
-Video Export 2.1.1=Video Export 2.1.1
+Video Export 2.1.1=视频导出 2.1.1
 Duration=时长
 Codec=编解码器
 Frames=帧数

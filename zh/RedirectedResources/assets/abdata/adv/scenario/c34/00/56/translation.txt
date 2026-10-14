@@ -2,5 +2,5 @@
 // Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
 //
 「って、[H名]！？　ど、どういうこと？」=“咦，[H名]！？这、这是怎么回事？”
-「Ｏｈ♡　Ｈｅｌｌｏ♡　Ｈｏｗ　ａｒｅ　ｙｏｕ？」=“Oh♡Hello♡How are you？”
+「Ｏｈ♡　Ｈｅｌｌｏ♡　Ｈｏｗ　ａｒｅ　ｙｏｕ？」=“Ｏｈ♡Ｈｅｌｌｏ♡Ｈｏｗ　ａｒｅ　ｙｏｕ？”
 「フフ♡　オチンチンｆｉｎｅ　ｔｏｏ♡　Ｍｏｒｎｉｎｇ　Ｆｅｌｌａｔｉｏ、続けるネー♡」=“呵呵♡小鸡鸡也fine too♡Morning Fellatio，我继续了哦～♡”
