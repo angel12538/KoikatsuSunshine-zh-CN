@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「どこも素敵なところだから、一つには絞れないわね」=“哪里都是很美的地方，没法只选一个呢”

@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「[P名]くんの目を見ていたらなんとなくね」=“看着[P名]君的眼睛，就隐约感觉到了”

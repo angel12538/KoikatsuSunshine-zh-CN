@@ -1,0 +1,5 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「でもシーサーって魔よけの為に置かれてるんだよ？　[H名]は平気なの？」=“不过风狮爷是为了驱魔才摆放的哦？[H名]不要紧吗？”
+「今日も[H名]が絶好調でなによりだよ」=“今天[H名]也状态绝佳，真是太好了”

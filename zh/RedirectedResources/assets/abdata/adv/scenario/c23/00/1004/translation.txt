@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「[H名]、大丈夫？」=“[H名]，你没事吧？”

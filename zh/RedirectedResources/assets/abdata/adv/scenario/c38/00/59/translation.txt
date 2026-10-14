@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「えっ、ごめん……って、ちょっと待って[H名]……これ、このまま続ける気？」=“咦，对不起……等一下[H名]……你打算就这样继续吗？”

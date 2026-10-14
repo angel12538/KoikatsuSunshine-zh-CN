@@ -1,0 +1,5 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「じゃあこっちも……[Hあだ名]」=“那我也……[Hあだ名]”
+「代償を払う？　ああ、そういうことか！　分かったよ、[Hあだ名]」=“付出代价？啊，原来是这么回事！明白了，[Hあだ名]”

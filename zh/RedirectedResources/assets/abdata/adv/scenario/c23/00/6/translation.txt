@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+r:"^「あの、き、昨日は、楽しかったね/{1}/{1}/{1}」$"=“那个，昨、昨天，好开心呢／／／”

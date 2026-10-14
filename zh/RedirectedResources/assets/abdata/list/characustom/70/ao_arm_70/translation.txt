@@ -1,0 +1,6 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+トートバッグ=托特包
+虫かご=虫笼
+肩掛け水筒=斜挎水壶

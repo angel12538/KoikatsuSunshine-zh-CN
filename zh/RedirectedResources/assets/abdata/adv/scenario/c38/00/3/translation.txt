@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「そんな風に思っていてくれたなんて嬉しいよ。俺も[H名]の事、好きだから」=“没想到你是这么想的，我很开心。因为我也喜欢[H名]”

@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「ボリュームたっぷりのステーキだね。[H名]は食べきれる？」=“分量十足的牛排呢。[H名]吃得完吗？”

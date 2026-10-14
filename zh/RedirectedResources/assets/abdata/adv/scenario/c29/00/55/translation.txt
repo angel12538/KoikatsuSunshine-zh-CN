@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「思ったより照れくさくて反応に困って……ごめんね、[Hあだ名]」=“比想象中还难为情，都不知道该怎么反应了……对不起哦，[Hあだ名]”

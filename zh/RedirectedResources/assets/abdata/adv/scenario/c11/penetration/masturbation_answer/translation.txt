@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「ふふ、まあいいわ。あなたの頼みじゃ無視できないもの……♪」=“呵呵，算了。你的请求我可不能无视嘛……♪”

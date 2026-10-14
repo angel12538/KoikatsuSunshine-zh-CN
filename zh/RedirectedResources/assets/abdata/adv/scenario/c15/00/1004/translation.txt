@@ -1,0 +1,5 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「[H名]、さっきからずっと海の方を見てるね？　何かあるの？」=“[H名]，你从刚才开始就一直在看海那边呢？有什么东西吗？”
+（スケールの大きな話になったきた……）=（话题变得好宏大了……）

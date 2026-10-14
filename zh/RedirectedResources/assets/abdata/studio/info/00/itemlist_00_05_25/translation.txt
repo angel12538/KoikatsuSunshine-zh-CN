@@ -1,0 +1,8 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+身長計=身高计
+座高計=坐高计
+体重計=体重秤
+視力検査機=视力检查仪
+洗面器台=脸盆架

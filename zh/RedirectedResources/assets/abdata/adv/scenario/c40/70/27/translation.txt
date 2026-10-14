@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「うむ、勇気を出して誘った甲斐があったな。やはり勇気は大事だ……貴殿には本当に感謝している」=“唔，鼓起勇气邀请果然没白费。勇气果然很重要……吾真的很感谢阁下”

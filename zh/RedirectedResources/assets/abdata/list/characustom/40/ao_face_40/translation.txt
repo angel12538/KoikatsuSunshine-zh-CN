@@ -1,0 +1,8 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+サイバーモノクル=赛博单片眼镜
+サイバーグラス=赛博眼镜
+サイバーマスク=赛博面罩
+サイバーファング上=赛博獠牙（上）
+サイバーファング下=赛博獠牙（下）

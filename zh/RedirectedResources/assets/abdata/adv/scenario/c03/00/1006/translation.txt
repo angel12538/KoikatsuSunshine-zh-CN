@@ -1,0 +1,5 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「[H名]、この鐘を一緒に鳴らそう」=“[H名]，我们一起敲响这口钟吧”
+（……本当のプロポーズになっちゃった）=（……变成真正的求婚了）

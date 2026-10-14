@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「うむ、少し戸惑いはあったが楽しめたな」=“唔，虽然有些困惑，但很尽兴”

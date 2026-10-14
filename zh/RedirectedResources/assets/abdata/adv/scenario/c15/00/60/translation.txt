@@ -1,0 +1,6 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+SELECTION:「返事をする」=“回应她”
+SELECTION:「……」=“……”
+「あたしと、いっぱい気持ち良くなってもらうからなー♪」=“我会让你和我一起舒服好多好多次的～♪”

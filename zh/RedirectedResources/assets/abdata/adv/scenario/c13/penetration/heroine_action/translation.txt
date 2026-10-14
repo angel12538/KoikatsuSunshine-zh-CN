@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「えっと……３人でするってこと？　……[H名]、どうする？」=“那个……是说三个人一起做吗？……[H名]，怎么办？”

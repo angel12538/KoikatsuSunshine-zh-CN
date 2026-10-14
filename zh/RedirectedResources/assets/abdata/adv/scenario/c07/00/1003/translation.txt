@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「泡盛って書いてあるけど……[H名]、それ買うの？」=“上面写着泡盛……[H名]，你要买那个吗？”

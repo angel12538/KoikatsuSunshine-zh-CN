@@ -1,0 +1,9 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+歩く1=走路1
+歩く2=走路2
+走る1=跑步1
+走る2=跑步2
+走る3=跑步3
+走る4=跑步4

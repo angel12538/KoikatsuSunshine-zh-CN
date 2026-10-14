@@ -1,0 +1,5 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「ごめん。[H名]にばかりリードさせて」=“抱歉。一直让[H名]来主导”
+（わぁ、[H名]をすごく近くに感じる。いい匂いもするな……）=（哇，感觉[H名]离我好近。还有股好闻的味道……）

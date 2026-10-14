@@ -1,0 +1,6 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+三角木馬=三角木马
+木製拘束具=木制拘束具
+錘=秤砣

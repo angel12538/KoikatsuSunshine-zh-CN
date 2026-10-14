@@ -1,0 +1,21 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+回転（obj無し）=旋转（无obj）
+ピストン（obj無し）=活塞（无obj）
+振動（obj無し）=振动（无obj）
+浮遊（obj無し）=漂浮（无obj）
+回転180（obj無し）=旋转180（无obj）
+回転60（obj無し）=旋转60（无obj）
+バウンド１（obj無し）=弹跳１（无obj）
+バウンド２（obj無し）=弹跳２（无obj）
+投げ01（obj無し）=投掷01（无obj）
+投げ02（obj無し）=投掷02（无obj）
+回転10（obj無し）=旋转10（无obj）
+回転30（obj無し）=旋转30（无obj）
+回転45（obj無し）=旋转45（无obj）
+回転10_Bタイプ（obj無し）=旋转10_B型（无obj）
+回転30_Bタイプ（obj無し）=旋转30_B型（无obj）
+回転45_Bタイプ（obj無し）=旋转45_B型（无obj）
+回転60_Bタイプ（obj無し）=旋转60_B型（无obj）
+回転180_Bタイプ（obj無し）=旋转180_B型（无obj）

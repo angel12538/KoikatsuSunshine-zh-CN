@@ -1,0 +1,9 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+体洗う=洗身体
+頭洗う=洗头
+団扇で涼む=用团扇乘凉
+三線持ち待機=拿三线琴待机
+三線を弾く=弹三线琴
+三線の音を合わせる=给三线琴调音

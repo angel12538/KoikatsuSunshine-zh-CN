@@ -1,0 +1,5 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「うぅ……えっと、それじゃあ……。ねぇ……[Pあだ名]」=“呜呜……那个，那么……。呐……[Pあだ名]”
+「なあに、[Hあだ名]？」=“什么事，[Hあだ名]？”

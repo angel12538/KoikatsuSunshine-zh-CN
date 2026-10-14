@@ -1,0 +1,8 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+左乳首=左乳头
+右乳首=右乳头
+男根根本=阴茎根部
+女性器=女性器
+尻穴=屁股小穴

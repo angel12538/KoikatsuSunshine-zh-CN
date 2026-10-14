@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「うん。[H名]は、こういうの好きかなと思ってさ」=“嗯。我想[H名]会不会喜欢这种东西”

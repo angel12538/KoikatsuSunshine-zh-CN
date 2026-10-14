@@ -1,0 +1,8 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+フリルパラソル=荷叶边阳伞
+くまのぬいぐるみ右=小熊玩偶（右）
+くまのぬいぐるみ左=小熊玩偶（左）
+ガトリングウォーターガン=加特林水枪
+虫取り網=捕虫网

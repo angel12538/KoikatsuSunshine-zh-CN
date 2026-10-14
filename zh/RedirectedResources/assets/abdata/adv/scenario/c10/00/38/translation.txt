@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「そっか、じゃあ[H名]はあんまり海で遊んだことはないんだね」=“这样啊，那[H名]没怎么在海里玩过呢”

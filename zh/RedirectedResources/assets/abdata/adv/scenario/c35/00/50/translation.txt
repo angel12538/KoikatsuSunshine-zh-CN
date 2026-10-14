@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「ふむ、初めて見るメニューだけど、[H名]が言うなら頼んでみる価値ありそうかな？」=“嗯，虽然是第一次见的菜单，不过既然[H名]这么说，应该值得点来试试吧？”

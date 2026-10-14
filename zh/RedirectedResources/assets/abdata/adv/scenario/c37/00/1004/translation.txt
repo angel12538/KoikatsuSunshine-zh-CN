@@ -1,0 +1,5 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「へぇ、[H名]もそういうロマンチックなこと考えるんだね」=“哦～，[H名]也会想这种浪漫的事啊”
+「俺も同じだよ。[H名]と出会えて、本当に良かったと思ってる」=“我也一样。能遇见[H名]，我真的觉得太好了”

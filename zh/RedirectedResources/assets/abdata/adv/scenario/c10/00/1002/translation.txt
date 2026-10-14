@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「ねえ、[H名]も一緒に卓球やらない？」=“呐，[H名]要不要也一起打乒乓球？”

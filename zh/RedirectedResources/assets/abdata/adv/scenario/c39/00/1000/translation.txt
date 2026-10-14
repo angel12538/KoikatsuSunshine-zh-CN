@@ -1,0 +1,5 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「そうそう、その方が[H名]らしくて可愛いよ」=“对对，那样更有[H名]的风格，很可爱哦”
+「はは、うーうー言ってる[H名]は可愛いなぁ」=“哈哈，呜呜叫着的[H名]真可爱啊”

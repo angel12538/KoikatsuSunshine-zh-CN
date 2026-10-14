@@ -1,0 +1,6 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「えっと、[Pあだ名]って呼んでほしいんだけど」=“那个，我希望你叫我[Pあだ名]”
+「……わかった。えっと……[Pあだ名]」=“……知道了。那个……[Pあだ名]”
+「うん。……[Hあだ名]」=“嗯。……[Hあだ名]”

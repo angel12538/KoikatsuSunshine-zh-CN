@@ -1,0 +1,5 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「ふふー、起きた起きた。それじゃあ、沢山搾り取ってやるぞ♪」=“嘿嘿，醒了醒了。那么，我要好好榨取一番了♪”
+「あはは♪　そんなことするわけないだろー」=“啊哈哈♪我怎么可能做那种事嘛”

@@ -1,0 +1,13 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+感情=情感
+歩く・走る=走路・跑步
+立ち=站姿
+会話=对话
+椅子・机=椅子・桌子
+床=地板
+食べる=吃东西
+アクション=动作
+リアクション=反应
+ライブ=演唱会

@@ -1,0 +1,8 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+半リング(通常)=半环(普通)
+四分リング(通常)=四分之一环(普通)
+細リング(通常)=细环(普通)
+半細リング(通常)=半细环(普通)
+四分細リング(通常)=四分之一细环(普通)

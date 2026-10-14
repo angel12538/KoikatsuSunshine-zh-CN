@@ -1,0 +1,5 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「[H名]は可愛いね」=“[H名]真可爱呢”
+「本当に思ったことを言っただけだよ。[H名]は恋に前向きで……だから、なのかな？」=“我只是说了真心话而已。[H名]对恋爱很积极……大概是因为这个吧？”

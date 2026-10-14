@@ -1,0 +1,9 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+ビーチチェア=沙滩椅
+ビーチパラソル=沙滩伞
+木の椅子=木头椅子
+木の長椅子=木头长椅
+木の机=木头桌子
+木の箱=木头箱子

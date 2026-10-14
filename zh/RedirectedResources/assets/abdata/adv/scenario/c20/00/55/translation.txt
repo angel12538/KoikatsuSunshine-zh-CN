@@ -1,0 +1,5 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「おお、いいね。それじゃあ、俺も。……[Hあだ名]」=“哦哦，不错嘛。那我也来。……[Hあだ名]”
+（反応が可愛いなぁ）=（反应好可爱啊）

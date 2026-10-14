@@ -1,0 +1,6 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+OPTION[105]:うん=嗯
+OPTION[105]:今はいいかな=现在先不用了
+今はいいかな=现在先不用了

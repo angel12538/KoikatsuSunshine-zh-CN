@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「ふふっ、あなたはよく観察してるのね。私は全然気づかなかったのにすごいわ♪」=“呵呵，你观察得真仔细呢。我完全没注意到，你好厉害♪”

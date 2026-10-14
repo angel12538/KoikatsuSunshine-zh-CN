@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「いいや、[H名]だから、恋人になったんだよ」=“不，正因为是[H名]，我们才成为恋人的”

@@ -1,0 +1,6 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+階段(木)=楼梯(木)
+石階段1=石阶1
+石階段2=石阶2

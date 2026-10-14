@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「貴殿と一緒にいると、観光地の景色もどこか違って見える。不思議なものだな」=“和阁下在一起，观光地的景色看起来也有些不同。真是不可思议啊”

@@ -1,0 +1,7 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+ファンタジースカート=奇幻裙
+折り返しショートパンツ=翻边短裤
+ピュアフリルスカート=纯真荷叶边裙
+レインボーラインプリーツ=彩虹线百褶裙

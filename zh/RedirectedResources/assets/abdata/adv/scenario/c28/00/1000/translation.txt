@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「今、言っちゃったのは[H名]の中の奥ゆかしさと折り合いついてるの？」=“刚才说出口的话，和[H名]心中的含蓄达成妥协了吗？”

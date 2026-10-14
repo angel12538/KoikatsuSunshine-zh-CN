@@ -1,0 +1,8 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+OPTION[203]:大丈夫だよ=没问题哦
+大丈夫だよ=没问题哦
+OPTION[205]:いいね、行こう！=好啊，走吧！
+OPTION[205]:俺はお腹空いてないよ？=我肚子不饿哦？
+俺はお腹空いてないよ？=我肚子不饿哦？

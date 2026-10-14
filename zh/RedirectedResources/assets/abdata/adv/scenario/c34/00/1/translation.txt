@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「勿論、いや、[H名]がいいんだ」=“当然，不对，我就是想要[H名]”

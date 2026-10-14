@@ -1,0 +1,9 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+うさ耳リボン=兔耳缎带
+スラウチハット=垂边帽
+ドラゴンの角=龙角
+付け毛20=假发片20
+付け毛21=假发片21
+付け毛22=假发片22

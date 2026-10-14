@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「そういうところ、[H名]らしい。優しいよね」=“这一点很有[H名]的风格。真温柔啊”

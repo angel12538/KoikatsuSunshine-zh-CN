@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「やはり貴殿と食べる食事が一番だ。美味しさも満腹感も、一人で食べるのとは比べものにならん」=“果然和阁下一起吃饭是最好的。美味也好，饱足感也好，都不是一个人吃能比的”

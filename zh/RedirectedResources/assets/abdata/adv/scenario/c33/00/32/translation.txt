@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「……そうだね、俺も[H名]さんが隣にいるからそう感じるんだろうな」=“……是啊，大概是因为[H名]在我身边，我才会有这种感觉吧”

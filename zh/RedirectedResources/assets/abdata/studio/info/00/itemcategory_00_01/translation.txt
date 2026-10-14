@@ -1,0 +1,10 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+地面=地面
+ドア=门
+壁=墙
+階段=楼梯
+設置物=设置物
+建造物=建筑物
+画像板=图片板

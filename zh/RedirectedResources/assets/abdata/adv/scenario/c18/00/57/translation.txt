@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「ふふっ、見ての通りですよ。私があなたを……襲ったんです♪」=“呵呵，就像你看到的那样哦。是我……袭击了你♪”

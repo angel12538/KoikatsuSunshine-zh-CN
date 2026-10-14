@@ -1,0 +1,9 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+日用品=日用品
+雑貨=杂货
+電化製品=电器
+医療=医疗
+ファンタジー=奇幻
+サマー=夏日

@@ -1,0 +1,7 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+OPTION[203]:いいね、遊ぼう！=好啊，一起玩吧！
+いいね、遊ぼう！=好啊，一起玩吧！
+OPTION[205]:ちょうど腹ペコだったんだ=正好饿了
+ちょうど腹ペコだったんだ=正好饿了

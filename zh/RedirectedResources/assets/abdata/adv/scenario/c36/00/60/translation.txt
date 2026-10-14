@@ -1,0 +1,6 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+SELECTION:「返事をする」=“回应她”
+SELECTION:「……」=“……”
+「[H名]さん……？　こんな時間にどうしたの？」=“[H名]……？这么晚了怎么了？”

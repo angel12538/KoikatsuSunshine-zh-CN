@@ -1,0 +1,6 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+自室ベッド=自己房间的床
+保健室ベッド=保健室的床
+布団=被褥

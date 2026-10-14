@@ -1,0 +1,5 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「そういうことなら、俺も[H名]のこと、色々聞いていい？」=“既然这样，我也可以问问[H名]各种事吗？”
+「やった！　もう俺、[H名]に興味津々だからっ！」=“太好了！我现在对[H名]兴趣十足！”

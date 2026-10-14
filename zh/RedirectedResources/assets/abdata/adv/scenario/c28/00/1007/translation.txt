@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「ここにいる人間でそんな心配してるの、[H名]だけだと思うよ」=“在这里担心那种事的，我想只有[H名]了”

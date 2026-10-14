@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「このキーホルダー、とても可愛いですね。見てください、[P名]さん」=“这个钥匙扣好可爱啊。请看，[P名]”

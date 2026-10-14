@@ -1,0 +1,10 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+キャンプの火=营火
+水槽の泡=水槽气泡
+お風呂の湯気=浴室蒸汽
+水しぶき=水花
+海(夕方)=海(傍晚)
+海(夜)=海(夜晚)
+水面=水面

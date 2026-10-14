@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「ふ～ん……じゃ、俺も[H名]の分を買うよ。これでペアルックだね」=“嗯～……那我也买[H名]那一份吧。这样就是情侣装了”

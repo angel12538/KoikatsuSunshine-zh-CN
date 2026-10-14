@@ -1,0 +1,10 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+ロバ耳=驴耳朵
+ロバ尻尾=驴尾巴
+付け毛18=假发片18
+付け毛19=假发片19
+バーベルピアス=杠铃穿环
+ジュエルバングル=宝石手镯
+使用済みコンドーム=用过的避孕套

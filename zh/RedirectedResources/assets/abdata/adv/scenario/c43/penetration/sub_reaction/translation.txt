@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「ウチらの秘密の楽しみやったのに……いつから見てたん？」=“这本来是我们秘密的乐趣……你从什么时候开始看的？”

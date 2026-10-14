@@ -1,0 +1,5 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「ありがと。俺も[H名]にオチてるよ」=“谢谢。我也被[H名]迷住了哦”
+「俺も、[H名]のことギュッてしたくなっちゃったかも」=“我也有点想紧紧抱住[H名]了”

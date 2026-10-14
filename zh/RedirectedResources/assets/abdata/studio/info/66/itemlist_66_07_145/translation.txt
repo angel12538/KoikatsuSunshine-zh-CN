@@ -1,0 +1,9 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+触手1=触手1
+触手2=触手2
+触手3=触手3
+拘束椅子=拘束椅
+檻=牢笼
+搾乳器=吸奶器

@@ -1,0 +1,8 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+ビル1=大楼1
+ビル2=大楼2
+ビル3=大楼3
+ビル4=大楼4
+公衆トイレ=公共厕所

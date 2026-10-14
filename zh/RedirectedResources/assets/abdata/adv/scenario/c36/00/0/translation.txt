@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「あはは……でも、喜べって言ったのは[H名]さんだよ？」=“啊哈哈……不过，叫我高兴的不是[H名]你吗？”

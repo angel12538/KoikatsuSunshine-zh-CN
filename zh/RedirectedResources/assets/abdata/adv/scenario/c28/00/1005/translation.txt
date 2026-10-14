@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「うん、[H名]だけを見てるよ。この音楽が止むまでずっと」=“嗯，我只看着[H名]。一直到这音乐停下”

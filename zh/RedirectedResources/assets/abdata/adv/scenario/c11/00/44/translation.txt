@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「いいね、それ！　[H名]にプレゼントするものだし、気合を入れて頑張るぞ」=“这个好啊！是要送给[H名]的礼物，我会卯足劲加油的”

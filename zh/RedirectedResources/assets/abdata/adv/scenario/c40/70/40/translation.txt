@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「これだけ遊んだら今夜はよく眠れそうだ。遊び疲れでも疲れには変わりないからな、貴殿もよく休んでおくんだぞ」=“玩了这么多，今晚应该能睡个好觉。玩累了也是累，阁下也要好好休息哦”

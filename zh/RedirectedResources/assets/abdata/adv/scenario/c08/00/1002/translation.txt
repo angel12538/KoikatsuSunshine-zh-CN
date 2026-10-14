@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「でも、[P名]君のおかげで卓球が好きになったかも。またしようね♪」=“不过，多亏了[P名]君，我好像喜欢上乒乓球了。下次再来吧♪”

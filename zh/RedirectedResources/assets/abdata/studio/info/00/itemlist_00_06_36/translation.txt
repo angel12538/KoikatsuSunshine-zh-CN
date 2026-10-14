@@ -1,0 +1,9 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+番傘=油纸伞
+ポンポン=啦啦球
+クリップ=夹子
+洗濯ばさみ=晾衣夹
+持ち看板=手持招牌
+コントローラー=手柄

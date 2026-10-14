@@ -1,0 +1,11 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+立ち=站姿
+仰向け=仰躺
+四つん這い=四肢着地
+椅子座り=坐椅子
+机座り=坐桌子
+机しゃがみ=蹲在桌上
+本棚=书架
+いたずら=恶作剧

@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「うん、[P名]君が私にくれたたくさんの飾らない言葉は、みんな宝物だよ。大切にしまってある」=“嗯，[P名]君给我的那么多朴实的话语，全都是宝物哦。我都好好珍藏着”

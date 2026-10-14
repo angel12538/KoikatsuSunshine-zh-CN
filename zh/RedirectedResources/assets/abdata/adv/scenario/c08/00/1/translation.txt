@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「そうだよ。[H名]を見てるとドキドキするし、ずっと傍にいたいなって思うんだ」=“是啊。看着[H名]我就会心跳加速，想一直待在你身边”

@@ -1,0 +1,7 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+冷凍マグロ=冷冻金枪鱼
+ヌンチャク=双截棍
+ＦＫ布団=FK被褥
+ＦＫ枕=FK枕头

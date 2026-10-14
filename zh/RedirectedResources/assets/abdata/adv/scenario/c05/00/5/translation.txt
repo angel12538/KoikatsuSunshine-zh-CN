@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「大丈夫。[H名]を傷つけるようなことはしないよ」=“放心吧。我不会做伤害[H名]的事”

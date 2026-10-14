@@ -1,0 +1,7 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+うつぶせで寝る=趴着睡
+ビーチチェアで寝る1=在沙滩椅上睡1
+ビーチチェアで寝る2=在沙滩椅上睡2
+ビーチチェアで寝る3=在沙滩椅上睡3

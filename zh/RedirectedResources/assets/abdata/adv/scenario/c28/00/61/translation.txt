@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「[H名]がいいなら俺が塗ってあげるけど……どうする？」=“如果[H名]愿意，我来帮你涂……怎么样？”

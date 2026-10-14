@@ -1,0 +1,8 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+団子=团子
+三方=三方供台
+ススキ=芒草
+和雲A=和风云A
+和雲B=和风云B

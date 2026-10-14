@@ -1,0 +1,10 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+弱ループ=弱循环
+中ループ=中循环
+強ループ=强循环
+絶頂前ループ=高潮前循环
+絶頂=高潮
+絶頂事後=高潮事后
+事後=事后

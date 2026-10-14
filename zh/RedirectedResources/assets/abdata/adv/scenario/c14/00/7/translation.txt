@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「私が一発ヌイてやるよ。じっとしてな……」=“我来帮你弄出来一发。别乱动……”

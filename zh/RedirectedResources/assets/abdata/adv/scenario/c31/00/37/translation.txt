@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「さっそくやってみようか。[H名]は前と後ろ、どっちがいい？」=“我们马上试试吧。[H名]要前面还是后面？”

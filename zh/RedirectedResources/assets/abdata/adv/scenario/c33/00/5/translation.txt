@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「え、待ってたなら[H名]さんの方から言ってくれればよかったのに……」=“咦，既然你在等，[H名]主动说出来就好了嘛……”

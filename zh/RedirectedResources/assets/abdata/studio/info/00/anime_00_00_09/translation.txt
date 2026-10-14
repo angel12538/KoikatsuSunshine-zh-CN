@@ -1,0 +1,10 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+食事Ａ1=用餐A1
+食事Ａ2=用餐A2
+食事Ａ3=用餐A3
+食事B1=用餐B1
+食事B2=用餐B2
+食事C1=用餐C1
+食事C2=用餐C2

@@ -1,0 +1,7 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+晴れた空=晴朗的天空
+昼の空=白天的天空
+夕暮れの空=黄昏的天空
+夜空=夜空

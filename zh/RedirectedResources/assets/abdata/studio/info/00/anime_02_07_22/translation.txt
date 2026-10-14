@@ -1,0 +1,10 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+ダンス1=舞蹈1
+ダンス2=舞蹈2
+ダンス3=舞蹈3
+ダンス4=舞蹈4
+ダンス5=舞蹈5
+ダンス6=舞蹈6
+ダンス7=舞蹈7

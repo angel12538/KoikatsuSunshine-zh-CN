@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「[H名]のシーサー、なんか勇ましいね」=“[H名]的风狮爷，好像很威武呢”

@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「うん。……ねぇ、どうしてわたしに話しかけてくるの？」=“嗯。……呐，你为什么会来跟我搭话呢？”

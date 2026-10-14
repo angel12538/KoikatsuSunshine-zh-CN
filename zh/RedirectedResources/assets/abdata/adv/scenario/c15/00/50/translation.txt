@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「[H名]が食べてるとこ見てるだけで、俺もなんだか幸せになってくるよ」=“光是看着[H名]吃东西，我也觉得幸福起来了”

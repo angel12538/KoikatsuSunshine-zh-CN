@@ -1,0 +1,10 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+観葉植物1=观叶植物1
+観葉植物2=观叶植物2
+観葉植物3=观叶植物3
+生垣1=树篱1
+生垣2=树篱2
+カエデ=枫树
+木=树

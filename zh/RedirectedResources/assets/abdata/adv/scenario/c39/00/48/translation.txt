@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「[H名]にとって、おふくろの味って何？　ゴーヤチャンプルーとか？」=“对[H名]来说，妈妈的味道是什么？苦瓜杂炒之类的？”

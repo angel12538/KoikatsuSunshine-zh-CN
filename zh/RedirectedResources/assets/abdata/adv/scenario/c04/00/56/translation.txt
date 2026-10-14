@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「ふふふ、あなたは寝ぼすけさんね。いいわ、すぐに起こしてあげる♪」=“呵呵呵，你真是个贪睡鬼呢。好吧，我马上就叫醒你♪”

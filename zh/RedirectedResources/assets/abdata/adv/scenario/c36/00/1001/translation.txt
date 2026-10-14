@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「[H名]さんに気に入って貰えたようで良かったよ」=“[H名]好像很喜欢，太好了”

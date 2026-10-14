@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「ありがとう、よろしく頼む。感謝は行動で示すつもりだ……期待してくれ」=“谢谢，拜托了。吾打算用行动表示感谢……期待吧”

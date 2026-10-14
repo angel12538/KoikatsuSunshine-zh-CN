@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「そういえば、[H名]は自分用のお土産は買った？」=“说起来，[H名]给自己买土特产了吗？”

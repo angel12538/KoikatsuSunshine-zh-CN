@@ -1,0 +1,6 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+蛍=萤火虫
+大天使の翼右用=大天使之翼（右）
+大天使の翼左用=大天使之翼（左）

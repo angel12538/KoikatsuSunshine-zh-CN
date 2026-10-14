@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「[H名]が持ってるそれ、ひょうきんな顔してるね」=“[H名]拿着的那个，表情很滑稽呢”

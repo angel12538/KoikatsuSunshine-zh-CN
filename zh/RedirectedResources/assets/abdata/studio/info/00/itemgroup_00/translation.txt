@@ -1,0 +1,15 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+基本形=基本形
+家具=家具
+オブジェ=物件
+食材=食材
+小物=小物件
+Ｈアイテム=H道具
+2D効果=2D效果
+ギミック=机关
+3DSE=3DSE
+武器=武器
+グロー=辉光
+FKアイテム=FK道具

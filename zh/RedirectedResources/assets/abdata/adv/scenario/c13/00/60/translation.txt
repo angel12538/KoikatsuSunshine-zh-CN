@@ -1,0 +1,6 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+SELECTION:「返事をする」=“回应她”
+SELECTION:「……」=“……”
+「だから、[P名]くんと一緒に、寝ようかな～って……いいでしょ、ね？」=“所以，我想和[P名]君一起睡呢～……可以吧，呐？”

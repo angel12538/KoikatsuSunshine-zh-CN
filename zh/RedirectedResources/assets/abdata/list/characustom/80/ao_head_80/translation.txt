@@ -1,0 +1,6 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+コサック帽=哥萨克帽
+イヤーパフ=耳罩
+ぷよアザラシ=胖嘟嘟海豹

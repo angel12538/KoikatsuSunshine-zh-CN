@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「ねぇ、[H名]。少し縁側で過ごして行こうか？」=“呐，[H名]。要不要在缘廊上待一会儿？”

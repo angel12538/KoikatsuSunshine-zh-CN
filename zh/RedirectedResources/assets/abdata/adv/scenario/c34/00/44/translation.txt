@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「んーそうだなぁ……これなんかどう？　[H名]にピッタリだと思うんだけど」=“嗯～这个嘛……这个怎么样？我觉得很适合[H名]”

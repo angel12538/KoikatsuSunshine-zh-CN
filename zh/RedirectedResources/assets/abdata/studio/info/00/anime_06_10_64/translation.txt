@@ -1,0 +1,7 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+ダイブ１=飞扑１
+ダイブ２=飞扑２
+ダイブ３=飞扑３
+ダイブ４=飞扑４

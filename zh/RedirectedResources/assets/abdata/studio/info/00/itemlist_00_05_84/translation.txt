@@ -1,0 +1,11 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+ビーチボール=沙滩球
+提灯=灯笼
+うちわ=团扇
+ぶたの置物=小猪摆件
+カブトムシ=独角仙
+クワガタ=锹形虫
+虫かご(小)=虫笼(小)
+虫かご(大)=虫笼(大)

@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「[H名]は卓球できる？　台があるしやっていこうよ」=“[H名]会打乒乓球吗？这里有球桌，我们来打吧”

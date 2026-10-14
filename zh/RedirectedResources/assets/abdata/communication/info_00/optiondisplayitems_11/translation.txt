@@ -1,0 +1,15 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+OPTION[103]:うん、いいよ！=嗯，好啊！
+うん、いいよ！=嗯，好啊！
+OPTION[105]:丁度お腹空いてたんだ=正好肚子饿了
+丁度お腹空いてたんだ=正好肚子饿了
+OPTION[201]:……？=……？
+……？=……？
+OPTION[203]:いいよ！=好啊！
+OPTION[205]:実は……=其实……
+実は……=其实……
+OPTION[205]:そんなことないよ=没那回事哦
+そんなことないよ=没那回事哦
+OPTION[207]:……？=……？

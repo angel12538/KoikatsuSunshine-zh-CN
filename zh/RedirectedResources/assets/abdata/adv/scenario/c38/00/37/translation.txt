@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「俺はいいけど……結構スピードが出るよ？　[H名]は大丈夫？」=“我是没问题……不过速度挺快的哦？[H名]不要紧吗？”

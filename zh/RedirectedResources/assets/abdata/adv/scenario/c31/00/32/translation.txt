@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「ちなみに俺は[H名]が傍にいるだけで癒されるよ」=“顺便一提，只要[H名]在我身边我就会被治愈哦”

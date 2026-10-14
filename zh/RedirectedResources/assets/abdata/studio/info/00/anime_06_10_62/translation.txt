@@ -1,0 +1,7 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+ストレッチ１=拉伸１
+ストレッチ２=拉伸２
+ストレッチ３=拉伸３
+ストレッチ４=拉伸４

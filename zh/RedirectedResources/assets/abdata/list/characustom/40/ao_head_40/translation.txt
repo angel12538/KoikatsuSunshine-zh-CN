@@ -1,0 +1,6 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+サイバーフィン=赛博鳍
+サイバーヘキサゴン=赛博六边形
+サイバーシェル=赛博壳

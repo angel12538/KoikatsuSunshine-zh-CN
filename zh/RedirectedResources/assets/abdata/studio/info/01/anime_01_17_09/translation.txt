@@ -1,0 +1,6 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+串焼きを食べる1=吃烤串1
+串焼きを食べる2=吃烤串2
+串焼きを作る=做烤串

@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「もちろん。[H名]以外、考えられないよ」=“当然。除了[H名]，我想不到别人”

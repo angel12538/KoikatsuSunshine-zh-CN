@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「ええ、そうね……それじゃいただきます♪」=“嗯，是啊……那我就开动了♪”

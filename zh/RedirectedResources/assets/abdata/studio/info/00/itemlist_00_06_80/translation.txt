@@ -1,0 +1,7 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+鎧肩当て=铠甲护肩
+騎士の肩当て=骑士护肩
+騎士の腰当=骑士护腰
+タングルショルダー=缠绕护肩

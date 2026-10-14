@@ -1,0 +1,5 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「あ、それは大丈夫、こっちで考えてあるから。……[Pあだ名]っていうんだけど」=“啊，这个没问题，我这边已经想好了。……叫[Pあだ名]”
+「[Hあだ名]」=“[Hあだ名]”

@@ -1,0 +1,8 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+ポール=柱杆
+野点傘=户外茶会伞
+ウサギの置物=兔子摆件
+狸の置物=狸猫摆件
+木箱=木箱

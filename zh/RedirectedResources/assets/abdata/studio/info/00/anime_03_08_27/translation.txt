@@ -1,0 +1,9 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+攻撃１=攻击１
+攻撃２=攻击２
+攻撃３=攻击３
+攻撃４=攻击４
+防御=防御
+倒れる=倒下

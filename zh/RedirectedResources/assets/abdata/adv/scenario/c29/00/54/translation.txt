@@ -1,0 +1,6 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「やった！　じゃあ、俺のことは[Pあだ名]って呼んでもらえる？」=“太好了！那么，能叫我[Pあだ名]吗？”
+「[Hあだ名]」=“[Hあだ名]”
+「次は[Hあだ名]の番だよ」=“下次轮到[Hあだ名]了哦”

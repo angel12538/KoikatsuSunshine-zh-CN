@@ -1,0 +1,8 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+FK触手1=FK触手1
+FK触手2=FK触手2
+FKアナルビーズ1=FK拉珠1
+FKアナルビーズ2=FK拉珠2
+FKアナルビーズ3=FK拉珠3

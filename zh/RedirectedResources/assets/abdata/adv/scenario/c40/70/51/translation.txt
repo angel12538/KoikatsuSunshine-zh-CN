@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「やはり食事は一人より二人だな。貴殿と一緒だと、いつもより美味しく感じたぞ」=“吃饭果然还是两个人比一个人好。和阁下一起，感觉比平时更美味”

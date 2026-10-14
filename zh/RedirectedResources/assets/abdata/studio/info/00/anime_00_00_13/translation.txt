@@ -1,0 +1,9 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+シーン1=场景1
+シーン2=场景2
+シーン3=场景3
+シーン4=场景4
+シーン5=场景5
+フル=完整

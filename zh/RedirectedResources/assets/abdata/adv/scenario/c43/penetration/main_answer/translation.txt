@@ -1,0 +1,5 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「……まあ、ええか。楽しそうやん」=“……嘛，算了。好像挺好玩的嘛”
+「全然ええで！　ちょうど、人手が欲しいな思ててん」=“完全没问题哟！正好想要人手呢”

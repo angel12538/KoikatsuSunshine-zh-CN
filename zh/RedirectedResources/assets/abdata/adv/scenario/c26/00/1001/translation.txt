@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「無邪気っていうのかな？　……おいしそうにアイスを食べてる[P名]が、子供みたいだから」=“该说是天真无邪吧？……津津有味地吃着冰淇淋的[P名]，像个孩子一样”

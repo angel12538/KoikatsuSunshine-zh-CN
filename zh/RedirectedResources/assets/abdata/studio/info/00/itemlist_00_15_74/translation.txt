@@ -1,0 +1,9 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+FK関節=FK关节
+FK軸=FK轴
+FK先端1=FK末端1
+FK先端2=FK末端2
+土台1=底座1
+土台2=底座2

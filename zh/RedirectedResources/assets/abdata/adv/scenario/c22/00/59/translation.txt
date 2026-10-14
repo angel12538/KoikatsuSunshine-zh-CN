@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「あはは、もちろん嘘だよー♪」=“啊哈哈，当然是骗你的啦～♪”

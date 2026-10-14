@@ -1,0 +1,13 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+メカ=机甲
+ファンタジー=奇幻
+追加01=追加01
+追加02=追加02
+サマー=夏日
+ハロウィン=万圣节
+アフタースクール=放学后
+クリスマス=圣诞节
+EC=EC
+ダークネス=黑暗

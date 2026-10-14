@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「うわっ、[H名]！？　ダメだよ……！」=“哇，[H名]！？不行啊……！”

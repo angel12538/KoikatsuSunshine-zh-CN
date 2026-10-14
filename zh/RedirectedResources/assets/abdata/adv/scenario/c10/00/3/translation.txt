@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「ありがとう。実は俺も[H名]のことが気になっていたんだ」=“谢谢。其实我也一直很在意[H名]”

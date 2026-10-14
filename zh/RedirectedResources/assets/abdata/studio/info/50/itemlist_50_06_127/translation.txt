@@ -1,0 +1,7 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+うさ耳=兔耳
+モコモコバンド=毛绒发带
+モコモコリング=毛绒指环
+モコモコボール=毛绒球

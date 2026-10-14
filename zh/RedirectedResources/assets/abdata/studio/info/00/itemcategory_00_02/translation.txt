@@ -1,0 +1,8 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+ベッド=床
+棚=架子
+仕切り=隔断
+水周り=用水设施
+サマー=夏日

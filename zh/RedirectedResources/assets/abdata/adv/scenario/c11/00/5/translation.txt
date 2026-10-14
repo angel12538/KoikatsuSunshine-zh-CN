@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「お、俺のことより……[H名]の方こそ大丈夫？」=“比、比起我……[H名]你才没事吧？”

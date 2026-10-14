@@ -1,0 +1,9 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+猫耳ヘッドホン=猫耳耳机
+猫耳スピーカー=猫耳音箱
+パンツA=内裤A
+パンツB=内裤B
+パンツC=内裤C
+被りフード=戴着的兜帽

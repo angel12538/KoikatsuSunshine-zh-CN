@@ -1,0 +1,6 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+ロバ耳=驴耳朵
+付け毛18=假发片18
+付け毛19=假发片19

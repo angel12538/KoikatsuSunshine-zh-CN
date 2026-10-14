@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「はは、俺も。でも美味しく食べられるのは[H名]が一緒にいてくれるからだと思うな」=“哈哈，我也是。不过我觉得能吃得这么香，是因为有[H名]陪着我”

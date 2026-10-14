@@ -1,0 +1,8 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+メカトライニードル=机械三叉针
+メカライオン=机械狮子
+メカホイール=机械轮
+メカアーマー=机械装甲
+メカシールドⅢ=机械盾牌Ⅲ

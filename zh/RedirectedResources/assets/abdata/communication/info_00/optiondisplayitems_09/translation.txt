@@ -1,0 +1,6 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+OPTION[204]:いいよ！=好啊！
+OPTION[204]:そういうのはちょっと……=那种事有点……
+そういうのはちょっと……=那种事有点……

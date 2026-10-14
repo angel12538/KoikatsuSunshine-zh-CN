@@ -1,0 +1,10 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+走る=跑步
+水やり=浇水
+鳥の巣観察=观察鸟巢
+自販機=自动售货机
+参拝=参拜
+ツーショット=双人合影
+ツーショットキス=双人合影亲吻

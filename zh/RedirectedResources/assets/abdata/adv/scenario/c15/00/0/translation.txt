@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「あ、もう時間だぞ。また話そ、じゃーねー♪」=“啊，时间到了哦。下次再聊，拜拜～♪”

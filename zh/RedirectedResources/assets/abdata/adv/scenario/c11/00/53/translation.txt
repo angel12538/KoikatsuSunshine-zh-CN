@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「ごちそうさまでした。お料理の腕を磨いてるから、期待しててちょうだい♪」=“我吃饱了。我正在磨练厨艺，敬请期待吧♪”

@@ -1,0 +1,5 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「やっぱり、[P名]君とお話するの楽しいな」=“果然，和[P名]君聊天好开心”
+「[P名]君は私のこういう変なお話も楽しそうに聞いてくれるからかな」=“大概是因为[P名]君连我这种奇怪的话都会开心地听吧”

@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「そもそも、[H名]さんはそういうの信じないタイプなんじゃないの？」=“话说回来，[H名]不是不信那种东西的类型吗？”

@@ -1,0 +1,11 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+OPTION[202]:いいよ！=好啊！
+OPTION[203]:ＯＫ！=OK！
+ＯＫ！=OK！
+OPTION[204]:いいね、行こう！=好啊，走吧！
+OPTION[205]:うん、ご飯にしよう=嗯，去吃饭吧
+うん、ご飯にしよう=嗯，去吃饭吧
+OPTION[205]:まだ空いてないかな=还不太饿吧
+まだ空いてないかな=还不太饿吧

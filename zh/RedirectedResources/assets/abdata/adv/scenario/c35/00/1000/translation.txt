@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「はは、そんな[H名]も可愛くて好きだよ」=“哈哈，那样的[H名]也很可爱，我很喜欢哦”

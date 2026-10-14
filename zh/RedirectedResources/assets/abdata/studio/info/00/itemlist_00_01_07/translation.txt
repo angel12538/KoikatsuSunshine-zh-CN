@@ -1,0 +1,12 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+襖1=隔扇1
+襖2=隔扇2
+ガラス入り障子=嵌玻璃纸拉门
+障子1=纸拉门1
+障子2=纸拉门2
+戸=门扉
+トイレドア1=厕所门1
+トイレドア2=厕所门2
+シャワー室ドア=淋浴间门

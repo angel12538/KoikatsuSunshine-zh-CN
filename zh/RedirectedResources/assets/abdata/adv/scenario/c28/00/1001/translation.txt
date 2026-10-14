@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「逆に[H名]はどんな感じだったの？」=“反过来，[H名]是什么感觉？”

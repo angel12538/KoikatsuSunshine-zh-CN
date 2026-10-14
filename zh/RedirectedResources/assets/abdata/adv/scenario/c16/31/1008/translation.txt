@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「視線じゃなくて、[H名]が気になっちゃうよ」=“我在意的不是视线，而是[H名]啊”

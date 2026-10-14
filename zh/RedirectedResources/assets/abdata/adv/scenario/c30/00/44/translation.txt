@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「そうだね。印象に残りやすい音だし、[H名]と一緒に体験してるってのもあるだろうしね」=“是啊。是很容易留下印象的声音，而且也因为是和[H名]一起体验的吧”

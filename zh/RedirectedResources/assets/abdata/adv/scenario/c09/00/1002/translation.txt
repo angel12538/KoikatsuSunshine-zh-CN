@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「５点先取ね。負けたらジュースおーごりっ♪」=“先拿5分的赢哦。输了的人请喝果汁♪”

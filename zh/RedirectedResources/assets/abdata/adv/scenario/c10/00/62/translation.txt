@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「うん、分かってる……でも俺は、[H名]の為を思って提案してるんだ」=“嗯，我明白……但是，我是为了[H名]着想才这么提议的”

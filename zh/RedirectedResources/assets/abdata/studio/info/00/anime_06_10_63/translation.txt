@@ -1,0 +1,8 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+動き回る１=走来走去１
+動き回る２=走来走去２
+動き回る３=走来走去３
+動き回る４=走来走去４
+動き回る５=走来走去５

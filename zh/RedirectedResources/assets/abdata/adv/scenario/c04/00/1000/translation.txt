@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「うんうん、人間素直が一番だよ。照れる[H名]も可愛いね」=“嗯嗯，人还是坦率最好啦。害羞的[H名]也很可爱呢”

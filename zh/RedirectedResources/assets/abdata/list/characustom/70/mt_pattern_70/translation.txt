@@ -1,0 +1,6 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+海の生き物=海洋生物
+猫のカフェ=猫咪咖啡馆
+四つ葉のクローバー=四叶草

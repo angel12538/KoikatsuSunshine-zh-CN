@@ -1,0 +1,5 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「でも、今日の[H名]さんはずいぶん素直だよ」=“不过，今天的[H名]特别坦率呢”
+「それにそんなところも含めて俺は[H名]さんを好きになったんだ」=“而且，我就是连这样的地方一起喜欢上[H名]的”

@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「<color%3Dyellow>チンアナゴ</color>って、ずっと眺めていても飽きませんよね」=“<color%3Dyellow>花园鳗</color>一直看都看不腻呢”

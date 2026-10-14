@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「俺が球を打つまで、[H名]に見つめられているってことだし……」=“也就是说，在我击球之前，都会被[H名]盯着看……”

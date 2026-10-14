@@ -1,0 +1,4 @@
+//
+// Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
+//
+「じゃ、じゃあ、俺は[H名]さんの下僕になるよ！」=“那、那么，我就做[H名]的仆人！”
