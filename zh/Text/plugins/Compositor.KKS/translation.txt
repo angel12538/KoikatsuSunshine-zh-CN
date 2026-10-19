@@ -1,0 +1,5 @@
+// Compositor.KKS.dll
+#enable fallback
+Mask=遮罩
+Feather=羽化
+Normal=法线

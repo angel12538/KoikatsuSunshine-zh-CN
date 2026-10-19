@@ -1,0 +1,3 @@
+// KKS_Screencap.dll
+#enable fallback
+Frame=边框

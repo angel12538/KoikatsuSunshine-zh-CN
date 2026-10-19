@@ -1,0 +1,3 @@
+// KKS_SexFaces.dll
+#enable fallback
+Iris=虹膜
