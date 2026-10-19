@@ -10,6 +10,10 @@
 // 数字、日期和纯符号保持原样，跳过在线翻译。
 r:"\A([\d\s+＋\-－−.,，．/／:：%％()（）]+)\z"=$1
 
+// 快捷键及左右修饰键名称保持原样，跳过在线翻译。
+r:"\A((?:[A-Za-z0-9]|F(?:[1-9]|1[0-5]|\{\{[A-Z]+\}\})|(?:Left|Right) ?(?:Shift|Control|Ctrl|Alt|Command|Windows|Meta|Apple)|Ctrl|Control|Shift|Alt|AltGr|Command|Windows|Meta|(?:Alpha|Keypad|Mouse)(?:\d|\{\{[A-Z]+\}\})|Keypad(?:Period|Divide|Multiply|Minus|Plus|Enter|Equals)|(?:Up|Down|Left|Right)Arrow|Backspace|Delete|Tab|Clear|Return|Enter|Pause|Escape|Esc|Space|Insert|Home|End|PageUp|PageDown|Numlock|CapsLock|ScrollLock|Menu|Print|SysReq|Break|Help|BackQuote|Quote|DoubleQuote|Comma|Period|Slash|Backslash|Semicolon|Colon|Minus|Plus|Equals|LeftBracket|RightBracket|LeftParen|RightParen|Asterisk|Exclaim|Hash|Dollar|Percent|Ampersand|Less|Greater|Question|At|Caret|Underscore)(?:[ \t]*\+[ \t]*(?:[A-Za-z0-9]|F(?:[1-9]|1[0-5]|\{\{[A-Z]+\}\})|(?:Left|Right) ?(?:Shift|Control|Ctrl|Alt|Command|Windows|Meta|Apple)|Ctrl|Control|Shift|Alt|AltGr|Command|Windows|Meta|(?:Alpha|Keypad|Mouse)(?:\d|\{\{[A-Z]+\}\})|Keypad(?:Period|Divide|Multiply|Minus|Plus|Enter|Equals)|(?:Up|Down|Left|Right)Arrow|Backspace|Delete|Tab|Clear|Return|Enter|Pause|Escape|Esc|Space|Insert|Home|End|PageUp|PageDown|Numlock|CapsLock|ScrollLock|Menu|Print|SysReq|Break|Help|BackQuote|Quote|DoubleQuote|Comma|Period|Slash|Backslash|Semicolon|Colon|Minus|Plus|Equals|LeftBracket|RightBracket|LeftParen|RightParen|Asterisk|Exclaim|Hash|Dollar|Percent|Ampersand|Less|Greater|Question|At|Caret|Underscore))+)\z"=$1
+r:"\A((?:Left|Right) ?(?:Shift|Control|Ctrl|Alt|Command|Windows|Meta|Apple)|AltGr)\z"=$1
+
 #set exe KoikatsuSunshine
 
 AAAカップ未満(無乳)=AAA罩杯以下(无乳)
