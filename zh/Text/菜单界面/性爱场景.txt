@@ -1,8 +1,6 @@
 //H场景
-男=男性
 女=女性
 
-アクセサリー=饰品
 服装切り替え=切换服装
 コーディネート=套装
 
@@ -12,12 +10,10 @@ Top=上装
 Bottom=下装
 Underwear=内裤
 Gloves=手套
-Socks=袜类
 風呂=浴衣
 Casual clothes=常服
 Swimwear=泳装
 Nightwear=睡衣
-Bathroom=浴衣
 
 全て付ける=全部穿上
 全てはずす=全部脱下
@@ -32,7 +28,6 @@ Bathroom=浴衣
 Lock Camlight=锁定镜头灯光
 Lower Shadow Resolution=降低阴影分辨率
 
-寝=躺姿
 背もたれ無し長椅子=无靠背长凳
 プール内立ち=站在泳池中
 
