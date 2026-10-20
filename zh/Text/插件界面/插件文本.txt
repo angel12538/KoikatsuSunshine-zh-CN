@@ -282,6 +282,46 @@ StandardOutType=标准输出类型
 UnityLogListening=监听 Unity 日志
 Warn=警告
 WriteUnityLog=写入 Unity 日志
+Appends to the log file instead of overwriting, on game startup.=游戏启动时，将日志追加到文件末尾，而不覆盖原文件。
+Auto - lets BepInEx decide how to redirect console output=Auto - 由 BepInEx 自动决定如何重定向控制台输出
+Cecil=Cecil
+Console Out=控制台输出
+ConsoleOut - prefer redirecting to console output; if possible, closes original standard output=ConsoleOut - 优先重定向到控制台输出；如可行，则关闭原标准输出
+DynamicMethod=DynamicMethod
+Enable/disable assembly metadata cache=启用或禁用程序集元数据缓存
+Enables or disables runtime patches.=启用或禁用运行时补丁。
+Enables showing a console for log output.=显示用于输出日志的控制台。
+Enables showing unity log messages in the BepInEx logging system.=在 BepInEx 日志系统中显示 Unity 日志消息。
+Enables writing log messages to disk.=将日志消息写入磁盘。
+Enabling this will speed up discovery of plugins and patchers by caching the metadata of all types BepInEx discovers.=启用后，会缓存 BepInEx 发现的所有类型的元数据，从而加快插件和补丁程序的发现速度。
+Hints console manager on what handle to assign as StandardOut. Possible values:=向控制台管理器提示应将哪个句柄用作标准输出。可选值：
+If enabled, BepInEx will call Debugger.Break() once before loading patched assemblies.=启用后，BepInEx 会在加载修补后的程序集前调用一次 Debugger.Break()。
+If enabled, BepInEx will load patched assemblies from BepInEx/DumpedAssemblies instead of memory.=启用后，BepInEx 会从 BepInEx/DumpedAssemblies 而非内存加载修补后的程序集。
+If enabled, BepInEx will save patched assemblies into BepInEx/DumpedAssemblies.=启用后，BepInEx 会将修补后的程序集保存到 BepInEx/DumpedAssemblies。
+If enabled, hides BepInEx Manager GameObject from Unity.=启用后，将对 Unity 隐藏 BepInEx Manager 游戏对象。
+If enabled, will prevent closing the console (either by deleting the close button or in other platform-specific way).=启用后，将通过移除关闭按钮或其他平台专用方式阻止关闭控制台。
+If enabled, writes Standard Output messages to Unity log=启用后，将标准输出消息写入 Unity 日志。
+If set to true, will override DumpAssemblies.=设为 true 时，此项优先于 DumpAssemblies。
+If true, console is set to the Shift-JIS encoding, otherwise UTF-8 encoding.=设为 true 时，控制台使用 Shift-JIS 编码；否则使用 UTF-8 编码。
+Include unity log messages in log file output.=将 Unity 日志消息包含在日志文件输出中。
+MethodBuilder=MethodBuilder
+NOTE: By default, Unity does so automatically. Only use this option if no console messages are visible in Unity log=注意：Unity 默认会自动执行此操作。仅在 Unity 日志中看不到控制台消息时才启用此项。
+NOTE: IL channel dumps the whole patch methods, use only when needed!=注意：IL 通道会转储完整的补丁方法，仅在需要时启用！
+Specifies which Harmony log channels to listen to.=指定要监听的 Harmony 日志通道。
+Specifies which MonoMod backend to use for Harmony patches. Auto uses the best available backend.=指定 Harmony 补丁使用的 MonoMod 后端。Auto 会选择当前可用的最佳后端。
+Standard Out=标准输出
+StandardOut - prefer redirecting to standard output; if possible, closes console out=StandardOut - 优先重定向到标准输出；如可行，则关闭控制台输出
+The local filename of the assembly to target.=目标程序集的本地文件名。
+The name of the method in the specified entrypoint assembly and type to hook and load Chainloader from.=指定入口程序集和类型中要挂钩的方法名称；将通过该方法加载 Chainloader。
+The name of the type in the entrypoint assembly to search for the entrypoint method.=入口程序集内的类型名称，用于在其中查找入口方法。
+This can be used by developers to inspect and debug preloader patchers.=开发者可用此选项检查和调试预加载器补丁程序。
+This can be used to be able to load patched assemblies into debuggers like dnSpy.=可用此选项将修补后的程序集加载到 dnSpy 等调试器中。
+This can be used with debuggers like dnSpy to install breakpoints into patched assemblies before they are loaded.=可配合 dnSpy 等调试器，在修补后的程序集加载前为其设置断点。
+This can fix loading issues in some games that attempt to prevent BepInEx from being loaded.=可修复某些试图阻止 BepInEx 加载的游戏所出现的加载问题。
+This setting should only be used for development purposes (e.g. debugging in dnSpy). Other code might override this setting.=此设置仅供开发使用（例如在 dnSpy 中调试）。其他代码可能会覆盖此设置。
+This should always be true, unless you cannot start the game due to a Harmony related issue (such as running .NET Standard runtime) or you know what you're doing.=此项通常应保持为 true；只有在 Harmony 相关问题（例如使用 .NET Standard 运行时）导致游戏无法启动，或你明确了解此选项时才更改。
+Use this only if you know what this option means, as it can affect functionality of some older plugins.=此选项可能影响部分旧版插件的功能，仅在明确了解其含义时使用。
+Which log leves are saved to the disk log output.=指定保存到磁盘日志文件的日志级别。
 
 // BepInEx.CatchUnityEventExceptions.dll
 CatchUnityEventExceptions is not compatible with version of Unity that this game is using!=CatchUnityEventExceptions 与本游戏所用的 Unity 版本不兼容！
@@ -886,6 +926,10 @@ VSync has to be disabled for this setting to take effect.=须关闭垂直同步�
 The amount of pixel lights that can be rendered by Forward render path shaders.=前向渲染路径着色器可渲染的像素光源数量。
 -1 leaves the game's default amount.=-1 表示保持游戏默认数量。
 Should the game be running when it is in the background (when the window is not focused)?=游戏在后台（窗口未获得焦点）时是否继续运行？
+Borderless fullscreen=无边框全屏
+Fullscreen=全屏
+Force Enable=强制启用
+Windowed=窗口模式
 
 // HideAllUI.KoikatsuSunshine.dll
 HideAllUI {{A}}\n...=隐藏全部界面 {{A}}\n...
@@ -898,9 +942,6 @@ Canvas Main Menu=画布：主菜单
 Canvas System Menu=画布：系统菜单
 Canvas Guide Input=画布：操作指引
 Canvas Pattern=画布：图案
-
-// Hotkey Camera
-Hotkey Camera {{A}}=镜头快捷键 {{A}}
 
 // ICSharpCode.SharpZipLib.dll
 Window full=窗口已满
@@ -1637,6 +1678,8 @@ Player runtimeAnimatorController.animationClips has different size than the repl
 Failed to find animation clip =找不到动画片段
 
 // KKS_BetterColorPicker.dll
+Better Color Picker {{A}}=增强取色器 {{A}}
+Better Color Picker {{A}}\n...=增强取色器 {{A}}\n...
 * Press any key to finish *=* 按任意键完成 *
 Adjust color to saturation filter=根据饱和度滤镜调整颜色
 When using default saturation filter the game colors are different than actual colors. Use this setting to adjust the color you capture to make it look correct under the saturation filter. If you do not use the saturation filter, disable this option to get the true color.=使用默认饱和度滤镜时，游戏中的颜色与实际颜色不同。此设置会调整取到的颜色，使其在饱和度滤镜下显示正确。如果不使用饱和度滤镜，请停用此选项以获取真实颜色。
@@ -1699,6 +1742,8 @@ Belly=腹部
  Options= 选项
 Clipping Offset: Front Collision =穿模偏移：前方碰撞
 Clipping Offset: Back Collision =穿模偏移：后方碰撞
+Clipping Offset: Back Collision {{A}}=穿模偏移：后部碰撞 {{A}}
+Clipping Offset: Front Collision {{A}}=穿模偏移：前部碰撞 {{A}}
 
 // KKS_BetterShadowQualitySettings.dll
 BetterShadowQualitySettings {{A}}\n...=阴影画质增强 {{A}}\n...
@@ -1720,6 +1765,12 @@ Shadow Near Plane=阴影近裁剪面
 Render Mode=渲染模式
 GeneralSettings=常规设置
 CharaLightSettings=角色灯光设置
+Shadow Cascades {{A}}Split=阴影级联 {{A}} 分割
+Shadow Cascades {{A}}Split X=阴影级联 {{A}} 分割 X
+Shadow Cascades {{A}}Split Y=阴影级联 {{A}} 分割 Y
+Shadow Cascades {{A}}Split Z=阴影级联 {{A}} 分割 Z
+Hard Only=仅硬阴影
+Stable Fit=稳定适配
 
 // KKS_BetterSquirt.dll
 KKS_BetterSquirt {{A}}\n...=KKS_潮吹增强 {{A}}\n...
@@ -1750,6 +1801,9 @@ Set to 0 to disable this feature=设为 0 可禁用此功能
 Duration of the improved squirting when triggered manually by the hotkey=通过快捷键手动触发时，增强潮吹的持续时间
 In auto mode it depends on the girl's excitement gauge=自动模式下取决于女孩的兴奋度
 Amount and volume of the improved squirting when triggered manually by the hotkey=通过快捷键手动触发时，增强潮吹的量和强度
+If Girl is Aroused=女孩兴奋时
+Maximum=最大值
+Minimum=最小值
 
 // KKS_BGMLoader.dll
 Loading BGM track "=正在载入背景音乐曲目“
@@ -1772,6 +1826,7 @@ Intercourse=性交
 Lesbian=女女性爱
 MaleFloor=男性倍率下限
 Service=侍奉
+Cubic Plateau=三次平台曲线
 
 // KKS_Boop.dll
 Boop {{A}}\n...=轻戳 {{A}}\n...
@@ -1785,6 +1840,7 @@ Boop=轻戳
 unknown type =未知类型
 
 // KKS_BreastPhysicsController.dll
+BreastPhysicsController=乳房物理控制器
 BreastPhysicsController {{A}}\n...=乳房物理控制器 {{A}}\n...
 CheckDictParam:dictParameterSet not contain requiered Key=CheckDictParam：dictParameterSet 中不包含所需的键
 Minimum value of gravity slider.=重力滑动条的下限值。
@@ -1884,6 +1940,7 @@ Unknown target dir passed to GetMoveFile or card path is outside of UserData! ta
 When you select a custom folder to load a scene from, newly saved scenes will be saved to this folder.=选择自定义文件夹读取场景后，新保存的场景会保存到该文件夹。
 If disabled, scenes are always saved to default folder (studio/scene).=禁用时，场景总是保存到默认文件夹（studio/scene）。
 Failed to open the folder - =无法打开文件夹 -
+Folders placed inside your /chara/male/ folder will appear on this list.=放在 /chara/male/ 文件夹内的子文件夹会显示在此列表中。
 
 // KKS_Bulge.dll
 Bulge in the pants, tent in the woods {{A}}\n...=裤裆隆起，林间帐篷 {{A}}\n...
@@ -1902,6 +1959,7 @@ Should bulges be enabled if not specified per-character (in Body/Genitals tab in
 Auto will only apply bulges to characters with shlogns. Always will apply no matter what, and Never will not apply unless you enable it per-character.=自动只对有阴茎的角色应用凸起。总是会无条件应用，从不则只在按角色单独启用时应用。
 Auto will enable the bulge only if the character has a shlong (either male or added with UncensorSelector).=自动：只在角色有阴茎时（男性，或通过 UncensorSelector 添加）启用凸起。
 The effect is applied only when wearing clothes.=效果只在穿着衣服时应用。
+Auto will enable the bulge only if the character has a shlong (either male or added with UncensorSelector).\nThe effect is applied only when wearing clothes.=自动模式仅在角色拥有阴茎时启用裤裆隆起效果（男性角色，或通过 UncensorSelector 添加）。\n效果仅在穿着服装时生效。
 
 // KKS_ChaAlphaMask.dll
 Character Alpha Mask {{A}}\n...=角色透明度遮罩 {{A}}\n...
@@ -2001,6 +2059,8 @@ seems to be invalid. Loading default=似乎无效。正在读取默认角色
 Replacing Default Female with card: =正在用角色卡替换默认女性：
 Replacing Default Male with card: =正在用角色卡替换默认男性：
 Replacing N/A with card: =正在用角色卡替换 N/A：
+Browse for Default Female Replacement=浏览并选择默认女性替换角色
+Browse for Default Male Replacement=浏览并选择默认男性替换角色
 
 // KKS_CharaStudioVR.dll
 Check and reset to StandingMode if not.=检查是否为站姿模式，若不是则重置。
@@ -2345,6 +2405,7 @@ Default state of colliders for new characters in Studio or for older scenes.=Stu
 Scenes made with this plugin will load with colliders enabled or disabled depending on how the character in scene was configured.=用本插件制作的场景读取时，会根据场景中角色的配置启用或禁用碰撞体。
 
 // KKS_ColorCorrector.dll
+Color Filter Remover {{A}}\n...=色彩滤镜移除器 {{A}}\n...
 Post Processing Settings=后期处理设置
 Bloom strength=泛光强度
 Strength of the bloom filter override. Bloom strength override has to be enabled for this setting to have an effect.=覆盖泛光滤镜的强度。必须启用泛光强度覆盖，此设置才会生效。
@@ -3103,6 +3164,7 @@ Partial: Use high poly models only if necessary. Higher resource usage and longe
 Full: Always use high poly models. Best quality but very high resource usage. At least 8GB of RAM is recommended with ~10 characters. Load times can be 3x longer.=完全：总是使用高面数模型。质量最好，但资源占用非常高。约 10 个角色时建议至少 8GB 内存。读取时间可能延长到 3 倍。
 Original setting kept due to external dependency, no longer used.=因外部依赖而保留的原设置，已不再使用。
 Use the 'Force High Poly Models' setting instead.=请改用“强制高面数模型”设置。
+Partial=按需启用
 
 // KKS_FreeHAutoPlay.dll
 Start Loading...=开始载入...
@@ -3874,6 +3936,7 @@ UI_InfiniteScroll \=> No ScrollRect component found=UI_InfiniteScroll \=> 未找
 Control already initialized=控件已初始化
 You have to enable the InitByUser setting on the control in order to use Init() when running=要在运行时使用 Init()，必须在控件上启用 InitByUser 设置
 UI_ScrollRectOcclusion \=> No ScrollRect component found=UI_ScrollRectOcclusion \=> 未找到 ScrollRect 组件
+Spurt repeat times: =喷射重复次数： 
 
 // KKS_FreeHRandom.dll
 Free H Random {{A}}=自由 H 随机化 {{A}}
@@ -3905,6 +3968,9 @@ Loaded features: =已加载的功能：
 If enabled, sometimes a heroine will refuse raw insert on dangerous day until the second insert (once per day).=启用后，女主角有时会在危险日拒绝无套插入，直到第二次插入（每天一次）。
 If disabled the default game logic is used (girl will never refuse if you did raw 5 times or more in total.)=禁用时使用游戏默认逻辑（累计无套 5 次以上后女孩永远不会拒绝）。
 Only works if you use UncensorSelector to give a female card a penis but no vagina in maker. Some positions don't have the anal option so you won't be able to insert at all in them.=仅在使用 UncensorSelector 在编辑器中为女性角色卡设置了阴茎但没有阴道时有效。部分体位没有肛交选项，因此在这些体位中完全无法插入。
+Koikatu Gameplay Tweaks and Improvements {{A}}\n...=恋活玩法调整与改进 {{A}}\n...
+Koikatu Gameplay Tweaks and Improvements {{A}}=恋活玩法调整与改进 {{A}}
+Fast travel (F{{A}}) time cost=快速移动（F{{A}}）耗时
 
 // KKS_GeBoCommon.dll
 GeBo Modding API {{A}}=GeBo 模组 API {{A}}
@@ -3968,6 +4034,8 @@ Show Male Guide Object=显示男性辅助物件
 Show the guide object for adjusting the boy's position=显示用于调整男孩子位置的辅助物件
 Reset adjustments for girl 1 position=重置女孩子 1 的位置调整
 Reset adjustments for girl 2 position=重置女孩子 2 的位置调整
+Reset Female {{A}} Position=重置女性 {{A}} 位置
+Show Female {{A}} Guide Object=显示女性 {{A}} 操作轴
 
 // KKS_HCtrl_zh-CN.dll
 KKS_HCtrl 抽插控制{{A}}=KKS_HCtrl 抽插控制{{A}}
@@ -4013,6 +4081,8 @@ Width bar indicator=宽度条指示
 Height floor bar indicator=身高地面条指示
 Width floor bar indicator=宽度地面条指示
 Show width measure bar=显示宽度测量条
+Freedom=英制
+Metric=公制
 
 // KKS_HLightControl.dll
 KKS_HLightControl {{A}}\n...=KKS_H 场景灯光控制 {{A}}\n...
@@ -4555,6 +4625,25 @@ Otherwise the reflection is of subpar quality, but performance doesn't suffer.=�
 Found Unity window handle ptr\==找到 Unity 窗口句柄 ptr\=
 AutoTouch=自动触摸
 Pov=第一人称视角
+Boys=男孩
+Climax=高潮
+Girls=女孩
+On Demand=按需
+Proximity=接近
+Remote=远程
+Yaw And Rotation=偏航与旋转
+{{A}}. General={{A}}. 通用
+{{A}}. GripMove={{A}}. 抓握移动
+{{A}}. H Scene={{A}}. H 场景
+{{A}}. Impersonation (PoV)={{A}}. 角色代入（第一人称视角）
+{{A}}. Inverse Kinematics (IK)={{A}}. 逆向运动学（IK）
+{{A}}. Performance={{A}}. 性能
+{{A}}. Roaming={{A}}. 自由行动
+Caress Item=爱抚道具
+Controller Item=控制器道具
+GripMove=握持移动
+Only Rotation=仅旋转
+Average=平均值
 
 // KKS_MakerAdditions.dll
 Repeat=重复
@@ -4571,6 +4660,7 @@ Animate Pose Default=默认启用姿势动画
 If disabled the Pose Animation will be disabled by dafault=若停用，姿势动画默认处于停用状态
 
 // KKS_MakerCameraPresets.dll
+Hotkey Camera {{A}}=镜头快捷键 {{A}}
 KKS_MakerCameraPresets {{A}}\n...=KKS_角色编辑镜头预设 {{A}}\n...
 KKS_MakerCameraPresets {{A}}=KKS_角色编辑镜头预设 {{A}}
 Sunshine=Sunshine
@@ -4626,6 +4716,7 @@ Save Camera=保存镜头
 Button Theme=按钮主题
 Theme to use for the UI=界面使用的主题
 Camera Presets UI=镜头预设界面
+Camera {{A}}=镜头 {{A}}
 
 // KKS_MakerDefaults.dll
 Maker Defaults {{A}}\n...=角色编辑默认设置 {{A}}\n...
@@ -4661,6 +4752,8 @@ Default Preset Characters=默认预设角色
 Default preset characters in character list=角色列表中的默认预设角色
 Default Preset Coordinates=默认预设套装
 Default preset coordinates in character list=角色列表中的默认预设套装
+Automatic=自动
+From Animation=来自动画
 
 // KKS_MakerRandomPicker.dll
 Kind=种类
@@ -4683,6 +4776,7 @@ Failed writing MakerSearch cache: =写入 MakerSearch 缓存失败：
 Global - search text is same for all boxes, =全局 - 所有搜索框使用相同的搜索文本，
 Separate - different for each box, =分开 - 每个框各不相同，
 None - reset after search=无 - 搜索后重置
+Global=全局
 
 // KKS_MaleJuice.dll
 Could not load juice textures.=无法载入体液纹理。
@@ -5212,6 +5306,9 @@ Projector: =投影器：
 [MaterialEditor] No local texture found with hash =[MaterialEditor] 未找到哈希为以下值的本地纹理：
 [MaterialEditor] Multiple local textures found with hash =[MaterialEditor] 找到多个哈希为以下值的本地纹理：
 Persist=保留
+Keep Header Inside=保持标题栏在窗口内
+Keep Whole Window Inside=将整个窗口限制在屏幕内
+No Limits=不限制
 
 // KKS_MoarCamz.dll
 Fast Drag Position Sensitivity=快速拖动位置灵敏度
@@ -5471,6 +5568,7 @@ Removing data for missing coordinates: =正在移除不存在的服装的数据�
 Invalid texture ID found, entry will be removed: coord\={0} type\={1} texID\={2}=发现无效的纹理 ID，该条目将被移除：服装\={0} 类型\={1} 纹理ID\={2}
 [Overlays] No local texture found with hash =[Overlays] 未找到哈希为以下值的本地纹理：
 [Overlays] Multiple local textures found with hash =[Overlays] 找到多个哈希为以下值的本地纹理：
+Local textures will be exported to / imported from this folder. If empty, defaults to G:\\game\\KoikatsuSunshine2\\Koikatsu.v.1.1.4\\UserData\\Overlays\\_LocalTextures.=本地贴图会导出到此文件夹，也会从此文件夹导入。留空时默认使用 G:\\game\\KoikatsuSunshine2\\Koikatsu.v.1.1.4\\UserData\\Overlays\\_LocalTextures。
 
 // KKS_PantyFairy.dll
 PantyFairy {{A}}\n...=内裤妖精 {{A}}\n...
@@ -6024,6 +6122,27 @@ ToneThreshold=色调阈值
 UseHSVtrans=使用 HSV 转换
 UseNewMode=使用新模式
 _Enable=_启用
+BlurPasses=模糊迭代次数
+Classic=经典
+High Quality Bilateral=高质量双边滤波
+Low Definition Range=低动态范围
+OutlineColor=描边颜色
+Scalable Ambient Obscurance=可扩展环境遮蔽
+_MasterSwitch=_总开关
+_OpenGUI=_打开界面
+_Switch=_开关
+A C E S=ACES
+AutoFocus=自动对焦
+Exponential Squared=指数平方
+External=外部
+Fast Approximate Antialiasing=快速近似抗锯齿（FXAA）
+High Definition Range=高动态范围（HDR）
+Masked=蒙版
+Multi Scale Volumetric Obscurance=多尺度体积遮蔽
+SampleCount=采样数
+Subpixel Morphological Antialiasing=亚像素形态抗锯齿（SMAA）
+Temporal Antialiasing=时间抗锯齿（TAA）
+Very Large=超大
 
 // KKS_Pregnancy.dll
 KK_Pregnancy {{A}}\n...=KK_怀孕系统 {{A}}\n...
@@ -6849,6 +6968,17 @@ Allows you to increase the belly InflationSize in Story/Main-Game Mode=允许在
 Can be CPU heavy with many characters=角色多时可能占用大量 CPU
 Allows you to decrease the belly InflationSize in Story/Main-Game Mode=允许在剧情/本篇游戏模式中减小腹部膨胀大小
 Allows you to reset the belly InflationSize in Story/Main-Game Mode=允许在剧情/本篇游戏模式中重置腹部膨胀大小
+Allows you to increase or decrease the 'Move Y' amount in story mode for for all pregnant characters=允许在剧情模式中增大或减小所有怀孕角色的“移动 Y”数值。
+Allows you to increase or decrease the 'Move Z' amount in story mode for for all pregnant characters=允许在剧情模式中增大或减小所有怀孕角色的“移动 Z”数值。
+Allows you to increase or decrease the 'Multiplier' amount in story mode for all pregnant characters=允许在剧情模式中增大或减小所有怀孕角色的“倍率”数值。
+Allows you to increase or decrease the 'Roundness' amount in story mode for for all pregnant characters=允许在剧情模式中增大或减小所有怀孕角色的“圆润度”数值。
+Allows you to increase or decrease the 'Shift Y' amount in story mode for for all pregnant characters=允许在剧情模式中增大或减小所有怀孕角色的“偏移 Y”数值。
+Allows you to increase or decrease the 'Shift Z' amount in story mode for for all pregnant characters=允许在剧情模式中增大或减小所有怀孕角色的“偏移 Z”数值。
+Allows you to increase or decrease the 'Stretch X' amount in story mode for for all pregnant characters=允许在剧情模式中增大或减小所有怀孕角色的“拉伸 X”数值。
+Allows you to increase or decrease the 'Stretch Y' amount in story mode for for all pregnant characters=允许在剧情模式中增大或减小所有怀孕角色的“拉伸 Y”数值。
+Allows you to increase or decrease the 'Taper Y' amount in story mode for for all pregnant characters=允许在剧情模式中增大或减小所有怀孕角色的“锥化 Y”数值。
+Allows you to increase or decrease the 'Taper Z' amount in story mode for for all pregnant characters=允许在剧情模式中增大或减小所有怀孕角色的“锥化 Z”数值。
+Allows you to increase the 'Drop' amount in story mode for for all pregnant characters=允许在剧情模式中增大所有怀孕角色的“下垂”数值。
 
 // KKS_ProjectorUtils.dll
 ProjectorUtils {{A}}=投影工具 {{A}}
@@ -7218,6 +7348,27 @@ Unhandled screenshot filename format - =未处理的截图文件名格式 -
 Writing =正在写入
  screenshot to = 截图到
 SideV=侧边 V 形线
+CenterLines=中心线
+CrossOut=对角交叉线
+Cutout transparency (hard edges)=镂空透明（硬边缘）
+Framing=取景框
+Gradual transparency (has issues with some effects)=渐变透明（部分效果存在问题）
+GridPhi=黄金分割网格
+GridThirds=三分法网格
+No transparency=不透明
+Take rendered {{A}}D screenshot=截取渲染后的 {{A}}D 截图
+Take {{A}} screenshot=截取 {{A}} 截图
+Take {{A}} {{B}}D screenshot=截取 {{A}} {{B}}D 截图
+{{A}} screenshot resolution={{A}} 截图分辨率
+{{A}} Screenshots={{A}} 截图
+{{A}}D screenshot eye separation={{A}}D 截图双眼间距
+{{A}}D screenshot image separation offset={{A}}D 截图图像间距偏移
+{{A}}D Settings={{A}}D 设置
+Name Date Type=名称 日期 类型
+Name Date=名称、日期
+Name Type Date=名称、类型、日期
+Type Date=类型、日期
+Type Name Date=类型、名称、日期
 
 // KKS_SexFaces.dll
 Sex Faces {{A}}=性爱表情 {{A}}
@@ -7571,6 +7722,7 @@ OnHeelInfoUpdate: Error\==OnHeelInfoUpdate：错误\=
 小腿角度=小腿角度
 脚踝角度=脚踝角度
 高度修正=高度修正
+Advanced Panel (RightShift)=高级面板（右 Shift）
 
 // KKS_Studio_BetterPenetration.dll
 Auto-Target=自动瞄准
@@ -8574,6 +8726,9 @@ Failed to load KKS_Subtitles xml file.=载入 KKS_Subtitles 的 xml 文件失败
 ジブン距離近ない？　まあ～ええけど=你是不是靠得有点近？嘛～也无所谓啦
 は～　なんかオモロイことないかな～=哈～有没有什么好玩的事啊～
 なんやなんや～？　なんでもいうて～=什么什么～？有啥尽管说～
+In=进入
+InOut=进出
+VR Text {{A}} Offset=VR 文本 {{A}} 偏移
 
 // KKS_TalkFreeCamera.dll
 Removing added CameraControl_Ver2=正在移除添加的 CameraControl_Ver2
@@ -8689,6 +8844,57 @@ TopicTalkRareHandler=稀有话题对话处理器（TopicTalkRareHandler）
 VoiceAllDataHandler=全部语音数据处理器（VoiceAllDataHandler）
 VoiceInfoHandler=语音信息处理器（VoiceInfoHandler）
 WhereLiveDataHandler=居住地点数据处理器（WhereLiveDataHandler）
+Handle AnimationInfoData assets=处理 AnimationInfoData 资源
+Handle ClubInfo assets=处理 ClubInfo 资源
+Handle CommunicationInfo assets=处理 CommunicationInfo 资源
+Handle CommunicationNPCData assets=处理 CommunicationNPCData 资源
+Handle EnvSEData assets=处理 EnvSEData 资源
+Handle EstheticVoiceInfo assets=处理 EstheticVoiceInfo 资源
+Handle EventInfo assets=处理 EventInfo 资源
+Handle ExcelData assets=处理 ExcelData 资源
+Handle FootSEData assets=处理 FootSEData 资源
+Handle MapInfo assets=处理 MapInfo 资源
+Handle MapThumbnailInfo assets=处理 MapThumbnailInfo 资源
+Handle NickName assets=处理 NickName 资源
+Handle PrayInfo assets=处理 PrayInfo 资源
+Handle ResultTopicData assets=处理 ResultTopicData 资源
+Handle ScenarioData assets=处理 ScenarioData 资源
+Handle ShopInfo assets=处理 ShopInfo 资源
+Handle TextAsset assets containing tables=处理包含表格的 TextAsset 资源
+Handle TextAsset assets with ChaListData packed inside=处理内部封装有 ChaListData 的 TextAsset 资源
+Handle TipsData assets=处理 TipsData 资源
+Handle Topic assets=处理 Topic 资源
+Handle TopicListenData assets=处理 TopicListenData 资源
+Handle TopicPersonalityGroup assets=处理 TopicPersonalityGroup 资源
+Handle TopicTalkCommon assets=处理 TopicTalkCommon 资源
+Handle TopicTalkRare assets=处理 TopicTalkRare 资源
+Handle VoiceAllData assets=处理 VoiceAllData 资源
+Handle VoiceInfo assets=处理 VoiceInfo 资源
+Handle WhereLiveData assets=处理 WhereLiveData 资源
+Register strings replaced by AnimationInfoDataHandler as text translations with XUnity Auto Translator=将 AnimationInfoDataHandler 替换的字符串作为文本翻译注册到 XUnity Auto Translator。
+Register strings replaced by ChaListDataHandler as text translations with XUnity Auto Translator=将 ChaListDataHandler 替换的字符串作为文本翻译注册到 XUnity Auto Translator。
+Register strings replaced by ClubInfoHandler as text translations with XUnity Auto Translator=将 ClubInfoHandler 替换的字符串作为文本翻译注册到 XUnity Auto Translator。
+Register strings replaced by CommunicationInfoHandler as text translations with XUnity Auto Translator=将 CommunicationInfoHandler 替换的字符串作为文本翻译注册到 XUnity Auto Translator。
+Register strings replaced by CommunicationNPCHandler as text translations with XUnity Auto Translator=将 CommunicationNPCHandler 替换的字符串作为文本翻译注册到 XUnity Auto Translator。
+Register strings replaced by EnvSEDataHandler as text translations with XUnity Auto Translator=将 EnvSEDataHandler 替换的字符串作为文本翻译注册到 XUnity Auto Translator。
+Register strings replaced by EstheticVoiceInfoHandler as text translations with XUnity Auto Translator=将 EstheticVoiceInfoHandler 替换的字符串作为文本翻译注册到 XUnity Auto Translator。
+Register strings replaced by EventInfoHandler as text translations with XUnity Auto Translator=将 EventInfoHandler 替换的字符串作为文本翻译注册到 XUnity Auto Translator。
+Register strings replaced by FootSEDataHandler as text translations with XUnity Auto Translator=将 FootSEDataHandler 替换的字符串作为文本翻译注册到 XUnity Auto Translator。
+Register strings replaced by MakerCustomDataHandler as text translations with XUnity Auto Translator=将 MakerCustomDataHandler 替换的字符串作为文本翻译注册到 XUnity Auto Translator。
+Register strings replaced by MapInfoHandler as text translations with XUnity Auto Translator=将 MapInfoHandler 替换的字符串作为文本翻译注册到 XUnity Auto Translator。
+Register strings replaced by MapThumbnailInfoHandler as text translations with XUnity Auto Translator=将 MapThumbnailInfoHandler 替换的字符串作为文本翻译注册到 XUnity Auto Translator。
+Register strings replaced by MonologueInfoHandler as text translations with XUnity Auto Translator=将 MonologueInfoHandler 替换的字符串作为文本翻译注册到 XUnity Auto Translator。
+Register strings replaced by NickNameHandler as text translations with XUnity Auto Translator=将 NickNameHandler 替换的字符串作为文本翻译注册到 XUnity Auto Translator。
+Register strings replaced by PrayInfoHandler as text translations with XUnity Auto Translator=将 PrayInfoHandler 替换的字符串作为文本翻译注册到 XUnity Auto Translator。
+Register strings replaced by ShopInfoHandler as text translations with XUnity Auto Translator=将 ShopInfoHandler 替换的字符串作为文本翻译注册到 XUnity Auto Translator。
+Register strings replaced by TipsDataHandler as text translations with XUnity Auto Translator=将 TipsDataHandler 替换的字符串作为文本翻译注册到 XUnity Auto Translator。
+Register strings replaced by TopicListenDataHandler as text translations with XUnity Auto Translator=将 TopicListenDataHandler 替换的字符串作为文本翻译注册到 XUnity Auto Translator。
+Register strings replaced by TopicPersonalityGroupHandler as text translations with XUnity Auto Translator=将 TopicPersonalityGroupHandler 替换的字符串作为文本翻译注册到 XUnity Auto Translator。
+Register strings replaced by TopicTalkCommonHandler as text translations with XUnity Auto Translator=将 TopicTalkCommonHandler 替换的字符串作为文本翻译注册到 XUnity Auto Translator。
+Register strings replaced by TopicTalkRareHandler as text translations with XUnity Auto Translator=将 TopicTalkRareHandler 替换的字符串作为文本翻译注册到 XUnity Auto Translator。
+Register strings replaced by VoiceAllDataHandler as text translations with XUnity Auto Translator=将 VoiceAllDataHandler 替换的字符串作为文本翻译注册到 XUnity Auto Translator。
+Register strings replaced by VoiceInfoHandler as text translations with XUnity Auto Translator=将 VoiceInfoHandler 替换的字符串作为文本翻译注册到 XUnity Auto Translator。
+Register strings replaced by WhereLiveDataHandler as text translations with XUnity Auto Translator=将 WhereLiveDataHandler 替换的字符串作为文本翻译注册到 XUnity Auto Translator。
 
 // KKS_TimelineFlowControl.dll
 Flow Control=流程控制
@@ -8933,6 +9139,29 @@ dankon=阴茎
 Male:=男性：
 Intensity: {{A}}=强度：{{A}}
 Shading:=着色：
+ Tracking Camera {{A}}= 追踪镜头 {{A}}
+chest_follow=chest_follow
+face_follow=face_follow
+GroupFramingSize: =群组构图大小： 
+kokan_follow=kokan_follow
+povDan_follow=povDan_follow
+povEye_follow=povEye_follow
+Round 180\r\n(+Control: Round 90)=旋转 180 度\r\n（+Control：旋转 90 度）
+spine_follow=spine_follow
+waist_fix=waist_fix
+(A):=(A)：
+(B):=(B)：
+(G):=(G)：
+Outline Density:=描边浓度：
+Shadow Density:=阴影浓度：
+SpecularColor (R):=高光颜色（R）：
+乳輪の大きさ:=乳晕大小：
+肉感の強さ:=肉感强度：
+胸の柔らかさ:=胸部柔软度：
+胸の重さ:=胸部重量：
+身長:=身高：
+頭サイズ:=头部大小：
+音声調整(低-高):=声音调节（低—高）：
 
 // KKS_TranslationCacheCleaner.dll
 Translation Cache Cleaner {{A}}=翻译缓存清理器 {{A}}
@@ -9014,6 +9243,8 @@ KKS_SetupHooks: unable to hook fullname support for =KKS_SetupHooks：无法为�
 Name already tracked: =名字已在跟踪中：
 StringMethodTranspilerHelper: Patched =StringMethodTranspilerHelper：已修补
 StringMethodTranspilerHelper: Unable to patch =StringMethodTranspilerHelper：无法修补
+Cache Only=仅使用缓存
+Fully Enabled=完全启用
 
 // KKS_TreeNodeOrdering.dll
 [TreeNodeNaming] failed to obtain pluginData from OnLoad event=[TreeNodeNaming] 无法从 OnLoad 事件获取 pluginData
@@ -9084,6 +9315,80 @@ uncensors to exclude for =要排除的无修正（用于
 Default =默认
  uncensors to exclude from random selection for = 随机选择时要排除的无修正，用于
 UVs got corrupted when creating uncensor mesh =创建无修正网格时 UV 损坏：
+Balls to use if the character does not have one set. The mosaic balls will not be selected randomly if there are any alternatives.=角色未指定睾丸模型时使用的模型。有其他可选模型时，不会随机选中带马赛克的睾丸模型。
+Body to use if the character does not have one set. The censored body will not be selected randomly if there are any alternatives.=角色未指定身体模型时使用的模型。有其他可选模型时，不会随机选中带遮挡的身体模型。
+BP Balls=BP 睾丸
+BP DA Balls=BP DA 睾丸
+BP Profundis=BP 深渊
+BP SAC Innie=BP SAC 内收型
+BP SoS=BP SoS
+Configure uncensors to exclude for Female Balls=配置女性睾丸需排除的无码模型
+Configure uncensors to exclude for Female Body=配置女性躯体需排除的无码模型
+Configure uncensors to exclude for Female Penis=配置女性阴茎需排除的无码模型
+Configure uncensors to exclude for Male Balls=配置男性睾丸需排除的无码模型
+Configure uncensors to exclude for Male Body=配置男性躯体需排除的无码模型
+Configure uncensors to exclude for Male Penis=配置男性阴茎需排除的无码模型
+Default Female Balls=默认女性睾丸
+Default Female Body=默认女性躯体
+Default Female Penis=默认女性阴茎
+Default Male Balls=默认男性睾丸
+Default Male Body=默认男性身体
+Default Male Penis=默认男性阴茎
+Female Balls=女性睾丸
+Female Body=女性躯体
+Female Penis=女性阴茎
+Male Balls=男性睾丸
+Male Body=男性躯体
+Male Penis=男性阴茎
+Penis to use if the character does not have one set. The mosaic penis will not be selected randomly if there are any alternatives.=角色未指定阴茎模型时使用的模型。有其他可选模型时，不会随机选中带马赛克的阴茎模型。
+SAC Clit=SAC 阴蒂型
+SAC Clit{{A}}=SAC 阴蒂型{{A}}
+SAC Gash=SAC 裂口型
+SAC Gash {{A}}=SAC 裂口型 {{A}}
+SAC Innie=SAC 内收型
+SAC Innie{{A}}=SAC 内收型{{A}}
+SAC Meaty=SAC 肉感型
+SAC Meaty {{A}}=SAC 肉感型 {{A}}
+SAC Puffy=SAC 饱满型
+SAC Roastie=SAC 外翻型
+SAC Roastie {{A}}=SAC 外翻型 {{A}}
+SAC Slit=SAC 缝隙型
+Uncensors To Exclude For Female Balls For Game=主游戏女性睾丸随机选择排除列表
+Uncensors To Exclude For Female Body For Game=主游戏女性身体随机选择排除列表
+Uncensors To Exclude For Female Penis For Game=主游戏女性阴茎随机选择排除列表
+Uncensors To Exclude For Male Body For Game=主游戏男性身体随机选择排除列表
+Uncensors To Exclude For Male Penis For Game=主游戏男性阴茎随机选择排除列表
+[Female] BP Profundis=[女性] BP 深渊
+[Female] BP SAC Innie=[女性] BP SAC 内收型
+[Female] Default Body F=[女性] 默认身体 F
+[Female] EV Muscle ARM=[女性] EV 肌肉身体 ARM
+[Female] EV Muscle LEG=[女性] EV 肌肉身体 LEG
+[Female] EV Muscle SFF=[女性] EV 肌肉身体 SFF
+[Female] SAC Clit=[女性] SAC 阴蒂型
+[Female] SAC Clit{{A}}=[女性] SAC 阴蒂型{{A}}
+[Female] SAC Gash=[女性] SAC 裂口型
+[Female] SAC Gash {{A}}=[女性] SAC 裂口型 {{A}}
+[Female] SAC Innie=[女性] SAC 内收型
+[Female] SAC Innie{{A}}=[女性] SAC 内收型{{A}}
+[Female] SAC Kupaa=[女性] SAC 张开型
+[Female] SAC Meaty=[女性] SAC 肉感型
+[Female] SAC Meaty {{A}}=[女性] SAC 肉感型 {{A}}
+[Female] SAC Puffy=[女性] SAC 饱满型
+[Female] SAC Roastie=[女性] SAC 外翻型
+[Female] SAC Roastie {{A}}=[女性] SAC 外翻型 {{A}}
+[Female] SAC Slit=[女性] SAC 缝隙型
+[Male] Default Body M=[男性] 默认身体 M
+[Male] EV Muscle MALE=[男性] EV 肌肉身体 MALE
+Balls uncensors to exclude from random selection for females=女性随机选择时排除的睾丸无码模型
+Balls uncensors to exclude from random selection for males=男性随机选择时排除的睾丸无码模型
+Body uncensors to exclude from random selection for females=女性随机选择时排除的身体无码模型
+Body uncensors to exclude from random selection for males=男性随机选择时排除的身体无码模型
+Color Matching Balls=颜色匹配的睾丸
+Penis uncensors to exclude from random selection for females=女性随机选择时排除的阴茎无码模型
+Penis uncensors to exclude from random selection for males=男性随机选择时排除的阴茎无码模型
+Uncensors To Exclude For Male Balls For Game=主游戏中男性睾丸随机选择的排除列表
+[女性] BP Profundis=[女性] BP Profundis
+颜色 Matching Balls=颜色匹配的睾丸
 
 // KKS_VideoPlate.dll
 Open UI Shortcut=打开界面快捷键
@@ -9454,6 +9759,7 @@ When enabled, all yellow scale sliders in maker are split into XYZ sliders (one 
 Note that using uneven scaling on some parts can skew the model in some animations, especially in H mode.=注意，对某些部位进行不均匀缩放可能使模型在某些动画中扭曲，尤其是在 H 模式中。
 The setting takes effect immediately while inside maker. Has no effect on advanced window.=在编辑器中，此设置会立即生效。对高级窗口无影响。
 Maximum values of all yellow sliders in maker are increased twofold. Can cause even more horrifying results. Recommended to only enable when working on furries and superdeformed charas.=编辑器中所有黄色滑块的最大值提高为两倍。可能产生更加骇人的效果。建议仅在制作兽人或 Q 版角色时启用。
+Increase slider limits {{A}}x=将滑块范围扩大 {{A}} 倍
 
 // KKSAPI.dll
 Modding API {{A}}\n...=模组 API {{A}}\n...
@@ -9780,6 +10086,7 @@ Overwriting existing topic No\={0} Name\={1} with Name\={2}=正在覆盖已有�
 Handling custom topic No\==正在处理自定义话题 No\=
 Could not convert type =无法转换类型
  with XmlConvert, you have to convert it manually=（XmlConvert 无法转换，须手动转换）
+Reset On Restart=重启时重置
 
 // KKSPE.dll
 BS ({0} {1})=形态键 ({0} {1})
@@ -11477,14 +11784,18 @@ Desired initial state of the joint correction toggles. This is applied if the Au
 Couldn't call Awake for feature =无法为功能调用 Awake：
 Couldn't call LevelLoaded for feature =无法为功能调用 LevelLoaded：
 GenericFK=通用 FK
+LeftArm=左臂
+LeftForearm=左前臂
+LeftLeg=左腿
+LeftThigh=左大腿
+RightArm=右臂
+RightForearm=右前臂
+RightLeg=右腿
+RightThigh=右大腿
 
 // KKUSSSunshineFix.KoikatsuSunshine.dll
 Found KKUSS, setting NormalMaps...=找到 KKUSS，正在设置法线贴图...
 KKUSS default normal maps placed: {0}=已放置 KKUSS 默认法线贴图：{0}
-
-// Koikatu Gameplay Tweaks and Improvements
-Koikatu Gameplay Tweaks and Improvements {{A}}\n...=恋活玩法调整与改进 {{A}}\n...
-Koikatu Gameplay Tweaks and Improvements {{A}}=恋活玩法调整与改进 {{A}}
 
 // LightSettings.KoikatsuSunshine.dll
 Item(s) selected, trying to sync GUI...=已选中物品，正在尝试同步界面...
@@ -11901,6 +12212,11 @@ Plugin made by Starstorm=插件作者：Starstorm
 Restoring history item: =正在恢复历史项目：
  a texture= 一张纹理
  - Scale ({0},{1}) Offset ({2},{3})= - 缩放 ({0},{1}) 偏移 ({2},{3})
+Whether the 'Set ...' buttons will affect characters' accessories, excluding any hair.=“设置……”按钮是否影响角色的饰品（不含头发）。
+Whether the 'Set ...' buttons will affect characters' clothes.=“设置……”按钮是否影响角色的服装。
+Whether the 'Set ...' buttons will affect characters' faces and bodies.=“设置……”按钮是否影响角色的面部和身体。
+Whether the 'Set ...' buttons will affect characters' hair, including hair accs.=“设置……”按钮是否影响角色的头发（包括发饰）。
+Whether the 'Set ...' buttons will affect characters' held items (items parented to characters).=“设置……”按钮是否影响角色手持的物品（父级绑定到角色的物品）。
 
 // MaterialEditorClipboard.KoikatsuSunshine.dll
 Material Editor Clipboard {{A}}\n...=材质编辑器剪贴板 {{A}}\n...
@@ -12585,6 +12901,35 @@ Invoke result: =调用结果：
 Invalid generic argument #{0} - =无效的泛型参数 #{0} -
 Invalid parameter #{0} - =无效的参数 #{0} -
  window size= 窗口大小
+Breakpoints enabled=启用断点
+Breakpoints window size=断点窗口大小
+Cheat Tools enabled=启用作弊工具
+Cheat Tools window size=作弊工具窗口大小
+Clipboard enabled=启用剪贴板
+Clipboard window size=剪贴板窗口大小
+ContextMenu enabled=启用右键菜单
+Fatal=致命错误
+Gizmos enabled=启用辅助图标
+History enabled=启用历史记录
+History window size=历史记录窗口大小
+Inspector enabled=启用检查器
+Inspector window size=检查器窗口大小
+Logger enabled=启用日志窗口
+Logger window size=日志窗口大小
+Mouse inspect enabled=启用鼠标检视
+Object Browser enabled=启用对象浏览器
+Object Browser window size=对象浏览器窗口大小
+Patch Inspector enabled=启用补丁检查器
+Patch Inspector window size=补丁检查器窗口大小
+Profiler enabled=启用性能分析器
+Profiler window size=性能分析器窗口大小
+REPL console enabled=启用 REPL 控制台
+REPL console window size=REPL 控制台窗口大小
+Unlock cursor enabled=启用光标解锁
+Viewer enabled=启用查看器
+Viewer window size=查看器窗口大小
+Warning=警告
+Wireframe enabled=启用线框显示
 
 // ShaderFixer.KoikatsuSunshine.dll
 Koikatsu Shader Fixer {{A}}\n...=恋活着色器修复 {{A}}\n...
@@ -13195,6 +13540,11 @@ Scale X: =X 缩放：
    •   Hold Shift: Local Space=   •   按住 Shift：局部空间
 Pivot: =轴心：
 <b>TOHYK Enabled</b>   •   Pivot: =<b>TOHYK 已启用</b>   •   轴心：
+Median Point=中点
+Accessory Parent=饰品父级
+Active Element=活动元素
+Bounding Box Center=边界框中心
+Individual Origins=各自原点
 
 // TTFLoaderMono.dll
 [TTFLoader 2.1.3][U+180E PATCH] TMP_CharacterInfo.isVisible field not found.=[TTFLoader 2.1.3][U+180E PATCH] 未找到 TMP_CharacterInfo.isVisible 字段。
@@ -13626,163 +13976,70 @@ SmallO=O 口型（小）
 SmallU=U 口型（小）
 TongueOut=吐舌
 Triangle=三角嘴
+Big A=A 口型（大）
+Big E=E 口型（大）
+Big I=I 口型（大）
+Big N=N 口型（大）
+Big O=O 口型（大）
+Big U=U 口型（大）
+Hold In Mouth=含住
+Small A=A 口型（小）
+Small E=E 口型（小）
+Small I=I 口型（小）
+Small N=N 口型（小）
+Small O=O 口型（小）
+Small U=U 口型（小）
+Tongue Out=吐舌
 
 // 截图、透明度与构图设置
- Tracking Camera {{A}}= 追踪镜头 {{A}}
 Action ({{A}})=动作（{{A}}）
 At Camera=在镜头位置
 BUST{{A}}=胸部{{A}}
-CenterLines=中心线
-chest_follow=chest_follow
 Cozy ({{A}})=舒适（{{A}}）
-CrossOut=对角交叉线
-Cutout transparency (hard edges)=镂空透明（硬边缘）
 CylindricalPosition=圆柱坐标位置
 End: =结束： 
 FACE=脸部
 Face({{A}})=脸部({{A}})
-face_follow=face_follow
 Fixed({{A}})=固定({{A}})
-Framing=取景框
 GOO=GOO
-Gradual transparency (has issues with some effects)=渐变透明（部分效果存在问题）
-GridPhi=黄金分割网格
-GridThirds=三分法网格
-GroupFramingSize: =群组构图大小： 
 height=高度
 KOKAN=胯部
-kokan_follow=kokan_follow
 LockToTargetOnAssign=指定时锁定目标
 LockToTargetWithWorldUp=锁定目标（世界上方向）
 LOWER{{A}}=下半身{{A}}
 MIDDLE=中部
 Natural ({{A}})=自然（{{A}}）
-No transparency=不透明
 NONE=无
 NORMAL=普通
 Pov({{A}})=第一人称视角({{A}})
-povDan_follow=povDan_follow
-povEye_follow=povEye_follow
-Round 180\r\n(+Control: Round 90)=旋转 180 度\r\n（+Control：旋转 90 度）
 ScreenSpaceAimWhenTargetsDiffer=目标不同时使用屏幕空间瞄准
 SimpleFollowWithWorldUp=简单跟随（世界上方向）
 SphericalPosition=球面坐标位置
-spine_follow=spine_follow
 Std=标准
-Take rendered {{A}}D screenshot=截取渲染后的 {{A}}D 截图
-Take {{A}} screenshot=截取 {{A}} 截图
-Take {{A}} {{B}}D screenshot=截取 {{A}} {{B}}D 截图
 UPPER{{A}}=上半身{{A}}
-waist_fix=waist_fix
 WHOLE=全身
 width=宽度
 WorldSpace=世界空间
-{{A}} screenshot resolution={{A}} 截图分辨率
-{{A}} Screenshots={{A}} 截图
-{{A}}D screenshot eye separation={{A}}D 截图双眼间距
-{{A}}D screenshot image separation offset={{A}}D 截图图像间距偏移
-{{A}}D Settings={{A}}D 设置
 
-// 无码模型、身体部件与相关说明
-Auto will enable the bulge only if the character has a shlong (either male or added with UncensorSelector).\nThe effect is applied only when wearing clothes.=自动模式仅在角色拥有阴茎时启用裤裆隆起效果（男性角色，或通过 UncensorSelector 添加）。\n效果仅在穿着服装时生效。
-Balls to use if the character does not have one set. The mosaic balls will not be selected randomly if there are any alternatives.=角色未指定睾丸模型时使用的模型。有其他可选模型时，不会随机选中带马赛克的睾丸模型。
-Body to use if the character does not have one set. The censored body will not be selected randomly if there are any alternatives.=角色未指定身体模型时使用的模型。有其他可选模型时，不会随机选中带遮挡的身体模型。
-BP Balls=BP 睾丸
-BP DA Balls=BP DA 睾丸
-BP Profundis=BP 深渊
-BP SAC Innie=BP SAC 内收型
-BP SoS=BP SoS
-Configure uncensors to exclude for Female Balls=配置女性睾丸需排除的无码模型
-Configure uncensors to exclude for Female Body=配置女性躯体需排除的无码模型
-Configure uncensors to exclude for Female Penis=配置女性阴茎需排除的无码模型
-Configure uncensors to exclude for Male Balls=配置男性睾丸需排除的无码模型
-Configure uncensors to exclude for Male Body=配置男性躯体需排除的无码模型
-Configure uncensors to exclude for Male Penis=配置男性阴茎需排除的无码模型
-Default Female Balls=默认女性睾丸
-Default Female Body=默认女性躯体
-Default Female Penis=默认女性阴茎
-Default Male Balls=默认男性睾丸
-Default Male Body=默认男性身体
-Default Male Penis=默认男性阴茎
-Female Balls=女性睾丸
-Female Body=女性躯体
-Female Penis=女性阴茎
-Male Balls=男性睾丸
-Male Body=男性躯体
-Male Penis=男性阴茎
-Penis to use if the character does not have one set. The mosaic penis will not be selected randomly if there are any alternatives.=角色未指定阴茎模型时使用的模型。有其他可选模型时，不会随机选中带马赛克的阴茎模型。
-SAC Clit=SAC 阴蒂型
-SAC Clit{{A}}=SAC 阴蒂型{{A}}
-SAC Gash=SAC 裂口型
-SAC Gash {{A}}=SAC 裂口型 {{A}}
-SAC Innie=SAC 内收型
-SAC Innie{{A}}=SAC 内收型{{A}}
-SAC Meaty=SAC 肉感型
-SAC Meaty {{A}}=SAC 肉感型 {{A}}
-SAC Puffy=SAC 饱满型
-SAC Roastie=SAC 外翻型
-SAC Roastie {{A}}=SAC 外翻型 {{A}}
-SAC Slit=SAC 缝隙型
-Uncensors To Exclude For Female Balls For Game=主游戏女性睾丸随机选择排除列表
-Uncensors To Exclude For Female Body For Game=主游戏女性身体随机选择排除列表
-Uncensors To Exclude For Female Penis For Game=主游戏女性阴茎随机选择排除列表
-Uncensors To Exclude For Male Body For Game=主游戏男性身体随机选择排除列表
-Uncensors To Exclude For Male Penis For Game=主游戏男性阴茎随机选择排除列表
-[Female] BP Profundis=[女性] BP Profundis
-[Female] BP SAC Innie=[女性] BP SAC 内收型
-[Female] Default Body F=[女性] 默认身体 F
-[Female] EV Muscle ARM=[女性] EV 肌肉身体 ARM
-[Female] EV Muscle LEG=[女性] EV 肌肉身体 LEG
-[Female] EV Muscle SFF=[女性] EV 肌肉身体 SFF
-[Female] SAC Clit=[女性] SAC 阴蒂型
-[Female] SAC Clit{{A}}=[女性] SAC 阴蒂型{{A}}
-[Female] SAC Gash=[女性] SAC 裂口型
-[Female] SAC Gash {{A}}=[女性] SAC 裂口型 {{A}}
-[Female] SAC Innie=[女性] SAC 内收型
-[Female] SAC Innie{{A}}=[女性] SAC 内收型{{A}}
-[Female] SAC Kupaa=[女性] SAC 张开型
-[Female] SAC Meaty=[女性] SAC 肉感型
-[Female] SAC Meaty {{A}}=[女性] SAC 肉感型 {{A}}
-[Female] SAC Puffy=[女性] SAC 饱满型
-[Female] SAC Roastie=[女性] SAC 外翻型
-[Female] SAC Roastie {{A}}=[女性] SAC 外翻型 {{A}}
-[Female] SAC Slit=[女性] SAC 缝隙型
-[Male] Default Body M=[男性] 默认身体 M
-[Male] EV Muscle MALE=[男性] EV 肌肉身体 MALE
+// 服装、套装名称与穿戴状态
+Clothed=着衣
+Naked=裸体
 
 // 材质、着色器与后处理
-(A):=(A)：
-(B):=(B)：
-(G):=(G)：
 Addcolor:=叠加颜色：
-BlurPasses=模糊迭代次数
-Classic=经典
-Clipping Offset: Back Collision {{A}}=穿模偏移：后部碰撞 {{A}}
-Clipping Offset: Front Collision {{A}}=穿模偏移：前部碰撞 {{A}}
 DetailMaskScale:=细节遮罩缩放：
 DetailNormalMapScale:=细节法线贴图强度：
 Emission:=自发光：
 Glossiness:=光滑度：
-High Quality Bilateral=高质量双边滤波
-Low Definition Range=低动态范围
 Metallic:=金属度：
 notusetexspecular:=禁用纹理高光：
 Occlusion:=遮蔽：
 Outline=描边
-Outline Density:=描边浓度：
-OutlineColor=描边颜色
 rimpower:=边缘光强度：
 rimV:=边缘光 V 值：
-Scalable Ambient Obscurance=可扩展环境遮蔽
-Shadow Cascades {{A}}Split=阴影级联 {{A}} 分割
-Shadow Cascades {{A}}Split X=阴影级联 {{A}} 分割 X
-Shadow Cascades {{A}}Split Y=阴影级联 {{A}} 分割 Y
-Shadow Cascades {{A}}Split Z=阴影级联 {{A}} 分割 Z
-Shadow Density:=阴影浓度：
 ShadowExtend:=阴影扩展：
 ShadowPower=阴影强度
 ShadowPower:=阴影强度：
-SpecularColor (R):=高光颜色（R）：
 SpecularColor:=高光颜色：
 SpecularPower:=高光强度：
 SpecularPowerNail:=指甲高光强度：
@@ -13793,67 +14050,37 @@ Use_BaseAs1st:=将基础层用作第一层：
 USS=USS
 UTS=UTS
 UTSTESS=UTSTESS
-_MasterSwitch=_总开关
-_OpenGUI=_打开界面
-_Switch=_开关
 {{A}}x MSAA={{A}} 倍 MSAA
 乳首のツヤ強さ:=乳头光泽强度：
 肌のツヤの強さ:=皮肤光泽强度：
+Body Over=身体上层
 
 // 游戏流程与H场景控制
 3P床=3P 床
-Boys=男孩
-Climax=高潮
 Doggy & Cunnilingus=后入与舔阴
 Doggy & Cunnilingus (Switch Girl)=后入与舔阴（交换女方）
-Fast travel (F{{A}}) time cost=快速移动（F{{A}}）耗时
 Fellatio & Nip Licking=口交与舔乳头
 Fellatio & Nip Licking (Switch Girl)=口交与舔乳头（交换女方）
-Girls=女孩
-If Girl is Aroused=女孩兴奋时
 Missionary & Fingering 2=传教士体位与指交 2
 Missionary & Fingering 2 (Switch Girl)=传教士体位与指交 2（交换女方）
-Reset Female {{A}} Position=重置女性 {{A}} 位置
-Show Female {{A}} Guide Object=显示女性 {{A}} 操作轴
-Spurt repeat times: =喷射重复次数： 
+Based on Timer=按计时器触发
+Mute All Spoken Lines=静音所有角色台词
+Mute Idle Speech=静音待机台词
 
 // 虚拟现实与视角控制
-In=进入
-InOut=进出
-On Demand=按需
-Proximity=接近
-Remote=远程
 VR=VR
-VR Text {{A}} Offset=VR 文本 {{A}} 偏移
-Yaw And Rotation=偏航与旋转
-{{A}}. General={{A}}. 通用
-{{A}}. GripMove={{A}}. 抓握移动
-{{A}}. H Scene={{A}}. H 场景
-{{A}}. Impersonation (PoV)={{A}}. 角色代入（第一人称视角）
-{{A}}. Inverse Kinematics (IK)={{A}}. 逆向运动学（IK）
-{{A}}. Performance={{A}}. 性能
-{{A}}. Roaming={{A}}. 自由行动
 
 // 身体部位与体型参数
 BODY(o_body_a)=身体(o_body_a)
 face=脸部
 FACE(cf_O_face)=脸部(cf_O_face)
 Left Leg=左腿
-LeftArm=左臂
-LeftForearm=左前臂
-LeftLeg=左腿
-LeftThigh=左大腿
 Right Leg=右腿
-RightArm=右臂
-RightForearm=右前臂
-RightLeg=右腿
-RightThigh=右大腿
 Scrotum=阴囊
 ふくらはぎ:=小腿：
 ウエスト位置:=腰部位置：
 上腕奥:=上臂厚度：
 上腕幅:=上臂宽度：
-乳輪の大きさ:=乳晕大小：
 乳輪の膨らみ:=乳晕隆起程度：
 乳首太さ:=乳头粗细：
 乳首立ち:=乳头勃起程度：
@@ -13864,7 +14091,6 @@ Scrotum=阴囊
 太もも下幅:=大腿下部宽度：
 尻:=臀部：
 尻角度:=臀部角度：
-肉感の強さ:=肉感强度：
 肘周り奥:=肘部厚度：
 肘周り幅:=肘部宽度：
 肩奥:=肩部厚度：
@@ -13878,8 +14104,6 @@ Scrotum=阴囊
 胸の尖り:=胸部尖锐度：
 胸の左右位置:=胸部左右位置：
 胸の左右開き:=胸部外扩程度：
-胸の柔らかさ:=胸部柔软度：
-胸の重さ:=胸部重量：
 胸サイズ:=胸部大小：
 胸上下位置:=胸部上下位置：
 胸上下角度:=胸部上下角度：
@@ -13893,75 +14117,33 @@ Scrotum=阴囊
 膝下幅:=膝下宽度：
 足首奥:=脚踝厚度：
 足首幅:=脚踝宽度：
-身長:=身高：
-頭サイズ:=头部大小：
 首周り奥:=颈部厚度：
 首周り幅:=颈部宽度：
+Hip=臀部
 
-// 运行时编辑器与调试窗口
-Breakpoints enabled=启用断点
-Breakpoints window size=断点窗口大小
-Cheat Tools enabled=启用作弊工具
-Cheat Tools window size=作弊工具窗口大小
-Clipboard enabled=启用剪贴板
-Clipboard window size=剪贴板窗口大小
-ContextMenu enabled=启用右键菜单
-Fatal=致命错误
-Gizmos enabled=启用辅助图标
-History enabled=启用历史记录
-History window size=历史记录窗口大小
-Inspector enabled=启用检查器
-Inspector window size=检查器窗口大小
-Logger enabled=启用日志窗口
-Logger window size=日志窗口大小
-Mouse inspect enabled=启用鼠标检视
-Object Browser enabled=启用对象浏览器
-Object Browser window size=对象浏览器窗口大小
-Patch Inspector enabled=启用补丁检查器
-Patch Inspector window size=补丁检查器窗口大小
-Profiler enabled=启用性能分析器
-Profiler window size=性能分析器窗口大小
-REPL console enabled=启用 REPL 控制台
-REPL console window size=REPL 控制台窗口大小
-Unlock cursor enabled=启用光标解锁
-Viewer enabled=启用查看器
-Viewer window size=查看器窗口大小
-Warning=警告
-Wireframe enabled=启用线框显示
+// 运行环境与日志设置
+Unity=Unity
 
 // 通用界面与角色编辑设置
-Advanced Panel (RightShift)=高级面板（右 Shift）
-Automatic=自动
 Body Scale X=身体 X 轴缩放
 Body Scale Y=身体 Y 轴缩放
 Body Scale Z=身体 Z 轴缩放
 Bold And Italic=粗斜体
-Browse for Default Female Replacement=浏览并选择默认女性替换角色
-Browse for Default Male Replacement=浏览并选择默认男性替换角色
-Cache Only=仅使用缓存
 Change=更改
 Countdown: =倒计时： 
 Default Behavior=默认行为
-Folders placed inside your /chara/male/ folder will appear on this list.=放在 /chara/male/ 文件夹内的子文件夹会显示在此列表中。
 For Female=女性用
-Force Enable=强制启用
-From Animation=来自动画
-Fully Enabled=完全启用
-Increase slider limits {{A}}x=将滑块范围扩大 {{A}} 倍
-Keep Header Inside=保持标题栏在窗口内
 Lower Center=下方居中
 Lower Left=左下
 Lower Right=右下
 MainGame=主游戏
 Male {{A}} Options=男性 {{A}} 选项
 Max: =最大值： 
-Median Point=中点
 Middle Center=正中
 Middle Left=左侧居中
 Middle Right=右侧居中
 Min: =最小值： 
 mode=模式
-Name Date Type=名称 日期 类型
 OffsetX=X 轴偏移
 Preset1=预设 1
 Preset2=预设 2
@@ -13975,10 +14157,9 @@ Upper Center=上方居中
 Upper Left=左上
 Upper Right=右上
 Use {{A}} mode instead of {{B}}=使用 {{A}} 模式代替 {{B}}
-Windowed=窗口模式
 _General_=_通用_
 何かキーを押して下さい=请按任意键
-音声調整(低-高):=声音调节（低—高）：
+Date=日期
 
 // 面部表情与情绪
 Ahegao1=阿嘿颜 1
@@ -14031,6 +14212,42 @@ Unknown3=未知 3
 WinkingL=眨眼（左）
 WinkingR=眨眼（右）
 Worried=担忧
+Angry{{A}}=生气 {{A}}
+Avert Gaze=移开视线
+Cartoony Closed=卡通式闭眼
+Cartoony Crying=卡通式哭泣
+Cartoony Smile=卡通式微笑
+Cartoony Wink=卡通式眨眼
+Circle Eyes{{A}}=圆圈眼 {{A}}
+Doubt L=疑惑（左）
+Doubt R=疑惑（右）
+Down And Left=左下
+Down And Right=右下
+Downward=向下
+Excited Broad=兴奋（明显）
+Excited Moderate=兴奋（中等）
+Excited Slight=兴奋（轻微）
+Fiery Eyes=火焰眼
+Furious L=愤怒（左）
+Furious R=愤怒（右）
+Happy Broad=喜悦（明显）
+Happy Closed=笑眯眼
+Happy Moderate=喜悦（中等）
+Happy Slight=喜悦（轻微）
+Heart Pupils=心形瞳孔
+Horizontal Line=横线
+Right And Up=右上
+Serious{{A}}=严肃 {{A}}
+Spiral Eyes=螺旋眼
+Star Pupils=星形瞳孔
+Surprised Moderate=惊讶（中等）
+Thinking L=思考（左）
+Thinking R=思考（右）
+Up And Left=左上
+Upward=向上
+Vertical Line=竖线
+Winking L=眨眼（左）
+Winking R=眨眼（右）
 
 // 动态文本正则
 // BetterScaling.KoikatsuSunshine.dll：正则
@@ -14190,7 +14407,6 @@ r:"^Not enough Koikatsu points \((?<g0>[\S\s]+?)\)$"=恋活点数不足（${g0}�
 r:"^Unknown crest type "(?<g0>[\S\s]+?)", resetting to no crest$"=未知的淫纹类型“${g0}”，已重置为无淫纹
 
 // KKS_MakerCameraPresets.dll：正则
-r:"^Camera (?<g0>[\S\s]+?)$"=镜头 ${g0}
 r:"^Position: (?<g0>[\S\s]+?)$"=位置：${g0}
 r:"^Angle: (?<g0>[\S\s]+?)$"=角度：${g0}
 r:"^Direction: (?<g0>[\S\s]+?)$"=方向：${g0}
@@ -14297,7 +14513,6 @@ r:"^Pole Amount: (?<g0>[\S\s]+?)$"=极点数量：${g0}
 r:"^More poles and mid bones\. Maximum: (?<g0>[\S\s]+?)$"=极点和中间骨骼过多。最大值：${g0}
 
 // KKS_StudioPseudoMaker.dll：正则
-r:"^(?<g0>[\S\s]+?) Color (?<g1>[\S\s]+?)$"=${g0} 颜色 ${g1}
 r:"^(?<g0>[\S\s]+?) Pattern (?<g1>[\S\s]+?) (?<g2>[\S\s]+?)$"=${g0} 图案 ${g1} ${g2}
 r:"^Accessory Slot (?<g0>[\S\s]+?) Color (?<g1>[\S\s]+?)$"=饰品栏位 ${g0} 颜色 ${g1}
 r:"^Show Control Axis (?<g0>[\S\s]+?)$"=显示控制轴 ${g0}
@@ -14409,7 +14624,6 @@ r:"^Fade In: (?<g0>-?[\d.,]+)s$"=淡入：${g0}s
 r:"^Fade Out: (?<g0>-?[\d.,]+)s$"=淡出：${g0}s
 
 // Timeline.dll：正则
-r:"^Color (?<g0>[\S\s]+?)$"=颜色 ${g0}
 r:"^Pattern UV (?<g0>[\S\s]+?)$"=图案 UV ${g0}
 r:"^Pattern Rot (?<g0>[\S\s]+?)$"=图案旋转 ${g0}
 r:"^Pattern Tiling (?<g0>[\S\s]+?)$"=图案平铺 ${g0}
