@@ -1,7 +1,6 @@
 //
 // Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
 //
-ウクレレ=尤克里里
 扇子(開)=折扇(开)
 扇子(閉)=折扇(合)
 虫取りあみ=捕虫网
@@ -12,3 +11,4 @@
 くまで=耙子
 サーフボード=冲浪板
 水鉄砲=水枪
+ウクレレ=尤克里里

@@ -126,8 +126,8 @@
 るぅちゃん=阿琉
 れーちゃん=阿礼
 わっちゃん=阿和
-SPECIAL:先輩=SPECIAL:前辈
-SPECIAL:お兄ちゃん=SPECIAL:哥哥
-SPECIAL:先生=SPECIAL:老师
-SPECIAL:ダーリン=SPECIAL:亲爱的
-SPECIAL:ご主人様=SPECIAL:主人
+SPECIAL:先輩=前辈
+SPECIAL:お兄ちゃん=哥哥
+SPECIAL:先生=老师
+SPECIAL:ダーリン=亲爱的
+SPECIAL:ご主人様=主人

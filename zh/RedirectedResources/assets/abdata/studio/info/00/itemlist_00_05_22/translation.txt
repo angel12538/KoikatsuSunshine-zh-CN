@@ -2,7 +2,6 @@
 // Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
 //
 ハンガー=衣架
-スプーン=勺子
 箸=筷子
 シャーペン=自动铅笔
 色ペン=彩色笔
@@ -42,3 +41,4 @@
 ツールボックス=工具箱
 紙箱1=纸盒1
 紙箱2=纸盒2
+スプーン=勺子

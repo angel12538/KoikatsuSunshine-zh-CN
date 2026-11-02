@@ -1,10 +1,7 @@
 //
 // Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
 //
-なし=无
 赤と青=红蓝
-C=C
-H=H
 年数Ⅰ=年级Ⅰ
 年数Ⅱ=年级Ⅱ
 年数Ⅲ=年级Ⅲ
@@ -29,8 +26,6 @@ H=H
 桔梗の紋(黒)=桔梗纹(黑)
 三つ巴(白)=三巴纹(白)
 三つ巴(黒)=三巴纹(黑)
-CAUTION=CAUTION
-DANGER=DANGER
 背番号00=背号00
 背番号01=背号01
 背番号02=背号02
@@ -54,3 +49,4 @@ DANGER=DANGER
 背番号20=背号20
 一角獣=独角兽
 風獅子=风狮子
+なし=无

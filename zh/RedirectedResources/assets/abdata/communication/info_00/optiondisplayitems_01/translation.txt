@@ -1,22 +1,20 @@
 //
 // Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
 //
+OPTION[102]:もちろんいいよ！=当然可以！
+もちろんいいよ！=当然可以！
+OPTION[105]:うん、いいよ=嗯，好啊
 OPTION[100]:気持ちに応える=回应这份心意
 気持ちに応える=回应这份心意
 OPTION[100]:……ごめん=……抱歉
 ……ごめん=……抱歉
 OPTION[101]:いいよ=好啊
-いいよ=好啊
 OPTION[101]:ごめん=抱歉
-ごめん=抱歉
-OPTION[102]:もちろんいいよ！=当然可以！
-もちろんいいよ！=当然可以！
 OPTION[102]:ごめん=抱歉
 OPTION[103]:いいよ=好啊
 OPTION[103]:ごめん=抱歉
 OPTION[104]:いいよ=好啊
 OPTION[104]:ごめん=抱歉
-OPTION[105]:うん、いいよ=嗯，好啊
 うん、いいよ=嗯，好啊
 OPTION[105]:ごめん=抱歉
 OPTION[201]:いいよ=好啊

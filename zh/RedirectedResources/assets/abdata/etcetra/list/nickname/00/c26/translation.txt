@@ -1,6 +1,7 @@
 //
 // Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
 //
+ふぅ=风
 あお=苍
 あっきー=秋秋
 あっくん=小厚
@@ -76,7 +77,6 @@
 ひで=秀
 ひろ=宏
 ひーくん=小日
-ふぅ=风
 ふみ=文
 ふゆ=冬
 ほうくん=小芳
@@ -113,8 +113,8 @@
 りつ=律
 りゅう=龙
 りょう=亮
-SPECIAL:先輩=SPECIAL:前辈
-SPECIAL:お兄ちゃん=SPECIAL:哥哥
-SPECIAL:先生=SPECIAL:老师
-SPECIAL:ダーリン=SPECIAL:亲爱的
-SPECIAL:ご主人様=SPECIAL:主人
+SPECIAL:先輩=前辈
+SPECIAL:お兄ちゃん=哥哥
+SPECIAL:先生=老师
+SPECIAL:ダーリン=亲爱的
+SPECIAL:ご主人様=主人

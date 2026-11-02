@@ -1,7 +1,6 @@
 //
 // Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
 //
-なし=无
 四角=方形
 三角=三角形
 小三角=小三角形
@@ -15,3 +14,4 @@
 大縦長=大号竖长型
 横長=横长型
 そり跡=剃痕
+なし=无

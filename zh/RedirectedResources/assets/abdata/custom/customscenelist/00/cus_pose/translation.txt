@@ -1,7 +1,6 @@
 //
 // Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
 //
-基本=基本
 揺れ=摇动
 立ち０１=站立０１
 立ち０２=站立０２
@@ -68,4 +67,3 @@
 立ち４３=站立４３
 立ち４４=站立４４
 座り=坐姿
-寝=躺姿

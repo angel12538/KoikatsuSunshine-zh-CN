@@ -1,7 +1,6 @@
 //
 // Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
 //
-植物=植物
 置物=摆件
 サマー=夏日
 ハロウィン=万圣节

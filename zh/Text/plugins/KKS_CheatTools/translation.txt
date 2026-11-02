@@ -1,3 +1,2 @@
 // KKS_CheatTools.dll
 #enable fallback
-Nothing=无

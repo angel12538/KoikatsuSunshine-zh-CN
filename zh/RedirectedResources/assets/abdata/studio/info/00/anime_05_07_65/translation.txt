@@ -1,6 +1,8 @@
 //
 // Dumped for Koikatsu Sunshine v1.0.1 (KoikatsuSunshine) by KKS_TextDump v1.4.5.0
 //
+スイング=挥杆
+orz=orz
 立ち1=站姿1
 立ち2=站姿2
 立ち3=站姿3
@@ -21,5 +23,3 @@
 座り5=坐姿5
 座り6=坐姿6
 座り7=坐姿7
-スイング=挥杆
-orz=orz
