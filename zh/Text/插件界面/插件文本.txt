@@ -767,6 +767,8 @@ Expected ',' or ']' at =此处应为 ',' 或 ']'：
 Expected string at =此处应为字符串：
 Invalid literal at =无效的字面量：
 ) failed: =) 失败：
+Nodes: {{A}} | Textures: {{B}} | Zoom: {{C}}x=节点：{{A}} | 纹理：{{B}} | 缩放：{{C}}x
+FPS: {{A}} | Buffers: {{B}}MB | Managed: {{C}}MB=FPS：{{A}} | 缓冲：{{B}}MB | 托管：{{C}}MB
 
 // ConfigurationManager.dll
 Show advanced=显示高级选项
@@ -1550,6 +1552,7 @@ Create new linked bone edit for=新建关联骨骼编辑：
  (Linked)=（关联）
 Target Bone: =目标骨骼：
 ALWAYS ON is always on=常开：始终为开
+Transferred {{A}} bone edits to Outfit {{B}}=已将 {{A}} 个骨骼编辑转移到套装 {{B}}
 
 // KKS_AssetImport.dll
 KKS_AssetImport {{A}}\n...=KKS_资源导入 {{A}}\n...
@@ -2236,6 +2239,31 @@ Player Name: =玩家名字：
 Disabling shame reactions on map: =正在禁用地图上的害羞反应：
 Prayer bonus: =祈愿加成：
 TalkScene=对话场景
+Add {{A}} Koikatsu points=增加 {{A}} 恋活点数
+H: {{A}}=H：{{A}}
+INT: {{A}}=智力：{{A}}
+STR: {{A}}=体力：{{A}}
+Time: {{A}}=时间：{{A}}
+Day of the week: Holiday=星期：休息日
+Day of the week: Monday=星期：星期一
+Day of the week: Tuesday=星期：星期二
+Day of the week: Wednesday=星期：星期三
+Day of the week: Thursday=星期：星期四
+Day of the week: Friday=星期：星期五
+Day of the week: Saturday=星期：星期六
+Prayer bonus: Nothing=祈愿加成：无
+Prayer bonus: Unknown=祈愿加成：未知
+Prayer bonus: Topic drop bonus=祈愿加成：话题掉落加成
+Prayer bonus: Find more topics?=祈愿加成：寻找更多话题？
+Prayer bonus: Safe topic bonus=祈愿加成：安全话题加成
+Prayer bonus: Girls want to talk=祈愿加成：女孩子想聊天
+Prayer bonus: Extra oil=祈愿加成：额外精油
+Prayer bonus: Confession bonus=祈愿加成：告白加成
+Prayer bonus: Find good topics next day=祈愿加成：第二天找到好话题
+Prayer bonus: Lewd topic bonus=祈愿加成：色色话题加成
+Prayer bonus: Lover visit at evening=祈愿加成：恋人傍晚来访
+Prayer bonus: Girls want to H you=祈愿加成：女孩子想和你H
+Prayer bonus: Ask for sex bonus=祈愿加成：求爱加成
 
 // KKS_ClothColliders.dll
 Cloth colliders support_=支持服装碰撞体_
@@ -2292,6 +2320,7 @@ Unable to create leg01_R collider on =无法创建 leg01_R 碰撞体：
 Unable to create leg02_L collider on =无法创建 leg02_L 碰撞体：
 Unable to create leg02_R collider on =无法创建 leg02_R 碰撞体：
 Cycling =正在循环
+Cycling Underwear on 柏木 壮亮=切换柏木壮亮的内衣
 UpperArm=上臂
 
 // KKS_ClothesToAccessories.dll
@@ -2382,6 +2411,8 @@ Keyboard shortcut to toggle the clothing state menu on and off.=打开或关闭�
 Can be used outside of character maker in some cases - works for males in H scenes (the male has to be visible for the menu to appear) and in some conversations with girls.=某些情况下可在角色编辑器以外使用 —— 适用于 H 场景中的男性（男性必须可见菜单才会出现），以及与女孩的部分对话中。
 M Slot =M 栏位
 S Slot =S 栏位
+M Slot {{A}}: On=M 栏位 {{A}}：开启
+M Slot {{A}}: Off=M 栏位 {{A}}：关闭
 
 // KKS_ClothingUnlocker.dll
 Clothing Unlocker {{A}}\n...=服装解锁器 {{A}}\n...
@@ -2590,6 +2621,8 @@ Method Not Found: =未找到方法：
 Search for Types and Params: =搜索类型和参数：
  not found! Load English for default.= 未找到！默认读取英语。
 Can't found string in resource: =资源中找不到字符串：
+Acc Count : {{A}}=饰品数量：{{A}}
+Loaded: {{A}}=已载入：{{A}}
 
 // KKS_CopyChaBodyMat.dll
 Copy Character BodyMaterial {{A}}\n...=复制角色身体材质 {{A}}\n...
@@ -5309,6 +5342,17 @@ Persist=保留
 Keep Header Inside=保持标题栏在窗口内
 Keep Whole Window Inside=将整个窗口限制在屏幕内
 No Limits=不限制
+Removed {{A}} orphaned propertie(s)=已移除 {{A}} 个孤立属性
+Removed {{A}} orphaned propertie(s) and {{B}} orphaned texture(s)=已移除 {{A}} 个孤立属性和 {{B}} 个孤立纹理
+Pasted edits for {{A}} items=已为 {{A}} 个物品粘贴编辑
+Disabled ShadowCasting for {{A}} items=已为 {{A}} 个物品停用投射阴影
+Enabled ShadowCasting for {{A}} items=已为 {{A}} 个物品启用投射阴影
+Two Sided ShadowCasting for {{A}} items=已为 {{A}} 个物品设置双面投射阴影
+Shadows Only ShadowCasting for {{A}} items=已为 {{A}} 个物品设置仅投射阴影
+Reset ShadowCasting for {{A}} items=已为 {{A}} 个物品重置投射阴影
+Disabled ReceiveShadows for {{A}} items=已为 {{A}} 个物品停用接收阴影
+Enabled ReceiveShadows for {{A}} items=已为 {{A}} 个物品启用接收阴影
+Reset ReceiveShadows for {{A}} items=已为 {{A}} 个物品重置接收阴影
 
 // KKS_MoarCamz.dll
 Fast Drag Position Sensitivity=快速拖动位置灵敏度
@@ -5480,6 +5524,7 @@ Normals: {0}=法线：{0}
 Triangles: {0}=三角形：{0}
 Meshes copied from =网格复制自
 DebugUI=调试界面
+Scaling-factor: {{A}}=缩放系数：{{A}}
 
 // KKS_OrthographicCamera.dll
 OrthographicCamera {{A}}\n...=正交镜头 {{A}}\n...
@@ -5569,6 +5614,7 @@ Invalid texture ID found, entry will be removed: coord\={0} type\={1} texID\={2}
 [Overlays] No local texture found with hash =[Overlays] 未找到哈希为以下值的本地纹理：
 [Overlays] Multiple local textures found with hash =[Overlays] 找到多个哈希为以下值的本地纹理：
 Local textures will be exported to / imported from this folder. If empty, defaults to G:\\game\\KoikatsuSunshine2\\Koikatsu.v.1.1.4\\UserData\\Overlays\\_LocalTextures.=本地贴图会导出到此文件夹，也会从此文件夹导入。留空时默认使用 G:\\game\\KoikatsuSunshine2\\Koikatsu.v.1.1.4\\UserData\\Overlays\\_LocalTextures。
+WARNING - Wrong texture resolution! It's recommended to use {{A}}x{{B}} instead.=警告：纹理分辨率错误！建议改用 {{A}}x{{B}}。
 
 // KKS_PantyFairy.dll
 PantyFairy {{A}}\n...=内裤妖精 {{A}}\n...
@@ -5897,7 +5943,6 @@ Could not deserialize field =无法反序列化字段
 Resetting Story Progress to E1_Initial from =正在将剧情进度重置为 E1_Initial，原进度：
 PantySteal/panty enabled: =PantySteal/内裤 已启用：
 PantySteal/clothes enabled: =PantySteal/衣服 已启用：
-Panties appear in my hand while she's completely oblivious. Looks like it's =内裤出现在我手里，而她完全没有察觉。看来是
 
 // KKS_PerspectiveX.dll
 PerspectiveX {{A}}\n...=第一人称视角（PerspectiveX） {{A}}\n...
@@ -5979,6 +6024,12 @@ All =全部
 Heads restored on =已恢复头部的角色：
  character(s) - save the scene to keep it= 个 —— 保存场景以保留更改
   (FOV =  (视野
+Save view slot {{A}}=保存视角栏位 {{A}}
+Load view slot {{A}}=载入视角栏位 {{A}}
+Custom preset {{A}}=自定义预设 {{A}}
+View saved to slot {{A}}=视角已保存到栏位 {{A}}
+View slot {{A}} loaded=已载入视角栏位 {{A}}
+View slot {{A}} couldn't be read, save it again=无法读取视角栏位 {{A}}，请重新保存
 
 // KKS_PoseQuickLoad.dll
 Pose Quick Loading=姿势快速载入
@@ -7412,6 +7463,7 @@ Then use this menu to add it as a sex face.=然后用此菜单将其添加为做
 Faces for =表情：
 Experience:=经验：
 Set the facial expression using the sidebar.\nThen use this menu to add it as a sex face.=使用侧边栏设置面部表情。\n然后通过此菜单将其添加为性爱表情。
+Only {{A}} faces allowed for each condition.=每个条件最多只能有 {{A}} 个表情。
 
 // KKS_ShaderSwapper.dll
 Shader Swapper {{A}}\n...=着色器替换 {{A}}\n...
@@ -7842,6 +7894,8 @@ Selected object is not a=所选物体不是
 studio item!=Studio 物品！
 Selected studio item has=所选 Studio 物品的
 too few bones!=骨骼太少！
+Chain Length: {{A}}=链长：{{A}}
+Pole Amount: {{A}}=极点数量：{{A}}
 
 // KKS_StudioItemSkeleton.dll
 Color of the item skeleton=物品骨架的颜色
@@ -9162,6 +9216,25 @@ SpecularColor (R):=高光颜色（R）：
 身長:=身高：
 頭サイズ:=头部大小：
 音声調整(低-高):=声音调节（低—高）：
+All_Off=全部脱下
+All_On=全部穿上
+Half_Off=半脱
+Tops_Off=脱下上衣
+Bottoms_Off=脱下下装
+StartMotion=开始动作
+Swim=泳装
+Pajamas=睡衣
+Bathing=沐浴
+服装 {{A}}=服装 {{A}}
+top({{A}})=上衣({{A}})
+bot({{A}})=下装({{A}})
+bra({{A}})=胸罩({{A}})
+shorts({{A}})=内裤({{A}})
+gloves({{A}})=手套({{A}})
+panst({{A}})=裤袜({{A}})
+socks({{A}})=袜子({{A}})
+shoes_inner({{A}})=室内鞋({{A}})
+shoes_outer({{A}})=室外鞋({{A}})
 
 // KKS_TranslationCacheCleaner.dll
 Translation Cache Cleaner {{A}}=翻译缓存清理器 {{A}}
@@ -9178,6 +9251,7 @@ Pressing this will attempt to clean your auto-translation cache.=按下此键会
 Translation Cache Cleaner=翻译缓存清理器
 Removing cached line (static match): =正在移除缓存行（静态匹配）：
 Removing cached line (regex match): =正在移除缓存行（正则匹配）：
+Done. Removed {{A}} entries from cache. Reloading translations.=完成。已从缓存中移除 {{A}} 条。正在重新载入翻译。
 
 // KKS_TranslationHelper.dll
 Translation Helper {{A}}=翻译助手 {{A}}
@@ -9451,6 +9525,9 @@ Loading video [=正在载入视频 [
 ... AlphaMask loaded successfully!=... 透明遮罩载入成功！
 Error loading video, please check if the specified path/url is valid and the format is supported.=读取视频出错，请检查指定的路径/网址是否有效、格式是否受支持。
  Supported formats:= 支持的格式：
+Resolution: {{A}}x{{B}} | Framerate: {{C}}fps=分辨率：{{A}}x{{B}} | 帧率：{{C}}fps
+Start Offset: {{A}} (Timeline)=起始偏移：{{A}}（Timeline）
+VideoPlate {{A}}=视频板 {{A}}
 
 // KKS_WTFix.dll
 KKS_WTFix {{A}}\n...=KKS_WTFix {{A}}\n...
@@ -10087,6 +10164,7 @@ Handling custom topic No\==正在处理自定义话题 No\=
 Could not convert type =无法转换类型
  with XmlConvert, you have to convert it manually=（XmlConvert 无法转换，须手动转换）
 Reset On Restart=重启时重置
+WARNING: MoreAccesories is outdated! Some features won't work until you update to v{{A}} or later (Current verion: v{{B}}).=警告：MoreAccessories 版本过旧！更新到 v{{A}} 或更高版本前，部分功能将无法使用（当前版本：v{{B}}）。
 
 // KKSPE.dll
 BS ({0} {1})=形态键 ({0} {1})
@@ -11719,6 +11797,7 @@ Invalid \\u hex.=无效的 \\u 十六进制。
 PoseBrowser: Failed to load tag database: =PoseBrowser：读取标签数据库失败：
 PoseBrowser: pose_tags.tsv parse error: =PoseBrowser：pose_tags.tsv 解析错误：
 PoseBrowser: Pose file is not under UserData pose root; using full path as tag key (see pose_tags.tsv). File: =PoseBrowser：姿势文件不在 UserData 姿势根目录下，使用完整路径作为标签键（见 pose_tags.tsv）。文件：
+PoseBrowser: Applied {{A}} pose(s) to {{B}} selected character(s) using the priority list.=PoseBrowser：已按优先级列表将 {{A}} 个姿势应用到 {{B}} 个选中的角色。
 
 // KKSUS.dll
 KKSUS {{A}}\n...=KKSUS {{A}}\n...
@@ -12217,6 +12296,7 @@ Whether the 'Set ...' buttons will affect characters' clothes.=“设置……�
 Whether the 'Set ...' buttons will affect characters' faces and bodies.=“设置……”按钮是否影响角色的面部和身体。
 Whether the 'Set ...' buttons will affect characters' hair, including hair accs.=“设置……”按钮是否影响角色的头发（包括发饰）。
 Whether the 'Set ...' buttons will affect characters' held items (items parented to characters).=“设置……”按钮是否影响角色手持的物品（父级绑定到角色的物品）。
+Page {{A}}=第 {{A}} 页
 
 // MaterialEditorClipboard.KoikatsuSunshine.dll
 Material Editor Clipboard {{A}}\n...=材质编辑器剪贴板 {{A}}\n...
@@ -12262,6 +12342,7 @@ Unexpected tag found while reading Float: =读取 Float 时发现意外的标签
 Unexpected tag found while reading Color: =读取 Color 时发现意外的标签：
 Unexpected tag found while reading Texture: =读取 Texture 时发现意外的标签：
 Unexpected tag found while reading Keyword: =读取 Keyword 时发现意外的标签：
+{{A}} entries imported=已导入 {{A}} 个条目
 
 // ModBoneImplantor.dll
 Removing {0} no longer used implanted bones=正在移除 {0} 根不再使用的植入骨骼
@@ -12545,6 +12626,7 @@ Use the search box to search for currently applied Harmony patches by method, cl
 Examples: 'OnClick', 'method:OnClick class:AddButtonCtrl', 'namespace:SimpleGame'=示例：'OnClick'、'method:OnClick class:AddButtonCtrl'、'namespace:SimpleGame'
 Failed to =无法
  Harmony patch = Harmony 补丁
+Found {{A}} patches=找到 {{A}} 个补丁
 
 // RuntimeUnityEditor.Core.dll
 Invalid color string, expected hex #RRGGBBAA=无效的颜色字符串，应为十六进制 #RRGGBBAA
@@ -12930,6 +13012,8 @@ Viewer enabled=启用查看器
 Viewer window size=查看器窗口大小
 Warning=警告
 Wireframe enabled=启用线框显示
+Copied {{A}} changes to clipboard=已将 {{A}} 处更改复制到剪贴板
+Copied {{A}} changes to clipboard (converted to pseudo-code)=已将 {{A}} 处更改复制到剪贴板（已转为伪代码）
 
 // ShaderFixer.KoikatsuSunshine.dll
 Koikatsu Shader Fixer {{A}}\n...=恋活着色器修复 {{A}}\n...
@@ -13244,6 +13328,10 @@ VideoExport rejected the Hermes audio provider: =VideoExport 拒绝了 Hermes �
 Removes center-panned audio via stereo difference.=通过立体声差分移除居中声像的音频。
 Preserves bass below cutoff. Requires stereo.=保留截止频率以下的低音。需要立体声。
 Cutoff:=裁切阈值：
+Zoom: {{A}}x=缩放：{{A}}x
+Lane {{A}}=轨道 {{A}}
+Decoding... {{A}}%=正在解码... {{A}}%
+Trim Start ({{A}} - {{B}}s)=裁剪开头（{{A}} - {{B}}s）
 
 // Timeline.dll
 GO Position (=GO 位置 (
@@ -14258,8 +14346,6 @@ r:"^\[BetterScaling\] Saved (?<g0>[\S\s]+?) hierarchy-scaled items!$"=[BetterSca
 r:"^Texture format (?<g0>[\S\s]+?) is not supported\.$"=不支持纹理格式 ${g0}。
 r:"^Layer (?<g0>[\S\s]+?)$"=图层 ${g0}
 r:"^Node '(?<g0>[\S\s]+?)' \(#(?<g1>[\S\s]+?)\) threw: (?<g2>[\S\s]+?): (?<g3>[\S\s]+?)$"=节点“${g0}”（#${g1}）出错：${g2}：${g3}
-r:"^Nodes: (?<g0>[\S\s]+?) \| Textures: (?<g1>[\S\s]+?) \| Zoom: (?<g2>-?[\d.,]+)x$"=节点：${g0} | 纹理：${g1} | 缩放：${g2}x
-r:"^FPS: (?<g0>-?[\d.,]+) \| Buffers: (?<g1>-?[\d.,]+)/(?<g2>[\S\s]+?)MB \| Managed: (?<g3>-?[\d.,]+)MB$"=FPS：${g0} | 缓冲：${g1}/${g2}MB | 托管：${g3}MB
 r:"^Mean: (?<g0>-?[\d.,]+)$"=平均值：${g0}
 r:"^Std Dev: (?<g0>-?[\d.,]+)$"=标准差：${g0}
 r:"^(?<g0>[\S\s]+?) Selected$"=已选择 ${g0} 项
@@ -14274,7 +14360,6 @@ r:"^Could not find bone \[(?<g0>[\S\s]+?)\] in location \[(?<g1>[\S\s]+?)\] - mo
 r:"^Slot (?<g0>-?[\d.,]+)$"=栏位 ${g0}
 
 // KKSAPI.dll：正则
-r:"^WARNING: MoreAccesories is outdated! Some features won't work until you update to v(?<g0>[\S\s]+?) or later \(Current verion: v(?<g1>[\S\s]+?)\)\.$"=警告：MoreAccessories 版本过旧！更新到 v${g0} 或更高版本前，部分功能将无法使用（当前版本：v${g1}）。
 r:"^Button (?<g0>[\S\s]+?) (?<g1>[\S\s]+?)$"=按钮 ${g0} ${g1}
 r:"^\[(?<g0>[\S\s]+?)\] GUI crash: (?<g1>[\S\s]+?)$"=[${g0}] 界面崩溃：${g1}
 r:"^(?<g0>[\S\s]+?): Plugin "(?<g1>[\S\s]+?)" required by "(?<g2>[\S\s]+?)" is outdated! At least v(?<g3>[\S\s]+?) is needed!$"=${g0}：“${g2}”所需的插件“${g1}”版本过旧！至少需要 v${g3}！
@@ -14295,7 +14380,6 @@ r:"^Scanned (?<g0>[\S\s]+?) file\(s\): (?<g1>[\S\s]+?) repaired, (?<g2>[\S\s]+?)
 r:"^PoseBrowser: (?<g0>[\S\s]+?) broken pose file\(s\) could not be repaired \(see log above\)\.$"=PoseBrowser：有 ${g0} 个损坏的姿势文件无法修复（见上方日志）。
 r:"^PoseBrowser: AddItem\((?<g0>[\S\s]+?),(?<g1>[\S\s]+?),(?<g2>[\S\s]+?)\) did not create an item\.$"=PoseBrowser：AddItem(${g0},${g1},${g2}) 未能创建物品。
 r:"^PoseBrowser: Applied (?<g0>[\S\s]+?) pose\(s\) to (?<g1>[\S\s]+?) character\(s\) and (?<g2>[\S\s]+?) relative layout change\(s\) from group "(?<g3>[\S\s]+?)"(?<g4>[\S\s]+?)\.$"=PoseBrowser：已将分组“${g3}”中的 ${g0} 个姿势应用到 ${g1} 个角色，并应用了 ${g2} 处相对布局更改${g4}。
-r:"^PoseBrowser: Applied (?<g0>[\S\s]+?) pose\(s\) to (?<g1>[\S\s]+?) selected character\(s\) using the priority list\.$"=PoseBrowser：已按优先级列表将 ${g0} 个姿势应用到 ${g1} 个选中的角色。
 r:"^(?<g0>[\S\s]+?) shown$"=显示 ${g0} 个
 r:"^Character: (?<g0>[\S\s]+?) selected$"=角色：已选择 ${g0} 个
 r:"^(?<g0>[\S\s]+?) pose\(s\) selected\.$"=已选择 ${g0} 个姿势。
@@ -14364,7 +14448,6 @@ r:"^Group Node \(Min: (?<g0>[\S\s]+?), Max: (?<g1>[\S\s]+?)\)$"=分组节点（�
 // KKS_AmazingNewBoneLogic.dll：正则
 r:"^Bone Edit (?<g0>[\S\s]+?)$"=骨骼编辑 ${g0}
 r:"^Outfit (?<g0>[\S\s]+?)$"=套装 ${g0}
-r:"^Transferred (?<g0>[\S\s]+?) bone edits to Outfit (?<g1>[\S\s]+?)$"=已将 ${g0} 个骨骼编辑转移到套装 ${g1}
 r:"^Exported (?<g0>[\S\s]+?) edits to (?<g1>[\S\s]+?)$"=已将 ${g0} 个编辑导出到 ${g1}
 r:"^Failed to export edits: (?<g0>[\S\s]+?)$"=导出编辑失败：${g0}
 r:"^Imported (?<g0>[\S\s]+?) edits from (?<g1>[\S\s]+?)$"=已从 ${g1} 导入 ${g0} 个编辑
@@ -14386,8 +14469,6 @@ r:"^Select #(?<g0>[\S\s]+?) - (?<g1>[\S\s]+?)$"=选择 #${g0} - ${g1}
 
 // KKS_CoordinateLoadOption.dll：正则
 r:"^Reverse Hair Acc\.: (?<g0>[\S\s]+?)$"=反选头发饰品：${g0}
-r:"^Acc Count : (?<g0>[\S\s]+?)$"=饰品数量：${g0}
-r:"^Loaded: (?<g0>[\S\s]+?)/(?<g1>[\S\s]+?)$"=已载入：${g0}/${g1}
 r:"^(?<g0>[\S\s]+?) v(?<g1>[\S\s]+?) is detacted OUTDATED\.$"=检测到 ${g0} v${g1} 版本过旧。
 r:"^Please update (?<g0>[\S\s]+?) to at least v(?<g1>[\S\s]+?) to enable related feature\.$"=请将 ${g0} 至少更新到 v${g1} 以启用相关功能。
 
@@ -14413,19 +14494,8 @@ r:"^Direction: (?<g0>[\S\s]+?)$"=方向：${g0}
 r:"^FOV: (?<g0>[\S\s]+?)$"=视野：${g0}
 
 // KKS_MaterialEditor.dll：正则
-r:"^Removed (?<g0>[\S\s]+?) orphaned propertie\(s\)$"=已移除 ${g0} 个孤立属性
-r:"^Removed (?<g0>[\S\s]+?) orphaned propertie\(s\) and (?<g1>[\S\s]+?) orphaned texture\(s\)$"=已移除 ${g0} 个孤立属性和 ${g1} 个孤立纹理
 r:"^Color value is out of range\. \((?<g0>[\S\s]+?)\)$"=颜色值超出范围。（${g0}）
 r:"^Exception in Material Editor label click handler: (?<g0>[\S\s]+?)$"=材质编辑器标签点击处理出现异常：${g0}
-r:"^Pasted edits for (?<g0>[\S\s]+?) items$"=已为 ${g0} 个物品粘贴编辑
-r:"^Disabled ShadowCasting for (?<g0>[\S\s]+?) items$"=已为 ${g0} 个物品停用投射阴影
-r:"^Enabled ShadowCasting for (?<g0>[\S\s]+?) items$"=已为 ${g0} 个物品启用投射阴影
-r:"^Two Sided ShadowCasting for (?<g0>[\S\s]+?) items$"=已为 ${g0} 个物品设置双面投射阴影
-r:"^Shadows Only ShadowCasting for (?<g0>[\S\s]+?) items$"=已为 ${g0} 个物品设置仅投射阴影
-r:"^Reset ShadowCasting for (?<g0>[\S\s]+?) items$"=已为 ${g0} 个物品重置投射阴影
-r:"^Disabled ReceiveShadows for (?<g0>[\S\s]+?) items$"=已为 ${g0} 个物品停用接收阴影
-r:"^Enabled ReceiveShadows for (?<g0>[\S\s]+?) items$"=已为 ${g0} 个物品启用接收阴影
-r:"^Reset ReceiveShadows for (?<g0>[\S\s]+?) items$"=已为 ${g0} 个物品重置接收阴影
 
 // KKS_MoreShopItems.dll：正则
 r:"^(?<g0>[\S\s]+?)は(?<g1>[\S\s]+?)でオナニーしている$"=${g0}正在${g1}自慰
@@ -14433,7 +14503,6 @@ r:"^(?<g0>[\S\s]+?)は(?<g1>[\S\s]+?)でレズのセックスしている$"=${g0
 r:"^エロ活動：(?<g0>[\S\s]+?)$"=色色活动：${g0}
 
 // KKS_ObjImport.dll：正则
-r:"^Scaling-factor: (?<g0>[\S\s]+?)$"=缩放系数：${g0}
 r:"^Replaced accessory in slot (?<g0>[\S\s]+?) with (?<g1>[\S\s]+?)$"=已将栏位 ${g0} 中的饰品替换为 ${g1}
 r:"^An error occurred on importing the obj: (?<g0>[\S\s]+?)$"=导入 obj 时出错：${g0}
 r:"^And error occured on importing the obj: (?<g0>[\S\s]+?)$"=导入 obj 时出错：${g0}
@@ -14441,7 +14510,6 @@ r:"^Restored (?<g0>[\S\s]+?) materials from scene file\.$"=已从场景文件恢
 
 // KKS_OverlayMods.dll：正则
 r:"^Copy overlay to other (?<g0>[\S\s]+?) clothes\.$"=将叠加层复制到其他 ${g0} 衣物。
-r:"^WARNING - Wrong texture resolution! It's recommended to use (?<g0>[\S\s]+?)x(?<g1>[\S\s]+?) instead\.$"=警告：纹理分辨率错误！建议改用 ${g0}x${g1}。
 r:"^WARNING - Unusual texture resolution! It's recommended to use (?<g0>[\S\s]+?) for (?<g1>[\S\s]+?)\.$"=警告：纹理分辨率异常！建议 ${g1} 使用 ${g0}。
 
 // KKS_PantyFairy.dll：正则
@@ -14464,15 +14532,10 @@ r:"^I close the courtain and hand over (?<g0>[\S\s]+?) of the panties I collecte
 r:"^Then stop being rude\. Alright, back to business\. I need you to get me (?<g0>[\S\s]+?) more panties\.$"=那就别再没礼貌了。好了，说正事。我需要你再给我弄 ${g0} 条内裤。
 r:"^\(You don't have to use the wind power to progress, you only need to collect (?<g0>[\S\s]+?) pairs of panties\.\)$"=（推进剧情不一定要使用风之力，只需收集 ${g0} 条内裤。）
 r:"^\(I've got (?<g0>[\S\s]+?) pairs now\)$"=（我现在有 ${g0} 条了）
+r:"^Panties appear in my hand while she's completely oblivious\. Looks like it's (?<g0>[\S\s]+?)!$"=她毫无察觉，内裤就出现在了我手里。看起来是${g0}！
 
 // KKS_PerspectiveX.dll：正则
-r:"^Save view slot (?<g0>[\S\s]+?)$"=保存视角栏位 ${g0}
-r:"^Load view slot (?<g0>[\S\s]+?)$"=载入视角栏位 ${g0}
-r:"^Custom preset (?<g0>[\S\s]+?)$"=自定义预设 ${g0}
-r:"^View saved to slot (?<g0>[\S\s]+?)$"=视角已保存到栏位 ${g0}
 r:"^View slot (?<g0>[\S\s]+?) is empty - save the current view into it with (?<g1>[\S\s]+?)$"=视角栏位 ${g0} 为空，请用 ${g1} 将当前视角保存进去
-r:"^View slot (?<g0>[\S\s]+?) loaded$"=已载入视角栏位 ${g0}
-r:"^View slot (?<g0>[\S\s]+?) couldn't be read, save it again$"=无法读取视角栏位 ${g0}，请重新保存
 
 // KKS_Pregnancy.dll：正则
 r:"^Fufu~\. I love you, (?<pn>[\S\s]+?)-kun\.$"=呵呵～。我爱你，${pn}君。
@@ -14489,7 +14552,6 @@ r:"^Last pregnancy was (?<g0>[\S\s]+?) weeks ago\.$"=上次怀孕是 ${g0} 周�
 
 // KKS_SexFaces.dll：正则
 r:"^Face #(?<g0>[\S\s]+?)$"=表情 #${g0}
-r:"^Only (?<g0>[\S\s]+?) faces allowed for each condition\.$"=每个条件最多只能有 ${g0} 个表情。
 r:"^Delete face #(?<g0>[\S\s]+?)\?$"=删除表情 #${g0}？
 r:"^(?<g0>[\S\s]+?) sec$"=${g0} 秒
 
@@ -14508,8 +14570,6 @@ r:"^No textures for (?<g0>[\S\s]+?) \?\?\?$"=${g0} 没有纹理？？？
 r:"^スロット(?<g0>-?[\d.,]+)$"=栏位${g0}
 
 // KKS_StudioItemIK.dll：正则
-r:"^Chain Length: (?<g0>[\S\s]+?)$"=链长：${g0}
-r:"^Pole Amount: (?<g0>[\S\s]+?)$"=极点数量：${g0}
 r:"^More poles and mid bones\. Maximum: (?<g0>[\S\s]+?)$"=极点和中间骨骼过多。最大值：${g0}
 
 // KKS_StudioPseudoMaker.dll：正则
@@ -14543,17 +14603,11 @@ r:"^Camera (?<g0>[\S\s]+?)-(?<g1>[\S\s]+?) Import Other Camera Settings$"=镜头
 r:"^Tracking Camera (?<g0>[\S\s]+?)-(?<g1>[\S\s]+?)$"=追踪镜头 ${g0}-${g1}
 r:"^Camera (?<g0>[\S\s]+?)-(?<g1>[\S\s]+?) Male Display Settings$"=镜头 ${g0}-${g1} 男性显示设置
 r:"^Camera (?<g0>[\S\s]+?)-(?<g1>[\S\s]+?) Settings$"=镜头 ${g0}-${g1} 设置
-
-// KKS_TranslationCacheCleaner.dll：正则
-r:"^Done\. Removed (?<g0>[\S\s]+?) entries from cache\. Reloading translations\.$"=完成。已从缓存中移除 ${g0} 条。正在重新载入翻译。
+r:"^(?<g0>\d+)/(?<g1>\d+) 服装 (?<g2>\d+)$"=${g0}/${g1} 服装 ${g2}
+sr:"^(?<g0_i>\d+)/(?<g1_i>\d+) (?<g2>[\S\s]+?)$"=${g0_i}/${g1_i} ${g2}
 
 // KKS_TranslationHelper.dll：正则
 r:"^Attempt to translate card names when they are loaded in (?<g0>[\S\s]+?)$"=在 ${g0} 中载入时尝试翻译角色卡名称
-
-// KKS_VideoPlate.dll：正则
-r:"^Resolution: (?<g0>[\S\s]+?)x(?<g1>[\S\s]+?) \| Framerate: (?<g2>[\S\s]+?)fps$"=分辨率：${g0}x${g1} | 帧率：${g2}fps
-r:"^Start Offset: (?<g0>[\S\s]+?):(?<g1>[\S\s]+?) \(Timeline\)$"=起始偏移：${g0}:${g1}（Timeline）
-r:"^VideoPlate (?<g0>[\S\s]+?)$"=视频板 ${g0}
 
 // LightSettings.KoikatsuSunshine.dll：正则
 r:"^Hello (?<g0>[\S\s]+?)!$"=你好，${g0}！
@@ -14578,23 +14632,18 @@ r:"^Color changed from (?<g0>[\S\s]+?) to (?<g1>[\S\s]+?) based on value input!$
 r:"^Restoring history item: (?<g0>[\S\s]+?) to (?<g1>[\S\s]+?)$"=正在恢复历史记录：${g0} 到 ${g1}
 r:"^Color changed from (?<g0>[\S\s]+?) to (?<g1>[\S\s]+?) based on picker!$"=已根据取色器将颜色从 ${g0} 改为 ${g1}！
 r:"^Section (?<g0>[\S\s]+?)/(?<g1>[\S\s]+?) \((?<g2>[\S\s]+?)\)$"=区块 ${g0}/${g1}（${g2}）
-r:"^Page (?<g0>[\S\s]+?)/(?<g1>[\S\s]+?)$"=第 ${g0}/${g1} 页
 
 // MaterialEditorClipboard.KoikatsuSunshine.dll：正则
 r:"^Shader: (?<g0>[\S\s]+?) \| Float: (?<g1>[\S\s]+?) \| Color: (?<g2>[\S\s]+?) \| Texture: (?<g3>[\S\s]+?) \| Keyword: (?<g4>[\S\s]+?)$"=着色器：${g0} | 浮点：${g1} | 颜色：${g2} | 纹理：${g3} | 关键字：${g4}
 r:"^(?<g0>[\S\s]+?) entries exported$"=已导出 ${g0} 个条目
-r:"^(?<g0>[\S\s]+?) entries imported$"=已导入 ${g0} 个条目
 
 // RuntimeUnityEditor.Bepin5.dll：正则
 r:"^Method Body Size: (?<g0>[\S\s]+?) bytes$"=方法主体大小：${g0} 字节
 r:"^Max Stack Size: (?<g0>[\S\s]+?)$"=最大栈大小：${g0}
 r:"^Local Variables: (?<g0>[\S\s]+?)$"=局部变量：${g0}
-r:"^Found (?<g0>[\S\s]+?) patches$"=找到 ${g0} 个补丁
 
 // RuntimeUnityEditor.Core.dll：正则
 r:"^Unsupported object type: (?<g0>[\S\s]+?)$"=不支持的对象类型：${g0}
-r:"^Copied (?<g0>[\S\s]+?) changes to clipboard$"=已将 ${g0} 处更改复制到剪贴板
-r:"^Copied (?<g0>[\S\s]+?) changes to clipboard \(converted to pseudo-code\)$"=已将 ${g0} 处更改复制到剪贴板（已转为伪代码）
 r:"^Tab (?<g0>[\S\s]+?): (?<g1>[\S\s]+?)$"=标签页 ${g0}：${g1}
 r:"^Layer (?<g0>[\S\s]+?) \((?<g1>[\S\s]+?)\)$"=图层 ${g0}（${g1}）
 r:"^(?<g0>[\S\s]+?) / (?<g1>[\S\s]+?) - Event details$"=${g0} / ${g1} - 事件详情
@@ -14607,10 +14656,7 @@ r:"^(?<g0>[\S\s]+?) XZ$"=${g0} XZ
 r:"^(?<g0>[\S\s]+?) YZ$"=${g0} YZ
 
 // TheBirdOfHermes.KKS.dll：正则
-r:"^Zoom: (?<g0>-?[\d.,]+)x$"=缩放：${g0}x
-r:"^Lane (?<g0>[\S\s]+?)$"=轨道 ${g0}
 r:"^Filtering \((?<g0>[\S\s]+?)\)\.\.\. (?<g1>-?[\d.,]+)%$"=正在过滤（${g0}）... ${g1}%
-r:"^Decoding\.\.\. (?<g0>-?[\d.,]+)%$"=正在解码... ${g0}%
 r:"^Failed to load audio: (?<g0>[\S\s]+?)$"=载入音频失败：${g0}
 r:"^(?<g0>[\S\s]+?) \((?<g1>[\S\s]+?) tracks\)$"=${g0}（${g1} 条音轨）
 r:"^Applying to (?<g0>[\S\s]+?) tracks$"=正在应用到 ${g0} 条音轨
@@ -14618,7 +14664,6 @@ r:"^Copied (?<g0>[\S\s]+?) track\(s\) to clipboard \(saved to temp folder\)$"=�
 r:"^Scene data version (?<g0>[\S\s]+?) is newer than the current version (?<g1>[\S\s]+?)\.$"=场景数据版本 ${g0} 比当前版本 ${g1} 更新。
 r:"^Scene data version (?<g0>[\S\s]+?) is no longer supported \(requires v4\+\)\.$"=场景数据版本 ${g0} 已不再支持（需要 v4 以上）。
 r:"^Failed to load audio from scene: (?<g0>[\S\s]+?)$"=从场景载入音频失败：${g0}
-r:"^Trim Start \(0 - (?<g0>-?[\d.,]+)s\)$"=裁剪开头（0 - ${g0}s）
 r:"^Trim End \(0 - (?<g0>-?[\d.,]+)s\)$"=裁剪结尾（0 - ${g0}s）
 r:"^Fade In: (?<g0>-?[\d.,]+)s$"=淡入：${g0}s
 r:"^Fade Out: (?<g0>-?[\d.,]+)s$"=淡出：${g0}s

@@ -9,64 +9,13 @@
 今日剩余3次=今日剩余3次
 套房使用券=套房使用券
 
-// 游戏状态与祈愿加成
-Add {{A}} Koikatsu points=增加 {{A}} 恋活点数
-Day of the week: Holiday=星期：休息日
-Day of the week: Monday=星期：星期一
-H: {{A}}=H：{{A}}
-INT: {{A}}=智力：{{A}}
-Prayer bonus: Ask for sex bonus=祈愿加成：邀约做爱加成
-Prayer bonus: Confession bonus=祈愿加成：告白加成
-Prayer bonus: Extra oil=祈愿加成：额外按摩油
-Prayer bonus: Find good topics next day=祈愿加成：次日发现优质话题
-Prayer bonus: Find more topics?=祈愿加成：发现更多话题？
-Prayer bonus: Girls want to H you=祈愿加成：女孩更想和你 H
-Prayer bonus: Girls want to talk=祈愿加成：女孩更想聊天
-Prayer bonus: Lewd topic bonus=祈愿加成：色色话题加成
-Prayer bonus: Lover visit at evening=祈愿加成：恋人傍晚来访
-Prayer bonus: Nothing=祈愿加成：无
-Prayer bonus: Safe topic bonus=祈愿加成：安全话题加成
-Prayer bonus: Topic drop bonus=祈愿加成：话题掉落加成
-Prayer bonus: Unknown=祈愿加成：未知
-STR: {{A}}=体力：{{A}}
-Time: {{A}}=时间：{{A}}
-
 // 角色对话与动态提示
-Panties appear in my hand while she's completely oblivious. Looks like it's 罗西 - 内裤!=她毫无察觉，内裤就出现在了我手里。看起来是罗西 - 内裤！
 「あなたに会いたいって思ってたんだぁ♪」=「我正想着要见你呢♪」
 「どんなポーズをしたらいいかなぁ？ なんでも言ってね♪」=「摆什么姿势好呢？想要什么姿势都告诉我哦♪」
 「ふふ、オカズは内緒よ♡」=「呵呵，自慰素材可是秘密哦♡」
 「やったぁ！ ごっはん～、ごっはん～♪」=「太好啦！吃饭～吃饭～♪」
 「夜遅くまで何をやってたのかな～？ 正直に話しなさい♡」=「一直忙到这么晚，是在做什么呀～？老实交代吧♡」
 爱芮正在民宿餐厅自慰=爱芮正在民宿餐厅自慰
-
-// 服装、套装名称与穿戴状态
-1/7 私服=1/7 便服
-7/7 部活=7/7 社团活动
-All_Off=全部脱下
-All_On=全部穿上
-Bathing=沐浴
-Bottoms_Off=脱下下装
-Cycling Underwear on 柏木 壮亮=切换柏木壮亮的内衣
-Half_Off=半脱
-M Slot {{A}}: On=M 栏位 {{A}}：开启
-Pajamas=睡衣
-StartMotion=开始动作
-Swim=泳装
-Tops_Off=脱下上衣
-bot({{A}})=下装({{A}})
-bra({{A}})=胸罩({{A}})
-gloves({{A}})=手套({{A}})
-panst({{A}})=裤子({{A}})
-shoes_inner({{A}})=室内鞋({{A}})
-shoes_outer({{A}})=室外鞋({{A}})
-shorts({{A}})=内裤({{A}})
-socks({{A}})=袜子({{A}})
-top({{A}})=上衣({{A}})
-体操=体操
-制服（校内）=制服（校内）
-服装 {{A}}=服装 {{A}}
-部活=社团活动
 
 // 饰品、物品与自定义资源标签
 01 [zhy]AriaIdol_hair=01 [zhy]AriaIdol_hair
@@ -498,39 +447,10 @@ male futa (4)=男性扶她 (4)
 闪乱神乐 - 春花=闪乱神乐 - 春花
 
 // 符号、字母与占位符
-#=#
-*{{A}}=*{{A}}
--{{A}}=-{{A}}
-/{{A}}=/{{A}}
-<=<
-<heel_name>=<heel_name>
->=>
-S: =S： 
-Ver 1.1.4=Ver 1.1.4
-W: =W： 
-x0=x0
-x01=x01
-x02=x02
-x03=x03
-x04=x04
-x05=x05
-x07=x07
-x1=x1
-x2=x2
-x4=x4
-x7=x7
-{{A}}%={{A}}%
-|=|
-||=||
-×=×
-→=→
-▾=▾
-▾▾=▾▾
-★=★
 あいうえおかきくけこさ=あいうえおかきくけこさ
-Ｘ=X
-Ｙ=Y
-Ｚ=Z
+Ｘ=Ｘ
+Ｙ=Ｙ
+Ｚ=Ｚ
 UnityEngine.Canvas=UnityEngine.Canvas
 Name\=sp_commu_{{A}}_{{B}} Rect\=(x:{{C}}, y:{{D}}, width:{{E}}, height:{{F}}) Pivot\=({{G}}, {{H}}) Packed\=True PackingMode\=RectangleTextureRect\=(x:{{I}}, y:{{J}}, width:{{K}}, height:{{L}})=Name\=sp_commu_{{A}}_{{B}} Rect\=(x:{{C}}, y:{{D}}, width:{{E}}, height:{{F}}) Pivot\=({{G}}, {{H}}) Packed\=True PackingMode\=RectangleTextureRect\=(x:{{I}}, y:{{J}}, width:{{K}}, height:{{L}})
 UnityEngine.UI.Image[]=UnityEngine.UI.Image[]
