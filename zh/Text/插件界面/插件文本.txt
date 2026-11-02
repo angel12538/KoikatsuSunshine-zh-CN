@@ -2264,6 +2264,64 @@ Prayer bonus: Lewd topic bonus=祈愿加成：色色话题加成
 Prayer bonus: Lover visit at evening=祈愿加成：恋人傍晚来访
 Prayer bonus: Girls want to H you=祈愿加成：女孩子想和你H
 Prayer bonus: Ask for sex bonus=祈愿加成：求爱加成
+Favor: {{A}}=好感：{{A}}
+Lewd: {{A}}=色欲：{{A}}
+Sex experience: FirstTime=性经验：初次
+Sex experience: Inexperienced=性经验：不熟练
+Sex experience: Experienced=性经验：熟练
+Sex experience: Perverted=性经验：淫乱
+{{A}} ChangeClothes={{A}} 换衣服
+{{A}} GoToToilet={{A}} 去厕所
+{{A}} TakeShower={{A}} 淋浴
+{{A}} HaveMeal={{A}} 吃饭
+{{A}} HMasturbate={{A}} 自慰
+{{A}} HWithPlayer={{A}} 想和主角H
+{{A}} DoClubActivities={{A}} 社团活动
+{{A}} TalkWithGirls={{A}} 和女生聊天
+{{A}} TalkWithPlayer={{A}} 和主角聊天
+{{A}} Read={{A}} 读书
+{{A}} FiddleWithSmartphone={{A}} 摆弄手机
+{{A}} GameOnSmartphone={{A}} 玩手机游戏
+{{A}} TakeSelfie={{A}} 自拍
+{{A}} ListenToMusic={{A}} 听音乐
+{{A}} DancePractice={{A}} 练习跳舞
+{{A}} ImproveMyAppearance={{A}} 打扮
+{{A}} Drink={{A}} 喝饮料
+{{A}} ChangeMyMind={{A}} 转换心情
+{{A}} Exercise={{A}} 运动
+{{A}} CharaSpecificBehavior={{A}} 角色专属行为
+{{A}} GetAway={{A}} 逃开
+{{A}} Study={{A}} 学习
+{{A}} Sleep={{A}} 睡觉
+{{A}} FollowMe={{A}} 跟随主角
+{{A}} Request={{A}} 拜托主角
+{{A}} Shy={{A}} 害羞
+{{A}} Lesbian={{A}} 女同
+{{A}} LesbianPartner={{A}} 女同对象
+{{A}} AskPlayerToTalk={{A}} 找主角聊天
+{{A}} AskPlayerForH={{A}} 邀主角H
+{{A}} FidgetingWaiting={{A}} 坐立不安地等待
+{{A}} TakeBath={{A}} 泡澡
+{{A}} TakeBreak={{A}} 休息
+{{A}} Leisure={{A}} 休闲
+{{A}} GoShopping={{A}} 购物
+{{A}} Experience={{A}} 体验活动
+{{A}} Sightseeing={{A}} 观光
+{{A}} OilSalon={{A}} 精油按摩
+{{A}} WatermelonSplit={{A}} 劈西瓜
+{{A}} WatermelonSplitPartner={{A}} 劈西瓜对象
+{{A}} SittingTalking={{A}} 坐谈
+{{A}} SittingTalkingPartner={{A}} 坐谈伙伴
+{{A}} SplashingWater={{A}} 戏水
+{{A}} SplashingWaterPartner={{A}} 戏水伙伴
+{{A}} Vacation={{A}} 度假
+{{A}} Outdoors={{A}} 户外
+{{A}} Curiosity={{A}} 好奇心
+isVirgin=是处女
+isAnalVirgin=是肛门处女
+Manager.Game.Instance=Manager.Game.Instance
+Manager.Scene.Instance=Manager.Scene.Instance
+Manager.Sound.instance=Manager.Sound.instance
 
 // KKS_ClothColliders.dll
 Cloth colliders support_=支持服装碰撞体_
@@ -2285,7 +2343,7 @@ Loading cloth collider data for =正在读取布料碰撞体数据：
 Found resolved ID: {0} \=> {1}=找到已解析的 ID：{0} \=> {1}
 Failed to resolve id\={0} category\={1} guid\={2}=无法解析 id\={0} category\={1} guid\={2}
 Unknown collider type =未知的碰撞体类型
-Added SphereCollider: boneName\={0} radius\={1} center\={2}=已添加 SphereCollider：boneName\={0} radius\={1} center\={2}
+Added SphereCollider: boneName\={0} radius\={1} center\={2}=已添加球体碰撞器：骨骼\={0} 半径\={1} 中心点\={2}
 Added CapsuleCollider: boneName\={0} radius\={1} height\={2} center\={3} direction\={4}=已添加 CapsuleCollider：boneName\={0} radius\={1} height\={2} center\={3} direction\={4}
 Could not parse Vector3 from =无法解析 Vector3：
 
@@ -2320,7 +2378,6 @@ Unable to create leg01_R collider on =无法创建 leg01_R 碰撞体：
 Unable to create leg02_L collider on =无法创建 leg02_L 碰撞体：
 Unable to create leg02_R collider on =无法创建 leg02_R 碰撞体：
 Cycling =正在循环
-Cycling Underwear on 柏木 壮亮=切换柏木壮亮的内衣
 UpperArm=上臂
 
 // KKS_ClothesToAccessories.dll
@@ -4083,6 +4140,12 @@ KKS_HCtrl 抽插控制{{A}}=KKS_HCtrl 抽插控制{{A}}
 弱=弱
 感度联动=敏感度联动
 慢速/全速/快速=慢速/全速/快速
+速度:慢速=速度：慢速
+速度{{A}}=速度{{A}}
+連動方式: =联动方式：
+男女最大=男女最大值
+速度:全速=速度：全速
+速度:快速=速度：快速
 男快感度=男性快感度
 男性自动高潮=男性自动高潮
 男性高潮前=男性高潮前
@@ -7420,6 +7483,7 @@ Name Date=名称、日期
 Name Type Date=名称、类型、日期
 Type Date=类型、日期
 Type Name Date=类型、名称、日期
+Writing rendered screenshot to \\UserData\\cap\\KoikatsuSunshine-{{A}}_{{B}}-Render.png=正在将渲染截图保存到 \\UserData\\cap\\KoikatsuSunshine-{{A}}_{{B}}-Render.png
 
 // KKS_SexFaces.dll
 Sex Faces {{A}}=性爱表情 {{A}}
@@ -9235,6 +9299,8 @@ panst({{A}})=裤袜({{A}})
 socks({{A}})=袜子({{A}})
 shoes_inner({{A}})=室内鞋({{A}})
 shoes_outer({{A}})=室外鞋({{A}})
+{{A}}, {{B}}, False, 頭({{C}}))={{A}}, {{B}}, False, 头部({{C}}))
+{{A}}, {{B}}, True, 頭({{C}}))={{A}}, {{B}}, True, 头部({{C}}))
 
 // KKS_TranslationCacheCleaner.dll
 Translation Cache Cleaner {{A}}=翻译缓存清理器 {{A}}
@@ -12627,6 +12693,7 @@ Examples: 'OnClick', 'method:OnClick class:AddButtonCtrl', 'namespace:SimpleGame
 Failed to =无法
  Harmony patch = Harmony 补丁
 Found {{A}} patches=找到 {{A}} 个补丁
+Logger=日志查看器
 
 // RuntimeUnityEditor.Core.dll
 Invalid color string, expected hex #RRGGBBAA=无效的颜色字符串，应为十六进制 #RRGGBBAA
@@ -13014,6 +13081,51 @@ Warning=警告
 Wireframe enabled=启用线框显示
 Copied {{A}} changes to clipboard=已将 {{A}} 处更改复制到剪贴板
 Copied {{A}} changes to clipboard (converted to pseudo-code)=已将 {{A}} 处更改复制到剪贴板（已转为伪代码）
+Filter:=筛选：
+Profiler=性能分析器
+{{A}} delegate(s)={{A}} 个委托
+private instance readonly field\nName: _source\nDeclared in: System.Linq.Enumerable+SelectListIterator<SaveData.Heroine, RuntimeUnityEditor.Core.Inspector.Entries.ReadonlyCacheEntry>\nField type: System.Collections.Generic.List<SaveData.Heroine>\n\nLeft click to inspect in current tab\nMiddle click to inspect in a new tab\nRight click to open a menu with more options=私有实例只读字段\n名称：_source\n声明类型：System.Linq.Enumerable+SelectListIterator<SaveData.Heroine, RuntimeUnityEditor.Core.Inspector.Entries.ReadonlyCacheEntry>\n字段类型：System.Collections.Generic.List<SaveData.Heroine>\n\n左键：在当前标签页中检查\n中键：在新标签页中检查\n右键：打开更多选项菜单
+Debugger.Break=Debugger.Break
+FixedUpdate=FixedUpdate
+LateUpdate=LateUpdate
+OnGUI=OnGUI
+raycast=射线检测
+buttonInfos=按钮信息
+buttonEnd=结束按钮
+canvasFemale=女性画布
+imageTime=时段图像
+imageFavor=好感图像
+spriteFavor=好感精灵图
+imageLewdness=色欲图像
+spriteLewdness=色欲精灵图
+objLewdness=色欲对象
+imageFrame=边框图像
+spriteFrame=边框精灵图
+buttonTalkContents=对话内容按钮
+UnityEngine.GameObject=UnityEngine.GameObject
+UnityEngine.Sprite[]=UnityEngine.Sprite[]
+(SaveData.Heroine arg)=(SaveData.Heroine arg)
+SaveData.Heroine=SaveData.Heroine
+System.Collections.Generic.List<SaveData.Heroine>=System.Collections.Generic.List<SaveData.Heroine>
+System.Collections.Generic.List`{{A}}+Enumerator[[SaveData.Heroine, Assembly-CSharp, Version\={{B}}, Culture\=neutral, PublicKeyToken\=null]]=System.Collections.Generic.List`{{A}}+Enumerator[[SaveData.Heroine, Assembly-CSharp, Version\={{B}}, Culture\=neutral, PublicKeyToken\=null]]
+System.Func<SaveData.Heroine, RuntimeUnityEditor.Core.Inspector.Entries.ReadonlyCacheEntry>=System.Func<SaveData.Heroine, RuntimeUnityEditor.Core.Inspector.Entries.ReadonlyCacheEntry>
+RuntimeUnityEditor.Core.Inspector.Entries.ReadonlyCacheEntry=RuntimeUnityEditor.Core.Inspector.Entries.ReadonlyCacheEntry
+System.Int{{A}}=System.Int{{A}}
+System.Void=System.Void
+_current=_current
+_enumerator=_enumerator
+_selector=_selector
+_source=_source
+_state=_state
+_threadId=_threadId
+c-{{A}}=c-{{A}}
+c{{A}}=c{{A}}
+UnityEngine.Canvas=UnityEngine.Canvas
+Name\=sp_commu_{{A}}_{{B}} Rect\=(x:{{C}}, y:{{D}}, width:{{E}}, height:{{F}}) Pivot\=({{G}}, {{H}}) Packed\=True PackingMode\=RectangleTextureRect\=(x:{{I}}, y:{{J}}, width:{{K}}, height:{{L}})=Name\=sp_commu_{{A}}_{{B}} Rect\=(x:{{C}}, y:{{D}}, width:{{E}}, height:{{F}}) Pivot\=({{G}}, {{H}}) Packed\=True PackingMode\=RectangleTextureRect\=(x:{{I}}, y:{{J}}, width:{{K}}, height:{{L}})
+UnityEngine.UI.Image[]=UnityEngine.UI.Image[]
+UnityEngine.UI.Button=UnityEngine.UI.Button
+TalkScene.CanvasRaycast=TalkScene.CanvasRaycast
+TalkScene.ButtonInfo[]=TalkScene.ButtonInfo[]
 
 // ShaderFixer.KoikatsuSunshine.dll
 Koikatsu Shader Fixer {{A}}\n...=恋活着色器修复 {{A}}\n...
@@ -14467,6 +14579,9 @@ r:"^Select change to (?<g0>[\S\s]+?)$"=选择已更改为 ${g0}
 r:"^Select current #(?<g0>[\S\s]+?) - (?<g1>[\S\s]+?)$"=选择当前的 #${g0} - ${g1}
 r:"^Select #(?<g0>[\S\s]+?) - (?<g1>[\S\s]+?)$"=选择 #${g0} - ${g1}
 
+// KKS_ClothCycler.dll：正则
+sr:"^Cycling (?<g0>[\S\s]+?) on (?<name_i>[\S\s]+?)$"=切换${name_i}的${g0}
+
 // KKS_CoordinateLoadOption.dll：正则
 r:"^Reverse Hair Acc\.: (?<g0>[\S\s]+?)$"=反选头发饰品：${g0}
 r:"^(?<g0>[\S\s]+?) v(?<g1>[\S\s]+?) is detacted OUTDATED\.$"=检测到 ${g0} v${g1} 版本过旧。
@@ -14501,6 +14616,7 @@ r:"^Exception in Material Editor label click handler: (?<g0>[\S\s]+?)$"=材质�
 r:"^(?<g0>[\S\s]+?)は(?<g1>[\S\s]+?)でオナニーしている$"=${g0}正在${g1}自慰
 r:"^(?<g0>[\S\s]+?)は(?<g1>[\S\s]+?)でレズのセックスしている$"=${g0}正在${g1}和女生做爱
 r:"^エロ活動：(?<g0>[\S\s]+?)$"=色色活动：${g0}
+r:"^(?<g0>\d+) remaining out of (?<g1>\d+)$"=总计 ${g1} 个，剩余 ${g0} 个
 
 // KKS_ObjImport.dll：正则
 r:"^Replaced accessory in slot (?<g0>[\S\s]+?) with (?<g1>[\S\s]+?)$"=已将栏位 ${g0} 中的饰品替换为 ${g1}

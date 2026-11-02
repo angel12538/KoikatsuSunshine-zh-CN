@@ -1,20 +1,13 @@
 ﻿// 通用界面与数量显示
   7月18日=  7月18日
   Ａ型=  A型
-0 remaining out of 2=总计 2 个，剩余 0 个
 640pt=640 点
-ポイントショップ=积分商店
 今日剩余1次=今日剩余1次
 今日剩余2次=今日剩余2次
 今日剩余3次=今日剩余3次
 套房使用券=套房使用券
 
 // 角色对话与动态提示
-「あなたに会いたいって思ってたんだぁ♪」=「我正想着要见你呢♪」
-「どんなポーズをしたらいいかなぁ？ なんでも言ってね♪」=「摆什么姿势好呢？想要什么姿势都告诉我哦♪」
-「ふふ、オカズは内緒よ♡」=「呵呵，自慰素材可是秘密哦♡」
-「やったぁ！ ごっはん～、ごっはん～♪」=「太好啦！吃饭～吃饭～♪」
-「夜遅くまで何をやってたのかな～？ 正直に話しなさい♡」=「一直忙到这么晚，是在做什么呀～？老实交代吧♡」
 爱芮正在民宿餐厅自慰=爱芮正在民宿餐厅自慰
 
 // 饰品、物品与自定义资源标签
@@ -23,41 +16,11 @@
 02 [zhy]AriaIdol_wing=02 [zhy]AriaIdol_wing
 100000149, 頭(122)=100000149, 头部(122)
 100000150, 頭(122)=100000150, 头部(122)
-{{A}}, {{B}}, False, 頭({{C}}))={{A}}, {{B}}, False, 头部({{C}}))
-{{A}}, {{B}}, True, 頭({{C}}))={{A}}, {{B}}, True, 头部({{C}}))
 贝壳发饰᠎ =贝壳发饰 
 
 // 运行时编辑器与调试信息
-(SaveData.Heroine arg)=(SaveData.Heroine arg)
-Debugger.Break=Debugger.Break
-Filter:=筛选：
-FixedUpdate=FixedUpdate
-LateUpdate=LateUpdate
-Logger=日志记录器
-Manager.Game.Instance=Manager.Game.Instance
-Manager.Scene.Instance=Manager.Scene.Instance
-Manager.Sound.instance=Manager.Sound.instance
-OnGUI=OnGUI
-Profiler=性能分析器
-RuntimeUnityEditor.Core.Inspector.Entries.ReadonlyCacheEntry=RuntimeUnityEditor.Core.Inspector.Entries.ReadonlyCacheEntry
-SaveData.Heroine=SaveData.Heroine
-System.Collections.Generic.List<SaveData.Heroine>=System.Collections.Generic.List<SaveData.Heroine>
-System.Collections.Generic.List`{{A}}+Enumerator[[SaveData.Heroine, Assembly-CSharp, Version\={{B}}, Culture\=neutral, PublicKeyToken\=null]]=System.Collections.Generic.List`{{A}}+Enumerator[[SaveData.Heroine, Assembly-CSharp, Version\={{B}}, Culture\=neutral, PublicKeyToken\=null]]
-System.Func<SaveData.Heroine, RuntimeUnityEditor.Core.Inspector.Entries.ReadonlyCacheEntry>=System.Func<SaveData.Heroine, RuntimeUnityEditor.Core.Inspector.Entries.ReadonlyCacheEntry>
-System.Int{{A}}=System.Int{{A}}
-_current=_current
-_enumerator=_enumerator
-_selector=_selector
-_source=_source
-_state=_state
-_threadId=_threadId
-c-{{A}}=c-{{A}}
-c{{A}}=c{{A}}
-private instance readonly field\nName: _source\nDeclared in: System.Linq.Enumerable+SelectListIterator<SaveData.Heroine, RuntimeUnityEditor.Core.Inspector.Entries.ReadonlyCacheEntry>\nField type: System.Collections.Generic.List<SaveData.Heroine>\n\nLeft click to inspect in current tab\nMiddle click to inspect in a new tab\nRight click to open a menu with more options=私有实例只读字段\n名称：_source\n声明类型：System.Linq.Enumerable+SelectListIterator<SaveData.Heroine, RuntimeUnityEditor.Core.Inspector.Entries.ReadonlyCacheEntry>\n字段类型：System.Collections.Generic.List<SaveData.Heroine>\n\n左键：在当前标签页中检查\n中键：在新标签页中检查\n右键：打开更多选项菜单
-{{A}} delegate(s)={{A}} 个委托
 
 // 截图与运行日志
-Writing rendered screenshot to \\UserData\\cap\\KoikatsuSunshine-{{A}}_{{B}}-Render.png=正在将渲染截图保存到 \\UserData\\cap\\KoikatsuSunshine-{{A}}_{{B}}-Render.png
 
 // 骨骼、对象与内部标识
  ActionCamera= ActionCamera
@@ -451,48 +414,3 @@ male futa (4)=男性扶她 (4)
 Ｘ=Ｘ
 Ｙ=Ｙ
 Ｚ=Ｚ
-UnityEngine.Canvas=UnityEngine.Canvas
-Name\=sp_commu_{{A}}_{{B}} Rect\=(x:{{C}}, y:{{D}}, width:{{E}}, height:{{F}}) Pivot\=({{G}}, {{H}}) Packed\=True PackingMode\=RectangleTextureRect\=(x:{{I}}, y:{{J}}, width:{{K}}, height:{{L}})=Name\=sp_commu_{{A}}_{{B}} Rect\=(x:{{C}}, y:{{D}}, width:{{E}}, height:{{F}}) Pivot\=({{G}}, {{H}}) Packed\=True PackingMode\=RectangleTextureRect\=(x:{{I}}, y:{{J}}, width:{{K}}, height:{{L}})
-UnityEngine.UI.Image[]=UnityEngine.UI.Image[]
-System.Void=System.Void
-TalkScene.CanvasRaycast=TalkScene.CanvasRaycast
-raycast=射线检测
-TalkScene.ButtonInfo[]=TalkScene.ButtonInfo[]
-buttonInfos=buttonInfos
-buttonEnd=buttonEnd
-canvasFemale=canvasFemale
-imageTime=imageTime
-imageFavor=imageFavor
-UnityEngine.Sprite[]=UnityEngine.Sprite[]
-isAnalVirgin=isAnalVirgin
-isVirgin=isVirgin
-Lewd: {{A}}=色情:{{A}}
-{{A}} Outdoors={{A}} 户外
-{{A}} TakeShower={{A}} TakeShower
-{{A}} TakeBath={{A}} TakeBath
-{{A}} Curiosity={{A}}好奇心
-{{A}} Vacation={{A}}假期
-{{A}} LesbianPartner={{A}} 女同性恋伴侣
-{{A}} GoToToilet={{A}} 去上厕所
-Favor: {{A}}=好感度:{{A}}
-spriteFavor=spriteFavor
-{{A}} Lesbian={{A}} 女同性恋
-imageLewdness=imageLewdness
-spriteLewdness=spriteLewdness
-UnityEngine.GameObject=UnityEngine.GameObject
-objLewdness=objLewdness
-imageFrame=imageFrame
-spriteFrame=spriteFrame
-buttonTalkContents=buttonTalkContents
-UnityEngine.UI.Button=UnityEngine.UI.Button
-Sex experience: FirstTime=性经验:初次
-{{A}} HMasturbate={{A}} 自慰
-[Standing Forward Bending]=[站立前屈]
-[V-shell]=[V-shell]
-[Leg Hold Against Wall]=[抵墙举腿锁定]
-[Reverse Cowgirl]=[反向女上位]
-速度:慢速=速度:慢
-男女最大=男女最大
-連動方式: =联动方式: 
-速度{{A}}=速度{{A}}
-初めてのエッチ\r\n=初次性爱\r\n
